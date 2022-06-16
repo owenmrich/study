@@ -1,0 +1,917 @@
+<6>[    0.000000] [0] Booting Linux on physical CPU 0
+<6>[    0.000000] [0] Initializing cgroup subsys cpuset
+<6>[    0.000000] [0] Initializing cgroup subsys cpu
+<5>[    0.000000] [0] Linux version 3.4.39 (zy@compilere) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Thu Nov 5 19:32:27 CST 2015
+<4>[    0.000000] [0] CPU: ARMv7 Processor [410fc073] revision 3 (ARMv7), cr=10c5387d
+<4>[    0.000000] [0] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[    0.000000] [0] Machine: MOCHA-T5260
+<4>[    0.000000] [0] Memory policy: ECC disabled, Data cache writealloc
+<6>[    0.000000] [0] create_mapping_memory: section: 20000000 ~ 3f000000
+<6>[    0.000000] [0] create_mapping_memory: page: 20bc5000 ~ 20c1d000
+<6>[    0.000000] [0] create_mapping_memory: page: 20000000 ~ 20008000
+<6>[    0.000000] [0] create_mapping_memory: page: 20008000 ~ 2063c000
+<6>[    0.000000] [0] create_mapping_memory: page: 2063c000 ~ 20bc5000
+<6>[    0.000000] [0] create_mapping_memory: page: 20c1d000 ~ 20e00000
+<4>[    0.000000] [0] CPU EXYNOS5260 (id 0xe5260011)
+<7>[    0.000000] [0] exynos5_init_clocks: initializing clocks
+<6>[    0.000000] [0] S3C24XX Clocks, Copyright 2004 Simtec Electronics
+<3>[    0.000000] [0] clkout: bad source 0
+<7>[    0.000000] [0] exynos5260_setup_clocks: registering clocks
+<7>[    0.000000] [0] exynos5260_setup_clocks: xtal is 24000000
+<3>[    0.000000] [0] clkout: bad source 0
+<7>[    0.000000] [0] On node 0 totalpages: 522752
+<7>[    0.000000] [0] free_area_init_node: node 0, pgdat c0ca5180, node_mem_map c2051000
+<7>[    0.000000] [0]   Normal zone: 1116 pages used for memmap
+<7>[    0.000000] [0]   Normal zone: 0 pages reserved
+<7>[    0.000000] [0]   Normal zone: 125860 pages, LIFO batch:31
+<7>[    0.000000] [0]   HighMem zone: 3479 pages used for memmap
+<7>[    0.000000] [0]   HighMem zone: 392297 pages, LIFO batch:31
+<6>[    0.000000] [0] Initialized persistent memory from 40000000-401fffff
+<6>[    0.000000] [0] PERCPU: Embedded 9 pages/cpu @c3255000 s12736 r8192 d15936 u36864
+<7>[    0.000000] [0] pcpu-alloc: s12736 r8192 d15936 u36864 alloc=9*4096
+<7>[    0.000000] [0] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 
+<4>[    0.000000] [0] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 518157
+<5>[    0.000000] [0] Kernel command line: console=ttySAC2,115200n8 vmalloc=512M androidboot.console=ttySAC2 noexec=on ess_setup=0x26000000 quiet ethaddr=C40938ECDD09 sn=F1JXA0A000486
+<6>[    0.000000] [0] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] [0] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] [0] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] [0] Memory: 2042MB = 2042MB total
+<5>[    0.000000] [0] Memory: 1791832k/1791832k available, 299176k reserved, 1317984K highmem
+<5>[    0.000000] [0] Virtual kernel memory layout:
+<5>[    0.000000] [0]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000] [0]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000] [0]     vmalloc : 0xdf800000 - 0xff000000   ( 504 MB)
+<5>[    0.000000] [0]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+<5>[    0.000000] [0]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000] [0]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000] [0]       .text : 0xc0008000 - 0xc0bc5000   (12020 kB)
+<5>[    0.000000] [0]       .init : 0xc0bc5000 - 0xc0c1c1c0   ( 349 kB)
+<5>[    0.000000] [0]       .data : 0xc0c1e000 - 0xc0cb6ca8   ( 612 kB)
+<5>[    0.000000] [0]        .bss : 0xc0cb6ccc - 0xc0e41568   (1579 kB)
+<6>[    0.000000] [0] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=6, Nodes=1
+<6>[    0.000000] [0] Preemptible hierarchical RCU implementation.
+<6>[    0.000000] [0] NR_IRQS:620
+<6>[    0.000000] [0] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+<6>[    0.000000] [0] Switching to timer-based delay loop
+<6>[    0.000140] [0] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=120000)
+<6>[    0.000181] [0] pid_max: default: 32768 minimum: 301
+<6>[    0.000516] [0] Security Framework initialized
+<6>[    0.000564] [0] SELinux:  Initializing.
+<7>[    0.000637] [0] SELinux:  Starting in permissive mode
+<6>[    0.000787] [0] Mount-cache hash table entries: 512
+<6>[    0.002592] [0] Initializing cgroup subsys debug
+<6>[    0.002618] [0] Initializing cgroup subsys cpuacct
+<6>[    0.002638] [0] Initializing cgroup subsys freezer
+<6>[    0.002706] [0] CPU: Testing write buffer coherency: ok
+<6>[    0.002781] [0] ftrace: allocating 24306 entries in 72 pages
+<6>[    0.073646] [0] CPU0: thread -1, cpu 0, socket 1, mpidr 80000100
+<6>[    0.073717] [0] hw perfevents: enabled with ARMv7 Cortex-A7 PMU driver, 5 counters available
+<6>[    0.073848] [0] Setting up static identity map for 0x2063b450 - 0x2063b4a8
+<4>[    0.134999] [1] CPU1: Booted secondary processor
+<6>[    0.135045] [1] CPU1: thread -1, cpu 1, socket 1, mpidr 80000101
+<4>[    0.164983] [2] CPU2: Booted secondary processor
+<6>[    0.165024] [2] CPU2: thread -1, cpu 2, socket 1, mpidr 80000102
+<4>[    0.194984] [3] CPU3: Booted secondary processor
+<6>[    0.195027] [3] CPU3: thread -1, cpu 3, socket 1, mpidr 80000103
+<4>[    0.224964] [4] CPU4: Booted secondary processor
+<6>[    0.225018] [4] CPU4: thread -1, cpu 0, socket 0, mpidr 80000000
+<4>[    0.254956] [5] CPU5: Booted secondary processor
+<6>[    0.254995] [5] CPU5: thread -1, cpu 1, socket 0, mpidr 80000001
+<6>[    0.263762] [0] Brought up 6 CPUs
+<6>[    0.263796] [0] SMP: Total of 6 processors activated (288.00 BogoMIPS).
+<4>[    0.280416] [4] RCG : Initialization Successed
+<6>[    0.280458] [4] sched: registering cpufreq notifiers for scale-invariant loads
+<6>[    0.280640] [4] gpiochip_add: registered GPIOs 0 to 3 on device: GPA0
+<6>[    0.280659] [4] gpiochip_add: registered GPIOs 5 to 11 on device: GPA1
+<6>[    0.280677] [4] gpiochip_add: registered GPIOs 13 to 20 on device: GPA2
+<6>[    0.280695] [4] gpiochip_add: registered GPIOs 22 to 26 on device: GPB0
+<6>[    0.280711] [4] gpiochip_add: registered GPIOs 28 to 31 on device: GPB1
+<6>[    0.280727] [4] gpiochip_add: registered GPIOs 33 to 36 on device: GPB2
+<6>[    0.280743] [4] gpiochip_add: registered GPIOs 38 to 45 on device: GPB3
+<6>[    0.280759] [4] gpiochip_add: registered GPIOs 47 to 54 on device: GPB4
+<6>[    0.280775] [4] gpiochip_add: registered GPIOs 56 to 63 on device: GPB5
+<6>[    0.280791] [4] gpiochip_add: registered GPIOs 65 to 72 on device: GPD0
+<6>[    0.280807] [4] gpiochip_add: registered GPIOs 74 to 80 on device: GPD1
+<6>[    0.280823] [4] gpiochip_add: registered GPIOs 82 to 86 on device: GPD2
+<6>[    0.280839] [4] gpiochip_add: registered GPIOs 88 to 95 on device: GPE0
+<6>[    0.280855] [4] gpiochip_add: registered GPIOs 97 to 101 on device: GPE1
+<6>[    0.280871] [4] gpiochip_add: registered GPIOs 103 to 106 on device: GPF0
+<6>[    0.280888] [4] gpiochip_add: registered GPIOs 108 to 115 on device: GPF1
+<6>[    0.280904] [4] gpiochip_add: registered GPIOs 117 to 118 on device: GPK0
+<6>[    0.280920] [4] gpiochip_add: registered GPIOs 120 to 127 on device: GPX0
+<6>[    0.280936] [4] gpiochip_add: registered GPIOs 129 to 136 on device: GPX1
+<6>[    0.280952] [4] gpiochip_add: registered GPIOs 138 to 145 on device: GPX2
+<6>[    0.280968] [4] gpiochip_add: registered GPIOs 147 to 154 on device: GPX3
+<6>[    0.280997] [4] gpiochip_add: registered GPIOs 156 to 162 on device: GPC0
+<6>[    0.281013] [4] gpiochip_add: registered GPIOs 164 to 169 on device: GPC1
+<6>[    0.281029] [4] gpiochip_add: registered GPIOs 171 to 177 on device: GPC2
+<6>[    0.281045] [4] gpiochip_add: registered GPIOs 179 to 182 on device: GPC3
+<6>[    0.281061] [4] gpiochip_add: registered GPIOs 184 to 187 on device: GPC4
+<3>[    0.281088] [4] gpio: GPZ0 has no PM function
+<6>[    0.281103] [4] gpiochip_add: registered GPIOs 189 to 195 on device: GPZ0
+<3>[    0.281118] [4] gpio: GPZ1 has no PM function
+<6>[    0.281132] [4] gpiochip_add: registered GPIOs 197 to 200 on device: GPZ1
+<6>[    0.282034] [4] dummy: 
+<6>[    0.282515] [4] NET: Registered protocol family 16
+<4>[    0.296163] [4] [exynos5260_g2d_clock_init:337] aclk_g2d_333: 333500000 Hz
+<6>[    0.296387] [4] ++exynos mscaler clk rate 400000000 (aclk_gscl_400)
+<6>[    0.304622] [4] persistent_ram: error in header, 3
+<6>[    0.304641] [4] persistent_ram: found existing buffer, size 1265, start 1265
+<6>[    0.309221] [4] console [ram-1] enabled
+<6>[    0.311075] [4] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+<6>[    0.311097] [4] hw-breakpoint: maximum watchpoint size is 8 bytes.
+<4>[    0.311780] [4] S3C Power Management, Copyright 2004 Simtec Electronics
+<6>[    0.311803] [4] PM DOMAIN: pd: pd-g3d
+<6>[    0.311933] [4] PM DOMAIN: pd: pd-mfc
+<6>[    0.311973] [4] PM DOMAIN: pd: pd-disp
+<6>[    0.311986] [4] PM DOMAIN:    spd: spd-fimd
+<6>[    0.312005] [4] PM DOMAIN:    spd: spd-tvmixer
+<6>[    0.312040] [4] PM DOMAIN:    spd: spd-mipi-dsi
+<6>[    0.312058] [4] PM DOMAIN:    spd: spd-dp
+<6>[    0.312075] [4] PM DOMAIN:    spd: spd-hdmi
+<6>[    0.312092] [4] PM DOMAIN: pd: pd-gscl
+<6>[    0.312105] [4] PM DOMAIN:    spd: spd-gscl0
+<6>[    0.312136] [4] PM DOMAIN:    spd: spd-gscl1
+<6>[    0.312166] [4] PM DOMAIN:    spd: spd-mscl0
+<6>[    0.312196] [4] PM DOMAIN:    spd: spd-mscl1
+<6>[    0.312225] [4] PM DOMAIN:    spd: spd-flite-a
+<6>[    0.312242] [4] PM DOMAIN:    spd: spd-flite-b
+<6>[    0.312258] [4] PM DOMAIN:    spd: spd-flite-d
+<6>[    0.312275] [4] PM DOMAIN:    spd: pd-isp
+<6>[    0.312912] [4] PM DOMAIN: pd: pd-maudio
+<6>[    0.312926] [4] PM DOMAIN:    disable spd: spd-mdma
+<6>[    0.312938] [4] PM DOMAIN:    disable spd: spd-g2d
+<6>[    0.312950] [4] PM DOMAIN:    disable spd: spd-sss
+<6>[    0.312963] [4] PM DOMAIN:    disable spd: spd-jpeg
+<6>[    0.312975] [4] PM DOMAIN:    disable spd: spd-slimsss
+<6>[    0.312988] [4] PM DOMAIN: power domain to device
+<6>[    0.313013] [4] PM DOMAIN: pd-g3d       , Device : mali.0 Registered
+<6>[    0.313037] [4] PM DOMAIN: pd-mfc       , Device : s5p-mfc-v6 Registered
+<6>[    0.313062] [4] PM DOMAIN: pd-mfc       , Device : exynos-sysmmu.0 Registered
+<6>[    0.313087] [4] PM DOMAIN: spd-fimd     , Device : exynos5-fb.1 Registered
+<6>[    0.313111] [4] PM DOMAIN: spd-fimd     , Device : exynos-sysmmu.11 Registered
+<6>[    0.313135] [4] PM DOMAIN: spd-fimd     , Device : exynos-sysmmu.30 Registered
+<6>[    0.313160] [4] PM DOMAIN: spd-hdmi     , Device : exynos5-hdmi Registered
+<6>[    0.313184] [4] PM DOMAIN: spd-tvmixer  , Device : s5p-mixer Registered
+<6>[    0.313208] [4] PM DOMAIN: spd-tvmixer  , Device : exynos-sysmmu.2 Registered
+<6>[    0.313232] [4] PM DOMAIN: spd-gscl0    , Device : exynos-gsc.0 Registered
+<6>[    0.313255] [4] PM DOMAIN: spd-gscl1    , Device : exynos-gsc.1 Registered
+<6>[    0.313279] [4] PM DOMAIN: spd-gscl0    , Device : exynos-sysmmu.5 Registered
+<6>[    0.313304] [4] PM DOMAIN: spd-gscl1    , Device : exynos-sysmmu.6 Registered
+<6>[    0.313334] [4] PM DOMAIN: spd-mscl0    , Device : exynos5-scaler.0 Registered
+<6>[    0.313361] [4] PM DOMAIN: spd-mscl1    , Device : exynos5-scaler.1 Registered
+<6>[    0.313385] [4] PM DOMAIN: spd-mscl0    , Device : exynos-sysmmu.18 Registered
+<6>[    0.313410] [4] PM DOMAIN: spd-mscl1    , Device : exynos-sysmmu.31 Registered
+<6>[    0.313434] [4] PM DOMAIN: pd-maudio    , Device : samsung-lpass.0 Registered
+<6>[    0.313449] [4] EXYNOS5: PM Domain Initialize
+<6>[    0.313464] [4]    pd-g3d    - on 
+<6>[    0.313478] [4]    pd-mfc    - on 
+<6>[    0.313491] [4]    pd-disp   - on 
+<6>[    0.313504] [4]    pd-gscl   - on 
+<6>[    0.313517] [4]    pd-maudio - on 
+<6>[    0.313530] [4]    pd-g2d    - on,  always
+<4>[    0.313545] [4] PM DOMAIN: INI: 58180208 - 00f31000
+<4>[    0.313560] [4] PM DOMAIN: SET: 5818330c - 00005300
+<4>[    0.313574] [4] PM DOMAIN: SET: 5818330c - 00005300
+<4>[    0.313588] [4] PM DOMAIN: CLR: 58182408 - 00000001
+<4>[    0.313602] [4] PM DOMAIN: CLR: 58182428 - 00000001
+<4>[    0.313616] [4] PM DOMAIN: INI: 58182608 - 00000000
+<4>[    0.313629] [4] PM DOMAIN: INI: 58182628 - 00000000
+<4>[    0.313642] [4] PM DOMAIN: INI: 58180220 - 803a003e
+<4>[    0.313655] [4] PM DOMAIN: INI: 58180224 - 803e003b
+<4>[    0.313668] [4] PM DOMAIN: INI: 58180228 - 803d003f
+<6>[    0.313701] [4] EXYNOS5260 PMU Initialized
+<6>[    0.314504] [4] EXYNOS: Initializing architecture
+<6>[    0.316590] [4] EXYNOS5260 ASV : IDS : 11 HPM : 24
+<6>[    0.316615] [4] VDD_ARM ASV group is 7
+<6>[    0.316633] [4] VDD_KFC ASV group is 7
+<6>[    0.316649] [4] VDD_INT ASV group is 7
+<6>[    0.316665] [4] VDD_MIF ASV group is 7
+<6>[    0.316679] [4] VDD_G3D ASV group is 7
+<6>[    0.316693] [4] VDD_DISP ASV group is 7
+<6>[    0.353860] [5] bio: create slab <bio-0> at 0
+<6>[    0.355344] [4] i2c-gpio i2c-gpio.2: using pins 42 (SDA) and 43 (SCL)
+<6>[    0.356523] [4] exynos5-i2c exynos5-hs-i2c.0: i2c-0: Exynos5 HS-I2C adapter
+<6>[    0.356785] [4] Linux media interface: v0.10
+<6>[    0.357016] [4] Linux video capture interface: v2.00
+<6>[    0.362098] [5] vdd_mif range: 600 <--> 1400 mV at 1025 mV 
+<6>[    0.362853] [5] vdd_arm range: 600 <--> 1400 mV at 1000 mV 
+<6>[    0.363590] [5] vdd_int range: 600 <--> 1200 mV at 1025 mV 
+<6>[    0.364344] [5] vdd_g3d range: 600 <--> 1400 mV at 1000 mV 
+<6>[    0.365400] [5] vdd_kfc range: 600 <--> 1400 mV at 1000 mV 
+<6>[    0.366572] [4] vdd_disp range: 600 <--> 1200 mV at 1000 mV 
+<6>[    0.367250] [4] vdd_ldo2 range: 1800 <--> 3300 mV at 2800 mV 
+<6>[    0.367852] [4] vcc_1.8v_AP: 1800 mV 
+<6>[    0.368471] [4] vdd_pll_1.8v_AP: 1800 mV 
+<6>[    0.369082] [4] vdd_pll_1.0v_AP: 1000 mV 
+<6>[    0.369706] [4] vdd_hsif_1.0v_AP: 1000 mV 
+<6>[    0.370392] [4] vdd_hsif_1.8v_AP: 1800 mV 
+<6>[    0.371017] [4] vdd_abb_1.8v_AP: 1800 mV 
+<6>[    0.371639] [4] vdd_usb_3.0v_AP: 3000 mV 
+<6>[    0.372336] [4] vdd_33ON: 3000 mV 
+<6>[    0.372941] [4] vdd_tflash_2.8v: 2800 mV 
+<6>[    0.373419] [4] Main Camera IO (1.8V): 1800 mV 
+<6>[    0.373910] [4] Camera Sensor (2.8V): 2800 mV 
+<6>[    0.374394] [4] Main Camera AF (2.8V): 2800 mV 
+<6>[    0.374885] [4] VT Camera Core (1.8V): 1800 mV 
+<6>[    0.375456] [4] lcd_18: 1800 mV 
+<6>[    0.375992] [4] vcc_3.3v: 3300 mV 
+<6>[    0.376496] [4] vcc_comb_1.8v: 1800 mV 
+<6>[    0.376980] [4] vdd_3.0v_motor: 3000 mV 
+<6>[    0.377465] [4] vcc_2.8v_peri: 2800 mV 
+<6>[    0.378133] [4] vcc_1.8v_codec: 1800 mV 
+<6>[    0.378804] [4] lcd_vout_3.3v: 3300 mV 
+<6>[    0.379473] [4] vcc_1.5v_peri: 1500 mV 
+<6>[    0.379882] [4] vdd_maincam_d1.2v: 1200 mV 
+<5>[    0.382970] [4] SCSI subsystem initialized
+<6>[    0.383942] [4] usbcore: registered new interface driver usbfs
+<6>[    0.384381] [4] usbcore: registered new interface driver hub
+<6>[    0.384725] [5] usbcore: registered new device driver usb
+<6>[    0.392358] [5] Advanced Linux Sound Architecture Driver Version 1.0.25.
+<6>[    0.395020] [5] Switching to clocksource mct-frc
+<6>[    0.395661] [5] cfg80211: Calling CRDA to update world regulatory domain
+<6>[    0.431026] [5] NET: Registered protocol family 2
+<6>[    0.431272] [5] IP route cache hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    0.431808] [5] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.433234] [5] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)
+<6>[    0.434763] [5] TCP: Hash tables configured (established 65536 bind 65536)
+<6>[    0.434780] [5] TCP: reno registered
+<6>[    0.434798] [5] UDP hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.434833] [5] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.435143] [5] NET: Registered protocol family 1
+<6>[    0.435478] [5] Trying to unpack rootfs image as initramfs...
+<6>[    0.459181] [5] Freeing initrd memory: 320K
+<6>[    0.461589] [5] audit: initializing netlink socket (disabled)
+<5>[    0.461646] [5] type=2000 audit(0.435:1): initialized
+<4>[    0.463735] [5] highmem bounce pool size: 64 pages
+<6>[    0.482110] [4] NTFS driver 2.1.30 [Flags: R/W].
+<6>[    0.482463] [4] ROMFS MTD (C) 2007 Red Hat, Inc.
+<6>[    0.482766] [4] fuse init (API version 7.18)
+<6>[    0.483391] [4] msgmni has been set to 926
+<7>[    0.483453] [4] SELinux:  Registering netfilter hooks
+<6>[    0.486620] [5] io scheduler noop registered
+<6>[    0.486639] [5] io scheduler deadline registered
+<6>[    0.487015] [5] io scheduler cfq registered (default)
+<6>[    0.487092] [5] i2c /dev entries driver
+<6>[    0.488263] [5] exynos-mdev.0: Media0[0xdeb3dc00] was registered successfully
+<6>[    0.488592] [5] exynos-mdev.1: Media1[0xdeb3e000] was registered successfully
+<6>[    0.488886] [5] i2c i2c-2: probed exynos edid
+<6>[    0.489124] [5] Samsung HDMI output driver, (c) 2010-2011 Samsung Electronics Co., Ltd.
+<6>[    0.489506] [5] s5p-hdmi exynos5-hdmi: hdmi ip version = 4
+<6>[    0.490146] [5] s5p-hdmi exynos5-hdmi: hdmi probe sucessful
+<6>[    0.490294] [5] s5p-hdmi exynos5-hdmi: hdmi_runtime_resume
+<6>[    0.490345] [5] s5p-hdmi exynos5-hdmi: hdmi_runtime_suspend
+<6>[    0.490381] [5] s5p-hdmi exynos5-hdmi: the step is 1 ++++++++++++++++++++++
+<6>[    0.490510] [5] i2c i2c-2: attached exynos hdcp into i2c adapter successfully
+<4>[    0.490821] [5] i2c-core: driver [exynos_hdcp] using legacy suspend method
+<4>[    0.490839] [5] i2c-core: driver [exynos_hdcp] using legacy resume method
+<6>[    0.490865] [5] Samsung TV Mixer driver, (c) 2010-2011 Samsung Electronics Co., Ltd.
+<6>[    0.491617] [5] s5p-mixer s5p-mixer: probe start: tv ip version(5R)
+<6>[    0.491826] [4] s5p-mixer s5p-mixer: resources acquired
+<6>[    0.491928] [4] s5p-mixer s5p-mixer: IOVMM: IOVM SIZE = 0xd0000000 B, IOVMM from 0x10000000.
+<6>[    0.492048] [4] Reserved IOVM region from 0x10000000 to 0x20000000 successfully
+<6>[    0.492076] [4] s5p-mixer s5p-mixer: added output 'S5P HDMI connector' from module 's5p-hdmi'
+<6>[    0.492456] [4] s5p-mixer s5p-mixer: registered layer mxr0_graph0 as /dev/video16
+<6>[    0.492781] [4] s5p-mixer s5p-mixer: registered layer mxr0_graph1 as /dev/video17
+<6>[    0.493103] [4] s5p-mixer s5p-mixer: registered layer mxr1_graph2 as /dev/video18
+<6>[    0.493419] [4] s5p-mixer s5p-mixer: registered layer mxr1_graph3 as /dev/video19
+<6>[    0.493441] [4] s5p-mixer s5p-mixer: mixer0 create links
+<6>[    0.493466] [4] s5p-mixer s5p-mixer: mixer1 create links
+<6>[    0.493491] [4] s5p-mixer s5p-mixer: mixer links are created successfully
+<6>[    0.493536] [4] s5p-mixer s5p-mixer: mixer probe successful
+<4>[    0.493784] [4] S5P CEC for Exynos4 Driver, (c) 2009 Samsung Electronics
+<6>[    0.494221] [4] s5p-tvout-cec s5p-tvout-cec: probe successful
+<6>[    0.495827] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.495865] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.495894] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.495927] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.495960] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.495989] [5] exynos-gsc exynos-gsc.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.496071] [5] [INFO]gsc_probe:1604: gsc-0 registered successfully
+<6>[    0.497291] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.497328] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.497357] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.497391] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.497423] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.497450] [4] exynos-gsc exynos-gsc.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.497530] [4] [INFO]gsc_probe:1604: gsc-1 registered successfully
+<6>[    0.497878] [4] exynos5-scaler exynos5-scaler.0: ++sc_probe
+<6>[    0.498051] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.498086] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.498115] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.498150] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.498183] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.498210] [4] exynos5-scaler exynos5-scaler.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.498361] [4] exynos5-scaler exynos5-scaler.0: scaler version is 0x00000048
+<6>[    0.498684] [4] exynos5-scaler exynos5-scaler.0: scaler registered successfully
+<6>[    0.498759] [4] exynos5-scaler exynos5-scaler.1: ++sc_probe
+<6>[    0.498925] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.498960] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.498989] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.499022] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.499054] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.499082] [4] exynos5-scaler exynos5-scaler.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.499228] [4] exynos5-scaler exynos5-scaler.1: scaler version is 0x00000048
+<6>[    0.499646] [4] exynos5-scaler exynos5-scaler.1: scaler registered successfully
+<6>[    0.499992] [4] Exynos Graphics 2D driver, (c) 2011 Samsung Electronics
+<6>[    0.500083] [4] s5p-fimg2d s5p-fimg2d: ++fimg2d_probe
+<6>[    0.500289] [5] [fimg2d_clk_setup] fimg2d clk name: aclk_g2d_333 clkrate: 333500000
+<6>[    0.500318] [5] [fimg2d_clk_setup] gate clk: fimg2d
+<6>[    0.500335] [5] [fimg2d_probe] enable runtime pm
+<6>[    0.500730] [5] s5p-fimg2d s5p-fimg2d: fimg2d registered successfully
+<6>[    0.500995] [5] EXYNOS MFC V4L2 Driver, (c) 2010 Samsung Electronics
+<7>[    0.501091] [5] s5p-mfc s5p-mfc-v6: s5p_mfc_probe()
+<6>[    0.501809] [5] s5p-mfc s5p-mfc-v6: decoder registered as /dev/video6
+<6>[    0.502113] [5] s5p-mfc s5p-mfc-v6: encoder registered as /dev/video7
+<6>[    0.502321] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.502358] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.502386] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.502419] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.502452] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.502478] [4] s5p-mfc s5p-mfc-v6: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<7>[    0.502720] [4] s5p_mfc_probe--
+<6>[    0.503447] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: JPEG driver is registered to /dev/video14
+<6>[    0.503750] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: JPEG driver is registered to /dev/video13
+<6>[    0.503820] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.503855] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0x50000000.
+<6>[    0.503887] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0x70000000.
+<6>[    0.503921] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x80000000.
+<6>[    0.503954] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x20000000 B, IOVMM from 0xb0000000.
+<6>[    0.503982] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.504138] [4] exynos5-jpeg-hx exynos5-jpeg-hx.0: jpeg-hx.0 ip_ver.7b registered successfully
+<6>[    0.504713] [4] usbcore: registered new interface driver uvcvideo
+<6>[    0.504730] [4] USB Video Class driver (1.1.1)
+<6>[    0.505086] [4] s3c-fb exynos5-fb.1: PSR mode is 0(0: VIDEO, 1: DP, 2: MIPI)
+<6>[    0.505489] [5] s3c-fb exynos5-fb.1: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x10000000.
+<6>[    0.505535] [5] s3c-fb exynos5-fb.1: IOVMM: IOVM SIZE = 0x40000000 B, IOVMM from 0x50000000.
+<6>[    0.505569] [5] s3c-fb exynos5-fb.1: IOVMM: IOVM SIZE = 0x30000000 B, IOVMM from 0x90000000.
+<6>[    0.505597] [5] s3c-fb exynos5-fb.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xc0000000.
+<6>[    0.505689] [5] s3c-fb exynos5-fb.1: IOVMM: IOVM SIZE = 0x10000000 B, IOVMM from 0xd0000000.
+<6>[    0.505785] [5] s3c-fb exynos5-fb.1: pixclock 74250074 cal_pix_clock 55296000 
+<6>[    0.507854] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    0.507876] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<6>[    0.509953] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    0.509974] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<6>[    0.512107] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    0.512129] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<6>[    0.514204] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    0.514226] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<6>[    0.517530] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    0.517553] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<6>[    0.530754] [4] dma-pl330 dma-pl330.0: Loaded driver for PL330 DMAC-267056
+<6>[    0.530777] [4] dma-pl330 dma-pl330.0: 	DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+<6>[    0.532068] [4] dma-pl330 dma-pl330.1: Loaded driver for PL330 DMAC-267056
+<6>[    0.532092] [4] dma-pl330 dma-pl330.1: 	DBUFF-64x8bytes Num_Chans-4 Num_Peri-1 Num_Events-32
+<6>[    0.537334] [4] dma-pl330 dma-pl330.2: Loaded driver for PL330 DMAC-267056
+<6>[    0.537357] [4] dma-pl330 dma-pl330.2: 	DBUFF-4x8bytes Num_Chans-6 Num_Peri-16 Num_Events-6
+<6>[    0.537873] [4] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<6>[    0.539922] [4] exynos4210-uart.2: ttySAC2 at MMIO 0x12c20000 (irq = 180) is a S3C6400/10
+<6>[    0.554487] [4] console [ttySAC2] enabled
+<6>[    0.557105] [4] mali mali.0: Probed as mali0
+<6>[    0.609223] [4] brd: module loaded
+<6>[    0.616484] [4] loop: module loaded
+<6>[    0.617277] [4] tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.617294] [4] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.617581] [4] PPP generic driver version 2.4.2
+<6>[    0.618113] [4] PPP BSD Compression module registered
+<6>[    0.618130] [4] PPP Deflate Compression module registered
+<6>[    0.619145] [5] PPP MPPE Compression module registered
+<6>[    0.619168] [5] NET: Registered protocol family 24
+<6>[    0.619477] [5] usbcore: registered new interface driver r8152
+<6>[    0.619724] [5] usbcore: registered new interface driver cdc_ether
+<6>[    0.619967] [5] usbcore: registered new interface driver cdc_subset
+<6>[    0.620227] [5] usbcore: registered new interface driver cdc_ncm
+<6>[    0.620397] [5] exynos-drd exynos-dwc3.0: Core ID Number: 0x5533
+<6>[    0.620415] [5] exynos-drd exynos-dwc3.0: Release Number: 0x250a
+<4>[    0.622458] [4] exynos_drd_switch_init, setting vbus irq: 319
+<7>[    0.622480] [4] wake enabled for irq 319
+<6>[    0.623223] [4] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<7>[    0.623382] [4] s5p-ehci s5p-ehci: Change USB MUX is not used in Exynos5260.
+<7>[    0.623542] [4] usb: set_exynos_usb_phy_tune it is not exynos5250.(t=1)
+<6>[    0.623565] [4] s5p-ehci s5p-ehci: S5P EHCI Host Controller
+<6>[    0.623732] [4] s5p-ehci s5p-ehci: new USB bus registered, assigned bus number 1
+<6>[    0.623829] [4] s5p-ehci s5p-ehci: irq 198, io mem 0x12110000
+<4>[    0.627874] [0] USB port is unknown!!!
+<6>[    0.630697] [4] s5p-ehci s5p-ehci: USB 0.0 started, EHCI 1.00
+<6>[    0.630828] [4] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    0.630849] [4] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.630869] [4] usb usb1: Product: S5P EHCI Host Controller
+<6>[    0.630885] [4] usb usb1: Manufacturer: Linux 3.4.39 ehci_hcd
+<6>[    0.630901] [4] usb usb1: SerialNumber: s5p-ehci
+<6>[    0.631800] [4] hub 1-0:1.0: USB hub found
+<6>[    0.631838] [4] hub 1-0:1.0: 2 ports detected
+<4>[    0.631910] [4] *** usb_autosuspend_device
+<4>[    0.631927] [4] ------------- SKIP:S5P EHCI Host Controller 0x1d6b 0x0002
+<4>[    0.632040] [4] *** usb_autosuspend_device
+<4>[    0.632056] [4] ------------- SKIP:S5P EHCI Host Controller 0x1d6b 0x0002
+<4>[    0.632489] [4] s5p_ehci_probe, root hub wakeupcap disable
+<6>[    0.633095] [4] Initializing USB Mass Storage driver...
+<6>[    0.633406] [4] usbcore: registered new interface driver usb-storage
+<6>[    0.633423] [4] USB Mass Storage support registered.
+<6>[    0.633718] [4] exynos-ss-udc exynos-ss-udc.0: regs dfaea000, irq 197
+<6>[    0.635539] [4] file system registered
+<6>[    0.639152] [4]  gadget: Mass Storage Function, version: 2009/09/11
+<6>[    0.639172] [4]  gadget: Number of LUNs=1
+<6>[    0.639189] [4]  lun0: LUN: removable file: (no medium)
+<6>[    0.640029] [4]  gadget: android_usb ready
+<6>[    0.640049] [4] exynos-ss-udc exynos-ss-udc.0: bound driver android_usb
+<6>[    0.640896] [4] mousedev: PS/2 mouse device common for all mice
+<6>[    0.641414] [4] usbcore: registered new interface driver xpad
+<6>[    0.641657] [4] usbcore: registered new interface driver usb_acecad
+<6>[    0.641898] [4] usbcore: registered new interface driver aiptek
+<6>[    0.642134] [4] usbcore: registered new interface driver gtco
+<6>[    0.642385] [4] usbcore: registered new interface driver hanwang
+<6>[    0.642633] [4] usbcore: registered new interface driver kbtab
+<6>[    0.642874] [4] usbcore: registered new interface driver wacom
+<6>[    0.645755] [4] s2m-rtc s2m-rtc: s2m_rtc_enable_wtsr: enable WTSR
+<6>[    0.645900] [4] s2m-rtc s2m-rtc: s2m_rtc_enable_smpl: enable SMPL
+<6>[    0.646045] [4] s2m_rtc_enable_smpl: WTSR_SMPL(0xe3)
+<6>[    0.647402] [4] s2m_rtc_read_time: 2013/1/1 14:13:26(2)
+<6>[    0.647508] [4] s2m_rtc_read_alarm: 2000/1/1 12:0:0(0)
+<6>[    0.648848] [4] s2m_rtc_read_time: 2013/1/1 14:13:26(2)
+<6>[    0.649214] [4] s2m-rtc s2m-rtc: rtc core: registered s2m-rtc as rtc0
+<4>[    0.649889] [4] ====================[TMU register dump]=====================
+<4>[    0.649910] [4] TRIMINFO[0] = 0x39
+<4>[    0.649924] [4] CONTROL[0] = 0x10601803
+<4>[    0.649939] [4] STATUS[0] = 0x30
+<4>[    0.649952] [4] CURRENT_TEMP[0] = 0xf0
+<4>[    0.649966] [4] THRESHOLD_TEMP_RISE[0] = 0x8e847570
+<4>[    0.649980] [4] THRESHOLD_TEMP_FALL[0] = 0x82736e
+<4>[    0.649994] [4] INTEN[0] = 0x11111111
+<4>[    0.650008] [4] INTEN_RISE2[0] = 0x100
+<4>[    0.650021] [4] INTSTAT[0] = 0x0
+<4>[    0.650034] [4] INTCLEAR[0] = 0x0
+<4>[    0.650045] [4] ============================================================
+<4>[    0.650083] [4] ====================[TMU register dump]=====================
+<4>[    0.650100] [4] TRIMINFO[1] = 0x34
+<4>[    0.650112] [4] CONTROL[1] = 0x10601803
+<4>[    0.650126] [4] STATUS[1] = 0x30
+<4>[    0.650139] [4] CURRENT_TEMP[1] = 0xcd
+<4>[    0.650152] [4] THRESHOLD_TEMP_RISE[1] = 0x897f706b
+<4>[    0.650166] [4] THRESHOLD_TEMP_FALL[1] = 0x7d6e69
+<4>[    0.650180] [4] INTEN[1] = 0x11111111
+<4>[    0.650193] [4] INTEN_RISE2[1] = 0x100
+<4>[    0.650206] [4] INTSTAT[1] = 0x0
+<4>[    0.650219] [4] INTCLEAR[1] = 0x0
+<4>[    0.650230] [4] ============================================================
+<4>[    0.650268] [4] ====================[TMU register dump]=====================
+<4>[    0.650285] [4] TRIMINFO[2] = 0x31
+<4>[    0.650299] [4] CONTROL[2] = 0x10601803
+<4>[    0.650313] [4] STATUS[2] = 0x30
+<4>[    0.650326] [4] CURRENT_TEMP[2] = 0xb9
+<4>[    0.650340] [4] THRESHOLD_TEMP_RISE[2] = 0x867c6d68
+<4>[    0.650354] [4] THRESHOLD_TEMP_FALL[2] = 0x7a6b66
+<4>[    0.650369] [4] INTEN[2] = 0x11111111
+<4>[    0.650382] [4] INTEN_RISE2[2] = 0x100
+<4>[    0.650395] [4] INTSTAT[2] = 0x0
+<4>[    0.650407] [4] INTCLEAR[2] = 0x0
+<4>[    0.650418] [4] ============================================================
+<4>[    0.650455] [4] ====================[TMU register dump]=====================
+<4>[    0.650471] [4] TRIMINFO[3] = 0x2a
+<4>[    0.650484] [4] CONTROL[3] = 0x10601603
+<4>[    0.650498] [4] STATUS[3] = 0x30
+<4>[    0.650510] [4] CURRENT_TEMP[3] = 0xb4
+<4>[    0.650523] [4] THRESHOLD_TEMP_RISE[3] = 0x7f756661
+<4>[    0.650538] [4] THRESHOLD_TEMP_FALL[3] = 0x73645f
+<4>[    0.650551] [4] INTEN[3] = 0x11111111
+<4>[    0.650564] [4] INTEN_RISE2[3] = 0x100
+<4>[    0.650577] [4] INTSTAT[3] = 0x0
+<4>[    0.650590] [4] INTCLEAR[3] = 0x0
+<4>[    0.650601] [4] ============================================================
+<4>[    0.650685] [4] ====================[TMU register dump]=====================
+<4>[    0.650703] [4] TRIMINFO[4] = 0x2a
+<4>[    0.650716] [4] CONTROL[4] = 0x10601903
+<4>[    0.650730] [4] STATUS[4] = 0x30
+<4>[    0.650743] [4] CURRENT_TEMP[4] = 0x5d
+<4>[    0.650756] [4] THRESHOLD_TEMP_RISE[4] = 0x7f756661
+<4>[    0.650770] [4] THRESHOLD_TEMP_FALL[4] = 0x73645f
+<4>[    0.650784] [4] INTEN[4] = 0x11111111
+<4>[    0.650797] [4] INTEN_RISE2[4] = 0x100
+<4>[    0.650810] [4] INTSTAT[4] = 0x0
+<4>[    0.650822] [4] INTCLEAR[4] = 0x0
+<4>[    0.650833] [4] ============================================================
+<6>[    0.650853] [4] tmu temperature state 0 to 1
+<6>[    0.650867] [4] gpu temperature state 0 to 1
+<6>[    0.651163] [4] s3c2410_wdt: S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics
+<6>[    0.651636] [4] s3c2410-wdt s3c2410-wdt-v2: watchdog inactive, reset disabled, irq disabled
+<6>[    0.652861] [4] device-mapper: uevent: version 1.0.3
+<6>[    0.653478] [4] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+<6>[    0.654414] [4] cpuidle: using governor ladder
+<6>[    0.655408] [4] cpuidle: using governor menu
+<6>[    0.655796] [4] Synopsys Designware Multimedia Card Interface Driver
+<6>[    0.655962] [4] dw_mmc dw_mmc.0: Using internal DMA controller.
+<6>[    0.655987] [4] dw_mmc dw_mmc.0: FIFOTH: 0x 300f0030
+<6>[    0.657852] [4] dw_mmc dw_mmc.0: Version ID is 250a
+<6>[    0.657873] [4] dw_mmc dw_mmc.0: DW MMC controller at irq 188, 64 bit host data width, 64 deep fifo
+<6>[    0.657989] [4] dw_mmc dw_mmc.1: Using internal DMA controller.
+<6>[    0.658010] [4] dw_mmc dw_mmc.1: FIFOTH: 0x 300f0070
+<6>[    0.658250] [4] dw_mmc dw_mmc.1: no vmmc regulator found
+<6>[    0.658272] [4] dw_mmc dw_mmc.1: no vqmmc regulator found
+<6>[    0.659799] [4] dw_mmc dw_mmc.1: Version ID is 250a
+<6>[    0.659820] [4] dw_mmc dw_mmc.1: DW MMC controller at irq 190, 64 bit host data width, 128 deep fifo
+<6>[    0.659937] [4] dw_mmc dw_mmc.2: Using internal DMA controller.
+<6>[    0.659958] [4] dw_mmc dw_mmc.2: FIFOTH: 0x 300f0070
+<6>[    0.660184] [4] dw_mmc dw_mmc.2: no vmmc regulator found
+<6>[    0.660291] [4] dw_mmc dw_mmc.2: vqmmc regulator found
+<6>[    0.662170] [4] Registered chained gpio int handler for interrupt 189.
+<6>[    0.662221] [4] Registered interrupt support for gpio group 19.
+<4>[    0.663726] [4] dw_mmc dw_mmc.2: success to request irq for card detect.
+<6>[    0.663766] [4] dw_mmc dw_mmc.2: Version ID is 250a
+<6>[    0.663784] [4] dw_mmc dw_mmc.2: DW MMC controller at irq 191, 64 bit host data width, 128 deep fifo
+<6>[    0.664378] [4] S5P ACE Driver(SLIMSSS), (c) 2013 Samsung Electronics
+<6>[    0.664704] [5] ACE: ecb-aes-s5p-ace
+<6>[    0.664872] [5] ACE: cbc-aes-s5p-ace
+<6>[    0.665099] [4] ACE: ctr-aes-s5p-ace
+<6>[    0.665293] [5] ACE: sha1-s5p-ace
+<6>[    0.665513] [5] ACE: sha256-s5p-ace
+<5>[    0.665527] [5] ACE driver is initialized
+<6>[    0.679720] [5] usbcore: registered new interface driver usbhid
+<6>[    0.679738] [5] usbhid: USB HID core driver
+<6>[    0.681002] [4] ashmem: initialized
+<6>[    0.681289] [4] logger: created 256K log 'log_main'
+<6>[    0.681574] [4] logger: created 256K log 'log_events'
+<6>[    0.681868] [4] logger: created 256K log 'log_radio'
+<6>[    0.682149] [4] logger: created 256K log 'log_system'
+<6>[    0.688335] [4] EPLL rate = 196608000
+<6>[    0.688352] [4] aud_user rate = 196608000
+<6>[    0.688367] [4] sclk_i2s rate = 49152000
+<6>[    0.688382] [4] sclk_peri rate = 24576000
+<6>[    0.689629] [4] asoc: cs5340-aif1 <-> samsung-i2s.0 mapping ok
+<6>[    0.690164] [4] asoc: dummy-aif1 <-> samsung-i2s.1 mapping ok
+<6>[    0.691348] [2] mmc_host mmc0: Bus speed (slot 0) = 25000000Hz (slot req 400000Hz, actual 390625HZ div = 32)
+<6>[    0.692758] [4] GACT probability NOT on
+<6>[    0.692780] [4] Mirror/redirect action on
+<6>[    0.692797] [4] u32 classifier
+<6>[    0.692808] [4]     Actions configured
+<6>[    0.692823] [4] Netfilter messages via NETLINK v0.30.
+<6>[    0.692898] [4] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+<6>[    0.693710] [4] ctnetlink v0.93: registering with nfnetlink.
+<6>[    0.693831] [4] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    0.693854] [4] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    0.694635] [4] xt_time: kernel timezone is -0000
+<6>[    0.695218] [4] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.696764] [4] arp_tables: (C) 2002 David S. Miller
+<6>[    0.696858] [4] TCP: cubic registered
+<6>[    0.696872] [4] Initializing XFRM netlink socket
+<6>[    0.698544] [4] NET: Registered protocol family 10
+<6>[    0.699578] [4] Mobile IPv6
+<6>[    0.699632] [4] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.699869] [4] IPv6 over IPv4 tunneling driver
+<6>[    0.702534] [4] NET: Registered protocol family 17
+<6>[    0.702583] [4] NET: Registered protocol family 15
+<6>[    0.702599] [4] lib80211: common routines for IEEE802.11 drivers
+<7>[    0.702617] [4] lib80211_crypt: registered algorithm 'NULL'
+<6>[    0.702780] [4] VFP support v0.3: implementor 41 architecture 4 part 30 variant f rev 0
+<5>[    0.702832] [4] Registering SWP/SWPB emulation handler
+<4>[    0.723120] [5] lcd_18: incomplete constraints, leaving on
+<4>[    0.723463] [5] vdd_tflash_2.8v: incomplete constraints, leaving on
+<4>[    0.723545] [5] vdd_33ON: incomplete constraints, leaving on
+<4>[    0.723626] [5] vdd_usb_3.0v_AP: incomplete constraints, leaving on
+<4>[    0.723706] [5] vdd_abb_1.8v_AP: incomplete constraints, leaving on
+<4>[    0.723786] [5] vdd_hsif_1.8v_AP: incomplete constraints, leaving on
+<4>[    0.723866] [5] vdd_hsif_1.0v_AP: incomplete constraints, leaving on
+<4>[    0.723946] [5] vdd_pll_1.0v_AP: incomplete constraints, leaving on
+<4>[    0.724026] [5] vdd_pll_1.8v_AP: incomplete constraints, leaving on
+<3>[    0.724285] [5] otg_wakelock_init: No USB transceiver found
+<6>[    0.729191] [5] exynos-usb-switch exynos-usb-switch: Disable device detect IRQ
+<3>[    0.729216] [5] usb cable = 1
+<7>[    0.731537] [5] Skip request 1, current 2
+<6>[    0.731862] [5] exynos_usb_switch: Exynos USB Switch Driver
+<6>[    0.733468] [5] s2m_rtc_read_time: 2013/1/1 14:13:26(2)
+<6>[    0.733541] [5] s2m-rtc s2m-rtc: setting system clock to 2013-01-01 14:13:26 UTC (1357049606)
+<6>[    0.733873] [5] CPUFREQ of CA7  L0 : 100000 uV
+<6>[    0.733890] [5] CPUFREQ of CA7  L0 : ABB 255
+<6>[    0.733905] [5] CPUFREQ of CA7  L1 : 100000 uV
+<6>[    0.733919] [5] CPUFREQ of CA7  L1 : ABB 255
+<6>[    0.733932] [5] CPUFREQ of CA7  L2 : 1300000 uV
+<6>[    0.733946] [5] CPUFREQ of CA7  L2 : ABB 255
+<6>[    0.733960] [5] CPUFREQ of CA7  L3 : 1250000 uV
+<6>[    0.733973] [5] CPUFREQ of CA7  L3 : ABB 255
+<6>[    0.733986] [5] CPUFREQ of CA7  L4 : 1200000 uV
+<6>[    0.734000] [5] CPUFREQ of CA7  L4 : ABB 255
+<6>[    0.734013] [5] CPUFREQ of CA7  L5 : 1150000 uV
+<6>[    0.734026] [5] CPUFREQ of CA7  L5 : ABB 255
+<6>[    0.734039] [5] CPUFREQ of CA7  L6 : 1100000 uV
+<6>[    0.734052] [5] CPUFREQ of CA7  L6 : ABB 255
+<6>[    0.734064] [5] CPUFREQ of CA7  L7 : 1075000 uV
+<6>[    0.734077] [5] CPUFREQ of CA7  L7 : ABB 255
+<6>[    0.734090] [5] CPUFREQ of CA7  L8 : 1025000 uV
+<6>[    0.734103] [5] CPUFREQ of CA7  L8 : ABB 255
+<6>[    0.734116] [5] CPUFREQ of CA7  L9 : 1000000 uV
+<6>[    0.734129] [5] CPUFREQ of CA7  L9 : ABB 255
+<6>[    0.734142] [5] CPUFREQ of CA7  L10 : 1000000 uV
+<6>[    0.734155] [5] CPUFREQ of CA7  L10 : ABB 10
+<6>[    0.734168] [5] CPUFREQ of CA7  L11 : 1000000 uV
+<6>[    0.734181] [5] CPUFREQ of CA7  L11 : ABB 10
+<6>[    0.734194] [5] CPUFREQ of CA7  L12 : 1000000 uV
+<6>[    0.734207] [5] CPUFREQ of CA7  L12 : ABB 10
+<6>[    0.734219] [5] CPUFREQ of CA7  L13 : 1000000 uV
+<6>[    0.734232] [5] CPUFREQ of CA7  L13 : ABB 10
+<6>[    0.734333] [5] CPUFREQ of CA15  L0 : 1350000 uV
+<6>[    0.734347] [5] CPUFREQ of CA15  L0 : ABB 255
+<6>[    0.734360] [5] CPUFREQ of CA15  L1 : 1300000 uV
+<6>[    0.734374] [5] CPUFREQ of CA15  L1 : ABB 255
+<6>[    0.734387] [5] CPUFREQ of CA15  L2 : 1275000 uV
+<6>[    0.734400] [5] CPUFREQ of CA15  L2 : ABB 255
+<6>[    0.734413] [5] CPUFREQ of CA15  L3 : 1250000 uV
+<6>[    0.734426] [5] CPUFREQ of CA15  L3 : ABB 255
+<6>[    0.734438] [5] CPUFREQ of CA15  L4 : 1200000 uV
+<6>[    0.734452] [5] CPUFREQ of CA15  L4 : ABB 255
+<6>[    0.734464] [5] CPUFREQ of CA15  L5 : 1150000 uV
+<6>[    0.734478] [5] CPUFREQ of CA15  L5 : ABB 255
+<6>[    0.734490] [5] CPUFREQ of CA15  L6 : 1125000 uV
+<6>[    0.734503] [5] CPUFREQ of CA15  L6 : ABB 255
+<6>[    0.734517] [5] CPUFREQ of CA15  L7 : 1100000 uV
+<6>[    0.734529] [5] CPUFREQ of CA15  L7 : ABB 255
+<6>[    0.734542] [5] CPUFREQ of CA15  L8 : 1050000 uV
+<6>[    0.734555] [5] CPUFREQ of CA15  L8 : ABB 255
+<6>[    0.734568] [5] CPUFREQ of CA15  L9 : 1025000 uV
+<6>[    0.734581] [5] CPUFREQ of CA15  L9 : ABB 255
+<6>[    0.734593] [5] CPUFREQ of CA15  L10 : 1000000 uV
+<6>[    0.734606] [5] CPUFREQ of CA15  L10 : ABB 255
+<6>[    0.734619] [5] CPUFREQ of CA15  L11 : 1000000 uV
+<6>[    0.734632] [5] CPUFREQ of CA15  L11 : ABB 10
+<6>[    0.734645] [5] CPUFREQ of CA15  L12 : 1000000 uV
+<6>[    0.734657] [5] CPUFREQ of CA15  L12 : ABB 10
+<6>[    0.734670] [5] CPUFREQ of CA15  L13 : 1000000 uV
+<6>[    0.734683] [5] CPUFREQ of CA15  L13 : ABB 10
+<6>[    0.734695] [5] CPUFREQ of CA15  L14 : 1000000 uV
+<6>[    0.734708] [5] CPUFREQ of CA15  L14 : ABB 10
+<6>[    0.734720] [5] CPUFREQ of CA15  L15 : 1000000 uV
+<6>[    0.734733] [5] CPUFREQ of CA15  L15 : ABB 10
+<4>[    0.738601] [5] [DEBUG] TMU log timer registered
+<6>[    0.738612] [5] Exynos: Kernel Thermal management registered
+<4>[    0.739349] [4] DEVFREQ(MIF) : mif_asv_abb=10 target_volt=1125000
+<6>[    0.740239] [4] DEVFREQ(INT) : 533000Khz, 1000000V
+<6>[    0.740250] [4] DEVFREQ(INT) : 533000Khz, ABB 255
+<6>[    0.740261] [4] DEVFREQ(INT) : 400000Khz, 950000V
+<6>[    0.740270] [4] DEVFREQ(INT) : 400000Khz, ABB 255
+<6>[    0.740280] [4] DEVFREQ(INT) : 333000Khz, 925000V
+<6>[    0.740289] [4] DEVFREQ(INT) : 333000Khz, ABB 255
+<6>[    0.740298] [4] DEVFREQ(INT) : 266000Khz, 912500V
+<6>[    0.740306] [4] DEVFREQ(INT) : 266000Khz, ABB 255
+<6>[    0.740315] [4] DEVFREQ(INT) : 160000Khz, 900000V
+<6>[    0.740324] [4] DEVFREQ(INT) : 160000Khz, ABB 255
+<6>[    0.740333] [4] DEVFREQ(INT) : 100000Khz, 900000V
+<6>[    0.740341] [4] DEVFREQ(INT) : 100000Khz, ABB 255
+<6>[    0.741813] [4] DEVFREQ(DISP) : 333000Khz 900000
+<6>[    0.741825] [4] DEVFREQ(DISP) : 222000Khz 900000
+<6>[    0.741836] [4] DEVFREQ(DISP) : 167000Khz 900000
+<6>[    0.741846] [4] DEVFREQ(DISP) : 111000Khz 900000
+<6>[    0.742518] [4] PM DOMAIN: Power off unused power domains.
+<6>[    0.743045] [4]    pd-g3d    - on 
+<6>[    0.743055] [4]    pd-mfc    - off
+<6>[    0.743064] [4]    pd-disp   - on 
+<6>[    0.743073] [4]    pd-gscl   - off
+<6>[    0.743082] [4]    pd-maudio - off
+<6>[    0.743090] [4]    pd-g2d    - on,  always
+<6>[    0.743720] [5] ALSA device list:
+<6>[    0.743731] [5]   #0: UT-I2S
+<6>[    0.744124] [4] Freeing init memory: 348K
+<7>[    0.750462] [5] SELinux: 512 avtab hash slots, 1319 rules.
+<7>[    0.751173] [5] SELinux: 512 avtab hash slots, 1319 rules.
+<7>[    0.751192] [5] SELinux:  1 users, 2 roles, 288 types, 1 bools, 1 sens, 1024 cats
+<7>[    0.751211] [5] SELinux:  84 classes, 1319 rules
+<7>[    0.752116] [5] SELinux:  Completing initialization.
+<7>[    0.752126] [5] SELinux:  Setting up existing superblocks.
+<7>[    0.752147] [5] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[    0.752169] [5] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[    0.752243] [5] SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[    0.752262] [5] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[    0.752286] [5] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    0.752312] [5] SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[    0.759390] [5] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[    0.759413] [5] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[    0.759431] [5] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+<7>[    0.759452] [5] SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[    0.759480] [5] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[    0.759596] [5] SELinux: initialized (dev usbfs, type usbfs), not configured for labeling
+<7>[    0.759618] [5] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    0.759663] [5] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<6>[    0.771042] [4] mmc_host mmc0: Bus speed (slot 0) = 50000000Hz (slot req 52000000Hz, actual 50000000HZ div = 0)
+<6>[    0.771847] [4] mmc_host mmc0: Bus speed (slot 0) = 100000000Hz (slot req 52000000Hz, actual 50000000HZ div = 1)
+<6>[    0.771963] [4] mmc0: new high speed DDR MMC card at address 0001
+<6>[    0.772553] [4] mmcblk0: mmc0:0001 004GE0 3.68 GiB 
+<6>[    0.772748] [4] mmcblk0boot0: mmc0:0001 004GE0 partition 1 2.00 MiB
+<6>[    0.772933] [4] mmcblk0boot1: mmc0:0001 004GE0 partition 2 2.00 MiB
+<6>[    0.774780] [4]  mmcblk0: p1 p2 p3 p4 < p5 p6 p7 >
+<6>[    0.777735] [4]  mmcblk0boot1: unknown partition table
+<6>[    0.779043] [4]  mmcblk0boot0: unknown partition table
+<5>[    0.888850] [5] type=1403 audit(1357049606.650:2): policy loaded auid=4294967295 ses=4294967295
+<4>[    0.888992] [5] SELinux: Loaded policy from /sepolicy
+<5>[    0.890950] [5] type=1404 audit(1357049606.655:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+<6>[    0.945749] [4] usb 1-1: new high-speed USB device number 2 using s5p-ehci
+<6>[    1.076950] [4] usb 1-1: New USB device found, idVendor=1a40, idProduct=0101
+<6>[    1.076965] [4] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+<6>[    1.076977] [4] usb 1-1: Product: USB 2.0 Hub
+<6>[    1.078140] [1] hub 1-1:1.0: USB hub found
+<6>[    1.078267] [4] hub 1-1:1.0: 4 ports detected
+<4>[    1.079010] [4] *** usb_autosuspend_device
+<4>[    1.079102] [4] *** usb_autosuspend_device
+<6>[    1.345911] [4] usb 1-1.4: new high-speed USB device number 3 using s5p-ehci
+<6>[    1.452776] [4] usb 1-1.4: New USB device found, idVendor=0bda, idProduct=8152
+<6>[    1.452791] [4] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[    1.452804] [4] usb 1-1.4: Product: USB 10/100 LAN
+<6>[    1.452813] [4] usb 1-1.4: Manufacturer: Realtek
+<6>[    1.452823] [4] usb 1-1.4: SerialNumber: 000000000000
+<4>[    1.454041] [2] *** usb_autosuspend_device
+<4>[    1.454082] [2] *** usb_autosuspend_device
+<4>[    1.455903] [4] *** usb_autosuspend_device
+<4>[    1.455966] [4] *** usb_autosuspend_device
+<6>[    1.550943] [2] usb 1-1.4: reset high-speed USB device number 3 using s5p-ehci
+<4>[    1.656683] [2] *** usb_autosuspend_device
+<6>[    1.710618] [2] r8152 1-1.4:1.0: eth0: v1.04.0 (2014/01/15)
+<4>[    1.710676] [2] *** usb_autosuspend_device
+<4>[    1.710901] [2] *** usb_autosuspend_device
+<6>[    1.737914] [5] tmu temperature state 1 to 0
+<6>[    1.737926] [5] gpu temperature state 1 to 0
+<6>[    1.738280] [5] mif temperature state 0 to 4
+<4>[    1.738294] [5] [DEBUG] start log timer with period of 30 seconds
+<4>[    1.738306] [5] [TMU] TMU0 = 64, TMU1 = 60, TMU2 = 59, TMU3 = 60, TMU4 = 60  -------  CPU : 64  ,  GPU : 60
+<4>[    3.022454] [5] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<3>[    3.256312] [4] init: /dev/hw_random not found
+<7>[    3.300876] [4] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<7>[    3.301370] [4] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    3.303745] [4] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    3.303980] [4] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    3.345865] [4] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[    3.357318] [5] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+<7>[    3.357344] [5] SELinux: initialized (dev mmcblk0p2, type ext4), uses xattr
+<4>[    3.366273] [5] EXT4-fs (mmcblk0p3): warning: checktime reached, running e2fsck is recommended
+<6>[    3.366982] [5] EXT4-fs (mmcblk0p3): recovery complete
+<6>[    3.367616] [5] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=panic
+<7>[    3.367995] [5] SELinux: initialized (dev mmcblk0p3, type ext4), uses xattr
+<4>[    3.421687] [5] EXT4-fs (mmcblk0p7): warning: checktime reached, running e2fsck is recommended
+<6>[    3.422532] [5] EXT4-fs (mmcblk0p7): recovery complete
+<6>[    3.423271] [5] EXT4-fs (mmcblk0p7): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,noauto_da_alloc,errors=panic
+<7>[    3.423319] [5] SELinux: initialized (dev mmcblk0p7, type ext4), uses xattr
+<3>[    3.446885] [4] init: /dev/hw_random not found
+<5>[    3.457563] [4] type=1400 audit(1357049609.215:4): avc:  denied  { entrypoint } for  pid=1544 comm="init" path="/sbin/healthd" dev="rootfs" ino=4204 scontext=u:r:healthd:s0 tcontext=u:object_r:rootfs:s0 tclass=file
+<3>[    3.458593] [4] healthd: wakealarm_init: timerfd_create failed
+<3>[    3.463631] [4] healthd: No charger supplies found
+<4>[    3.467839] [4] healthd: BatteryStatusPath not found
+<4>[    3.467854] [4] healthd: BatteryHealthPath not found
+<4>[    3.467866] [4] healthd: BatteryPresentPath not found
+<4>[    3.467879] [4] healthd: BatteryCapacityPath not found
+<4>[    3.467892] [4] healthd: BatteryVoltagePath not found
+<4>[    3.467905] [4] healthd: BatteryTemperaturePath not found
+<4>[    3.467917] [4] healthd: BatteryTechnologyPath not found
+<6>[    3.467946] [4] binder: 1544:1544 transaction failed 29189, size 0-0
+<3>[    3.536905] [4] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+<3>[    3.544206] [4] init: powerctl: cannot expand '${sys.powerctl}'
+<7>[    3.550920] [5] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<3>[    3.552142] [4] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+<3>[    3.562365] [4] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+<3>[    3.574944] [4] android_usb: already disabled
+<6>[    3.585391] [4] adb_open
+<6>[    3.585407] [4] adb_bind_config
+<6>[    4.054437] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz/(x*y)=808081/pixclock:13468
+<6>[    4.054450] [5] s3c-fb exynos5-fb.1: s3c_fb_check_var: hz:60, pixclock:13468, win->fps:60
+<3>[    4.115269] [3] init: no such service 'bootanim'
+<3>[    4.118998] [5] s3c-fb exynos5-fb.1: Display Enabled
+<5>[    4.468571] [0] type=1400 audit(1357049610.225:5): avc:  denied  { 0x10 } for  pid=1544 comm="healthd" capability=36  scontext=u:r:healthd:s0 tcontext=u:r:healthd:s0 tclass=capability2
+<7>[    4.518950] [5] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<3>[    4.590715] [4] s3c-fb exynos5-fb.1: wait for vsync timeout
+<5>[    7.439648] [4] type=1400 audit(1357049613.195:6): avc:  denied  { read write } for  pid=1551 comm="zygote" name="fimg2d" dev="tmpfs" ino=4320 scontext=u:r:zygote:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<6>[    7.968186] [4] warning: `zygote' uses 32-bit capabilities (legacy support in use)
+<6>[    8.738318] [0] healthd: battery l=0 v=0 t=0.0 h=1 st=1 chg=
+<6>[    8.792062] [4] lowmemorykiller: lowmem_shrink: convert oom_adj to oom_score_adj:
+<6>[    8.792078] [4] lowmemorykiller: oom_adj 0 => oom_score_adj 0
+<6>[    8.792090] [4] lowmemorykiller: oom_adj 1 => oom_score_adj 58
+<6>[    8.792101] [4] lowmemorykiller: oom_adj 2 => oom_score_adj 117
+<6>[    8.792112] [4] lowmemorykiller: oom_adj 3 => oom_score_adj 176
+<6>[    8.792122] [4] lowmemorykiller: oom_adj 9 => oom_score_adj 529
+<6>[    8.792133] [4] lowmemorykiller: oom_adj 15 => oom_score_adj 1000
+<6>[    8.980245] [4] ADDRCONF(NETDEV_UP): eth0: link is not ready
+<6>[    9.515706] [5] acc_open
+<6>[    9.515729] [5] acc_release
+<6>[    9.551750] [5] ADDRCONF(NETDEV_UP): eth0: link is not ready
+<4>[    9.937752] [4] *** usb_autosuspend_device
+<4>[    9.951918] [4] *** usb_autosuspend_device
+<4>[    9.952097] [4] *** usb_autosuspend_device
+<4>[    9.952112] [4] ------------- SKIP:S5P EHCI Host Controller 0x1d6b 0x0002
+<5>[   10.175995] [4] type=1400 audit(1357049615.935:7): avc:  denied  { read write } for  pid=2172 comm="com.evideo.home" name="fimg2d" dev="tmpfs" ino=4320 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<5>[   10.176054] [4] type=1400 audit(1357049615.935:8): avc:  denied  { open } for  pid=2172 comm="com.evideo.home" name="fimg2d" dev="tmpfs" ino=4320 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<5>[   10.176139] [4] type=1400 audit(1357049615.935:9): avc:  denied  { ioctl } for  pid=2172 comm="com.evideo.home" path="/dev/fimg2d" dev="tmpfs" ino=4320 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<5>[   10.337714] [4] type=1400 audit(1357049616.095:10): avc:  denied  { getattr } for  pid=2172 comm="com.evideo.home" path="/dev/mali0" dev="tmpfs" ino=4475 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<6>[   11.307886] [4] vidioc_s_fmt:2350: codec number: 20
+<3>[   13.047387] [2] s5p-hdmi exynos5-hdmi: invalid bit per sample : 0
+<3>[   13.052268] [4] s5p-hdmi exynos5-hdmi: invalid sample rate : 0
+<6>[   13.057958] [4] s5p-hdmi exynos5-hdmi: HDMI audio : 2-ch, 44100Hz, 16bit
+<6>[   14.327509] [5] vidioc_s_fmt_vid_out_mplane:1392: The codec number is: 0
+<6>[   14.331207] [5] s5p_mfc_dec_calc_dpb_size:627: SEQ Done: Movie dimensions 1280x720, buffer dimensions: 1280x720
+<6>[   15.317679] [0] vidioc_s_fmt_vid_out_mplane:1392: The codec number is: 0
+<6>[   15.319687] [5] s5p_mfc_dec_calc_dpb_size:627: SEQ Done: Movie dimensions 1280x720, buffer dimensions: 1280x720
+<4>[   31.740725] [5] [TMU] TMU0 = 62, TMU1 = 60, TMU2 = 60, TMU3 = 61, TMU4 = 61  -------  CPU : 62  ,  GPU : 61
+<4>[   61.740723] [5] [TMU] TMU0 = 64, TMU1 = 64, TMU2 = 63, TMU3 = 63, TMU4 = 64  -------  CPU : 64  ,  GPU : 64
+<4>[   91.745757] [5] [TMU] TMU0 = 65, TMU1 = 63, TMU2 = 64, TMU3 = 64, TMU4 = 65  -------  CPU : 65  ,  GPU : 65
+<4>[  121.750719] [5] [TMU] TMU0 = 66, TMU1 = 64, TMU2 = 65, TMU3 = 65, TMU4 = 65  -------  CPU : 66  ,  GPU : 65
+<4>[  151.750736] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 68  ,  GPU : 66
+<4>[  181.750737] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 67  ,  GPU : 66
+<4>[  211.750783] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  241.750760] [5] [TMU] TMU0 = 69, TMU1 = 67, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[  271.755746] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  301.755710] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[  331.760804] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[  361.760732] [5] [TMU] TMU0 = 69, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[  391.770724] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[  422.775730] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  452.775760] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[  482.775718] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  512.785729] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[  542.785727] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[  572.786472] [5] [TMU] TMU0 = 66, TMU1 = 66, TMU2 = 66, TMU3 = 66, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  602.790775] [5] [TMU] TMU0 = 66, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  632.800770] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[  662.805765] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[  692.810732] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 67  ,  GPU : 66
+<4>[  722.815732] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 67  ,  GPU : 66
+<4>[  752.815736] [5] [TMU] TMU0 = 66, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  782.820734] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 66, TMU4 = 66  -------  CPU : 68  ,  GPU : 66
+<4>[  813.820735] [5] [TMU] TMU0 = 66, TMU1 = 64, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  843.830745] [5] [TMU] TMU0 = 65, TMU1 = 64, TMU2 = 65, TMU3 = 65, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  873.835755] [5] [TMU] TMU0 = 66, TMU1 = 65, TMU2 = 65, TMU3 = 66, TMU4 = 66  -------  CPU : 66  ,  GPU : 66
+<4>[  903.835732] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  933.836084] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  963.840813] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[  993.840750] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1023.840733] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1053.845734] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1083.850757] [5] [TMU] TMU0 = 68, TMU1 = 68, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1113.850715] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1143.870732] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1173.870742] [5] [TMU] TMU0 = 70, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 70  ,  GPU : 68
+<4>[ 1203.880751] [5] [TMU] TMU0 = 68, TMU1 = 68, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1234.880740] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1264.890713] [5] [TMU] TMU0 = 69, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1294.890802] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1324.895765] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1354.895775] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[ 1384.895750] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1414.900766] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1444.905713] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[ 1474.905729] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1504.905726] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 1534.905763] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 1564.910729] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1594.915747] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 69  ,  GPU : 67
+<4>[ 1625.920725] [5] [TMU] TMU0 = 66, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 1655.920865] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 1685.920729] [5] [TMU] TMU0 = 70, TMU1 = 67, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 70  ,  GPU : 68
+<4>[ 1715.920737] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 1745.920717] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1775.925733] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1805.930727] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1835.930767] [5] [TMU] TMU0 = 69, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1865.930787] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1895.935778] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 1925.935824] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1955.935743] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 1986.935753] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 2016.935773] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2046.935722] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 2076.940705] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2106.940776] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2136.940732] [5] [TMU] TMU0 = 67, TMU1 = 65, TMU2 = 66, TMU3 = 66, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 2166.945796] [5] [TMU] TMU0 = 67, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 67  ,  GPU : 67
+<4>[ 2196.950755] [5] [TMU] TMU0 = 68, TMU1 = 65, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 2226.950753] [5] [TMU] TMU0 = 69, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 69  ,  GPU : 68
+<4>[ 2256.951047] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67
+<4>[ 2286.950740] [5] [TMU] TMU0 = 67, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2316.955735] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2346.955705] [5] [TMU] TMU0 = 69, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 69  -------  CPU : 69  ,  GPU : 69
+<4>[ 2377.955767] [5] [TMU] TMU0 = 68, TMU1 = 68, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 69  ,  GPU : 69
+<4>[ 2407.955745] [5] [TMU] TMU0 = 70, TMU1 = 70, TMU2 = 68, TMU3 = 69, TMU4 = 69  -------  CPU : 70  ,  GPU : 69
+<4>[ 2437.955730] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 69  ,  GPU : 69
+<4>[ 2467.960683] [5] [TMU] TMU0 = 70, TMU1 = 67, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 70  ,  GPU : 69
+<4>[ 2497.960737] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2527.965785] [5] [TMU] TMU0 = 68, TMU1 = 68, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 69  ,  GPU : 69
+<4>[ 2557.971398] [5] [TMU] TMU0 = 69, TMU1 = 69, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 69  ,  GPU : 69
+<4>[ 2587.985736] [5] [TMU] TMU0 = 70, TMU1 = 67, TMU2 = 68, TMU3 = 68, TMU4 = 69  -------  CPU : 70  ,  GPU : 69
+<4>[ 2617.990762] [5] [TMU] TMU0 = 70, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 70  ,  GPU : 68
+<4>[ 2647.990740] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2677.990745] [5] [TMU] TMU0 = 68, TMU1 = 67, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2707.995800] [5] [TMU] TMU0 = 68, TMU1 = 68, TMU2 = 67, TMU3 = 68, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2737.995748] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 67, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<4>[ 2769.000738] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 68  -------  CPU : 68  ,  GPU : 68
+<6>[ 2776.646284] [0] s5p-hdmi exynos5-hdmi: the step is 1 ++++++++++++++++++++++
+<6>[ 2776.647176] [0] s5p-hdmi exynos5-hdmi: plugged
+<6>[ 2776.717981] [3] s5p-hdmi exynos5-hdmi: hdmi_runtime_resume
+<6>[ 2776.745766] [3] s5p-hdmi exynos5-hdmi: hdmi_streamon
+<6>[ 2776.745856] [3] s5p-hdmi exynos5-hdmi: HDMI interrupt changed to internal
+<3>[ 2776.786723] [3] s5p-hdmi exynos5-hdmi: invalid bit per sample : 0
+<3>[ 2776.791599] [3] s5p-hdmi exynos5-hdmi: invalid sample rate : 0
+<6>[ 2776.797360] [3] s5p-hdmi exynos5-hdmi: HDMI audio : 2-ch, 44100Hz, 16bit
+<6>[ 2782.526011] [0] usb 1-1.2: new low-speed USB device number 4 using s5p-ehci
+<6>[ 2782.636845] [0] usb 1-1.2: New USB device found, idVendor=1bcf, idProduct=0501
+<6>[ 2782.636868] [0] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+<6>[ 2782.636883] [0] usb 1-1.2: Product: RAPOO Mouse 7100
+<6>[ 2782.636898] [0] usb 1-1.2: Manufacturer: MLK
+<6>[ 2782.654673] [1] input: MLK RAPOO Mouse 7100 as /devices/platform/s5p-ehci/usb1/1-1/1-1.2/1-1.2:1.0/input/input0
+<6>[ 2782.666085] [2] generic-usb 0003:1BCF:0501.0001: input,hiddev0,hidraw0: USB HID v1.10 Mouse [MLK RAPOO Mouse 7100] on usb-s5p-ehci-1.2/input0
+<4>[ 2782.666151] [2] *** usb_autosuspend_device
+<4>[ 2782.666322] [2] *** usb_autosuspend_device
+<4>[ 2782.667041] [3] *** usb_autosuspend_device
+<6>[ 2784.966873] [0] ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+<7>[ 2795.356082] [0] eth0: no IPv6 routers present
+<4>[ 2799.005718] [5] [TMU] TMU0 = 68, TMU1 = 66, TMU2 = 66, TMU3 = 67, TMU4 = 67  -------  CPU : 68  ,  GPU : 67

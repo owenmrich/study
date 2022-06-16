@@ -1,0 +1,1518 @@
+--------- beginning of /dev/log/main
+01-01 14:13:29.285 I/DEBUG   ( 1549): debuggerd: Oct 15 2015 10:07:01
+01-01 14:13:29.285 I/installd( 1554): installd firing up
+--------- beginning of /dev/log/system
+01-01 14:13:29.305 I/Vold    ( 1546): Vold 2.1 (the revenge) firing up
+01-01 14:13:29.310 E/DirectVolume( 1546): Vold managed volumes must have auto mount point; ignoring /storage/sdcard1
+01-01 14:13:29.310 D/Vold    ( 1546): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+01-01 14:13:29.310 D/Vold    ( 1546): Volume usb1 state changing -1 (Initializing) -> 0 (No-Media)
+01-01 14:13:29.310 D/Vold    ( 1546): Volume usb2 state changing -1 (Initializing) -> 0 (No-Media)
+01-01 14:13:29.320 I/Netd    ( 1548): Netd 1.0 starting
+01-01 14:13:29.320 W/InterfaceController( 1548): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+01-01 14:13:29.535 I/SurfaceFlinger( 1550): SurfaceFlinger is starting
+01-01 14:13:29.540 I/SurfaceFlinger( 1550): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+01-01 14:13:29.705 I/recovery( 1714): Recovery image already installed 
+01-01 14:13:29.725 I/mediaserver( 1553): ServiceManager: 0x40b664e0
+01-01 14:13:29.725 I/AudioFlinger( 1553): Using default 3000 mSec as standby time.
+01-01 14:13:29.725 I/CameraService( 1553): CameraService started (pid=1553)
+01-01 14:13:29.755 I/CameraService( 1553): Loaded "Exynos Camera HAL1" camera module
+01-01 14:13:29.765 D/libEGL  ( 1550): loaded /vendor/lib/egl/libGLES_mali.so
+01-01 14:13:29.765 I/AudioPolicyManagerBase( 1553): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+01-01 14:13:29.770 I/AudioFlinger( 1553): loadHwModule() Loaded primary audio interface from Mocha audio HW HAL (audio) handle 1
+01-01 14:13:29.770 I/AudioFlinger( 1553): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+01-01 14:13:29.785 I/AudioMixer( 1553): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+01-01 14:13:29.785 I/AudioFlinger( 1553): Using module 1 has the primary audio interface
+01-01 14:13:29.785 I/AudioFlinger( 1553): AudioFlinger's thread 0x41047008 ready to run
+01-01 14:13:29.790 W/AudioFlinger( 1553): Thread AudioOut_2 cannot connect to the power manager service
+01-01 14:13:29.790 W/AudioFlinger( 1553): Thread AudioOut_2 cannot connect to the power manager service
+01-01 14:13:29.790 W/AudioFlinger( 1553): Thread AudioOut_2 cannot connect to the power manager service
+01-01 14:13:29.790 E/AudioFlinger( 1553): no wake lock to update!
+01-01 14:13:29.790 I/AudioFlinger( 1553): HAL output buffer size 8192 frames, normal mix buffer size 8192 frames
+01-01 14:13:29.790 I/AudioMixer( 1553): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+01-01 14:13:29.790 I/AudioFlinger( 1553): AudioFlinger's thread 0x411b1008 ready to run
+01-01 14:13:29.790 W/AudioFlinger( 1553): Thread AudioOut_3 cannot connect to the power manager service
+01-01 14:13:29.790 I/        ( 1550): PLATFORM VERSION : JB-MR-2
+01-01 14:13:29.795 W/AudioFlinger( 1553): Thread AudioOut_3 cannot connect to the power manager service
+01-01 14:13:29.795 W/AudioFlinger( 1553): Thread AudioOut_3 cannot connect to the power manager service
+01-01 14:13:29.795 E/AudioFlinger( 1553): no wake lock to update!
+01-01 14:13:29.795 I/AudioPolicyService( 1553): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+01-01 14:13:29.795 I/gralloc ( 1550): using (id=)
+01-01 14:13:29.795 I/gralloc ( 1550): xres         = 1280 px
+01-01 14:13:29.795 I/gralloc ( 1550): yres         = 720 px
+01-01 14:13:29.795 I/gralloc ( 1550): width        = 342 mm (95.064331 dpi)
+01-01 14:13:29.795 I/gralloc ( 1550): height       = 192 mm (95.250000 dpi)
+01-01 14:13:29.795 I/gralloc ( 1550): refresh rate = 61.90 Hz
+01-01 14:13:29.810 D/hwcomposer( 1550): using
+01-01 14:13:29.810 D/hwcomposer( 1550): xres         = 1280 px
+01-01 14:13:29.810 D/hwcomposer( 1550): yres         = 720 px
+01-01 14:13:29.810 D/hwcomposer( 1550): width        = 342 mm (95.064000 dpi)
+01-01 14:13:29.810 D/hwcomposer( 1550): height       = 192 mm (95.250000 dpi)
+01-01 14:13:29.810 D/hwcomposer( 1550): refresh rate = 61 Hz
+01-01 14:13:29.810 D/libexynosv4l2-subdev( 1550): try node: /dev/v4l-subdev0
+01-01 14:13:29.810 I/libexynosv4l2-subdev( 1550): node found for device s5p-mixer0: /dev/v4l-subdev0
+01-01 14:13:29.810 I/libexynosv4l2-subdev( 1550): open subdev device /dev/v4l-subdev0
+01-01 14:13:29.810 I/hwcomposer( 1550): Failed to open vsync attribute at /sys/devices/platform/exynos-sysmmu.11/exynos5-fb.1/vsync
+01-01 14:13:29.810 I/hwcomposer( 1550): Retrying with /sys/devices/platform/exynos-sysmmu.11/exynos5-fb.1/vsync
+01-01 14:13:29.810 I/hwcomposer( 1550): PSR info devname = /sys/devices/platform/exynos-sysmmu.30/exynos-sysmmu.11/exynos5-fb.1/psr_info
+01-01 14:13:29.810 I/hwcomposer( 1550): PSR mode is 0(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): Using composer version 1.3
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): EGL informations:
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): vendor    : Android
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): version   : 1.4 Android META-EGL
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): Client API: OpenGL_ES
+01-01 14:13:29.815 I/SurfaceFlinger( 1550): EGLSurface: 8-8-8-8, config=0x41e4fb1c
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): OpenGL ES informations:
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): vendor    : ARM
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): renderer  : Mali-T624
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): version   : OpenGL ES 3.0
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_KHR_texture_compression_astc_ldr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): GL_MAX_TEXTURE_SIZE = 8192
+01-01 14:13:29.865 I/SurfaceFlinger( 1550): GL_MAX_VIEWPORT_DIMS = 8192
+01-01 14:13:29.865 D/mali_winsys( 1550): new_window_surface returns 0x3000
+01-01 14:13:29.875 D/SurfaceFlinger( 1550): Screen acquired, type=0 flinger=0x402fa008
+01-01 14:13:29.885 I/hwcomposer( 1550): unblank ioctl failed (display already unblanked)
+01-01 14:13:30.070 D/AndroidRuntime( 1551): 
+01-01 14:13:30.070 D/AndroidRuntime( 1551): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+01-01 14:13:30.075 D/AndroidRuntime( 1551): CheckJNI is ON
+01-01 14:13:30.220 D/dalvikvm( 1551): Trying to load lib libjavacore.so 0x0
+01-01 14:13:30.225 D/dalvikvm( 1551): Added shared lib libjavacore.so 0x0
+01-01 14:13:30.245 D/dalvikvm( 1551): Trying to load lib libnativehelper.so 0x0
+01-01 14:13:30.245 D/dalvikvm( 1551): Added shared lib libnativehelper.so 0x0
+01-01 14:13:30.245 D/dalvikvm( 1551): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+01-01 14:13:30.425 D/dalvikvm( 1551): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+01-01 14:13:30.580 E/memtrack( 1551): Couldn't load memtrack module (No such file or directory)
+01-01 14:13:30.580 E/android.os.Debug( 1551): failed to load memtrack module: -2
+01-01 14:13:30.650 I/SamplingProfilerIntegration( 1551): Profiling disabled.
+01-01 14:13:30.665 I/Zygote  ( 1551): Preloading classes...
+01-01 14:13:30.865 D/MDnsDS  ( 1548): MDnsSdListener::Hander starting up
+01-01 14:13:30.865 D/MDnsDS  ( 1548): MDnsSdListener starting to monitor
+01-01 14:13:30.865 D/MDnsDS  ( 1548): Going to poll with pollCount 1
+01-01 14:13:31.190 D/TextLayoutCache( 1551): Using debug level = 0 - Debug Enabled = 0
+01-01 14:13:31.235 I/dalvikvm( 1551): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+01-01 14:13:31.235 D/MtpDeviceJNI( 1551): register_android_mtp_MtpDevice
+01-01 14:13:31.235 I/dalvikvm( 1551): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+01-01 14:13:31.235 I/dalvikvm( 1551): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+01-01 14:13:31.235 I/dalvikvm( 1551): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+01-01 14:13:31.375 E/EmojiFactory_jni( 1551): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+01-01 14:13:31.535 I/LibraryLoader( 1551): loading: webviewchromium
+01-01 14:13:31.690 I/LibraryLoader( 1551): loaded: webviewchromium
+01-01 14:13:32.060 W/Zygote  ( 1551): Class not found for preloading: java.lang.UnsafeByteSequence
+01-01 14:13:32.175 I/System  ( 1551): Loaded time zone names for "" in 55ms (51ms in ICU)
+01-01 14:13:32.215 I/System  ( 1551): Loaded time zone names for "en_US" in 38ms (33ms in ICU)
+01-01 14:13:32.255 I/System  ( 1551): Loaded time zone names for "zh_CN" in 41ms (37ms in ICU)
+01-01 14:13:32.360 I/Zygote  ( 1551): ...preloaded 2777 classes in 1695ms.
+01-01 14:13:32.570 I/Zygote  ( 1551): Preloading resources...
+01-01 14:13:32.575 W/Resources( 1551): Preloaded drawable resource #0x1080096 (android:drawable/toast_frame) that varies with configuration!!
+01-01 14:13:32.580 W/Resources( 1551): Preloaded drawable resource #0x1080105 (android:drawable/btn_check_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.580 W/Resources( 1551): Preloaded drawable resource #0x1080104 (android:drawable/btn_check_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.580 W/Resources( 1551): Preloaded drawable resource #0x1080102 (android:drawable/btn_check_on_holo_light) that varies with configuration!!
+01-01 14:13:32.585 W/Resources( 1551): Preloaded drawable resource #0x1080101 (android:drawable/btn_check_on_holo_dark) that varies with configuration!!
+01-01 14:13:32.585 W/Resources( 1551): Preloaded drawable resource #0x10800ff (android:drawable/btn_check_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.590 W/Resources( 1551): Preloaded drawable resource #0x10800fe (android:drawable/btn_check_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.600 W/Resources( 1551): Preloaded drawable resource #0x10800fd (android:drawable/btn_check_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.600 W/Resources( 1551): Preloaded drawable resource #0x10800fc (android:drawable/btn_check_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.605 W/Resources( 1551): Preloaded drawable resource #0x10800fb (android:drawable/btn_check_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.605 W/Resources( 1551): Preloaded drawable resource #0x10800fa (android:drawable/btn_check_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.605 W/Resources( 1551): Preloaded drawable resource #0x10800f2 (android:drawable/btn_check_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.605 W/Resources( 1551): Preloaded drawable resource #0x10800f1 (android:drawable/btn_check_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.610 W/Resources( 1551): Preloaded drawable resource #0x10800ed (android:drawable/btn_check_off_holo_light) that varies with configuration!!
+01-01 14:13:32.610 W/Resources( 1551): Preloaded drawable resource #0x10800ec (android:drawable/btn_check_off_holo_dark) that varies with configuration!!
+01-01 14:13:32.610 W/Resources( 1551): Preloaded drawable resource #0x10800ea (android:drawable/btn_check_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.625 W/Resources( 1551): Preloaded drawable resource #0x10800e9 (android:drawable/btn_check_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.625 W/Resources( 1551): Preloaded drawable resource #0x10800e8 (android:drawable/btn_check_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.625 W/Resources( 1551): Preloaded drawable resource #0x10800e7 (android:drawable/btn_check_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.625 W/Resources( 1551): Preloaded drawable resource #0x10800e6 (android:drawable/btn_check_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.625 W/Resources( 1551): Preloaded drawable resource #0x10800e5 (android:drawable/btn_check_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.630 W/Resources( 1551): Preloaded drawable resource #0x1080102 (android:drawable/btn_check_on_holo_light) that varies with configuration!!
+01-01 14:13:32.630 W/Resources( 1551): Preloaded drawable resource #0x10800ed (android:drawable/btn_check_off_holo_light) that varies with configuration!!
+01-01 14:13:32.635 W/Resources( 1551): Preloaded drawable resource #0x1080105 (android:drawable/btn_check_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.635 W/Resources( 1551): Preloaded drawable resource #0x10800f2 (android:drawable/btn_check_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.635 W/Resources( 1551): Preloaded drawable resource #0x10800ff (android:drawable/btn_check_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.635 W/Resources( 1551): Preloaded drawable resource #0x10800ea (android:drawable/btn_check_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.635 W/Resources( 1551): Preloaded drawable resource #0x10800ed (android:drawable/btn_check_off_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x1080102 (android:drawable/btn_check_on_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x10800fd (android:drawable/btn_check_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x10800e8 (android:drawable/btn_check_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x10800fb (android:drawable/btn_check_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x10800e6 (android:drawable/btn_check_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.640 W/Resources( 1551): Preloaded drawable resource #0x10800e8 (android:drawable/btn_check_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.645 W/Resources( 1551): Preloaded drawable resource #0x10800fd (android:drawable/btn_check_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.645 W/Resources( 1551): Preloaded drawable resource #0x10800dc (android:drawable/btn_check_holo_light) that varies with configuration!!
+01-01 14:13:32.660 W/Resources( 1551): Preloaded drawable resource #0x1080101 (android:drawable/btn_check_on_holo_dark) that varies with configuration!!
+01-01 14:13:32.660 W/Resources( 1551): Preloaded drawable resource #0x10800ec (android:drawable/btn_check_off_holo_dark) that varies with configuration!!
+01-01 14:13:32.660 W/Resources( 1551): Preloaded drawable resource #0x1080104 (android:drawable/btn_check_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.660 W/Resources( 1551): Preloaded drawable resource #0x10800f1 (android:drawable/btn_check_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x10800fe (android:drawable/btn_check_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x10800e9 (android:drawable/btn_check_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x10800ec (android:drawable/btn_check_off_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x1080101 (android:drawable/btn_check_on_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x10800fc (android:drawable/btn_check_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.665 W/Resources( 1551): Preloaded drawable resource #0x10800e7 (android:drawable/btn_check_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.670 W/Resources( 1551): Preloaded drawable resource #0x10800fa (android:drawable/btn_check_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.670 W/Resources( 1551): Preloaded drawable resource #0x10800e5 (android:drawable/btn_check_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.670 W/Resources( 1551): Preloaded drawable resource #0x10800e7 (android:drawable/btn_check_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.670 W/Resources( 1551): Preloaded drawable resource #0x10800fc (android:drawable/btn_check_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.670 W/Resources( 1551): Preloaded drawable resource #0x10800db (android:drawable/btn_check_holo_dark) that varies with configuration!!
+01-01 14:13:32.685 W/Resources( 1551): Preloaded drawable resource #0x1080195 (android:drawable/btn_radio_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.685 W/Resources( 1551): Preloaded drawable resource #0x1080194 (android:drawable/btn_radio_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.690 W/Resources( 1551): Preloaded drawable resource #0x1080192 (android:drawable/btn_radio_on_holo_light) that varies with configuration!!
+01-01 14:13:32.690 W/Resources( 1551): Preloaded drawable resource #0x1080191 (android:drawable/btn_radio_on_holo_dark) that varies with configuration!!
+01-01 14:13:32.690 W/Resources( 1551): Preloaded drawable resource #0x108018f (android:drawable/btn_radio_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.695 W/Resources( 1551): Preloaded drawable resource #0x108018e (android:drawable/btn_radio_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.695 W/Resources( 1551): Preloaded drawable resource #0x108018d (android:drawable/btn_radio_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.695 W/Resources( 1551): Preloaded drawable resource #0x108018c (android:drawable/btn_radio_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.700 W/Resources( 1551): Preloaded drawable resource #0x108018b (android:drawable/btn_radio_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.715 W/Resources( 1551): Preloaded drawable resource #0x108018a (android:drawable/btn_radio_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.715 W/Resources( 1551): Preloaded drawable resource #0x1080187 (android:drawable/btn_radio_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.715 W/Resources( 1551): Preloaded drawable resource #0x1080186 (android:drawable/btn_radio_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.715 W/Resources( 1551): Preloaded drawable resource #0x1080184 (android:drawable/btn_radio_off_holo_light) that varies with configuration!!
+01-01 14:13:32.720 W/Resources( 1551): Preloaded drawable resource #0x1080183 (android:drawable/btn_radio_off_holo_dark) that varies with configuration!!
+01-01 14:13:32.720 W/Resources( 1551): Preloaded drawable resource #0x1080181 (android:drawable/btn_radio_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.720 W/Resources( 1551): Preloaded drawable resource #0x1080180 (android:drawable/btn_radio_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.720 W/Resources( 1551): Preloaded drawable resource #0x108017f (android:drawable/btn_radio_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.720 W/Resources( 1551): Preloaded drawable resource #0x108017e (android:drawable/btn_radio_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.735 W/Resources( 1551): Preloaded drawable resource #0x108017d (android:drawable/btn_radio_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.735 W/Resources( 1551): Preloaded drawable resource #0x108017c (android:drawable/btn_radio_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.740 W/Resources( 1551): Preloaded drawable resource #0x1080128 (android:drawable/btn_default_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.740 W/Resources( 1551): Preloaded drawable resource #0x1080127 (android:drawable/btn_default_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.740 W/Resources( 1551): Preloaded drawable resource #0x1080124 (android:drawable/btn_default_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.740 W/Resources( 1551): Preloaded drawable resource #0x1080123 (android:drawable/btn_default_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.745 W/Resources( 1551): Preloaded drawable resource #0x108011c (android:drawable/btn_default_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.745 W/Resources( 1551): Preloaded drawable resource #0x108011b (android:drawable/btn_default_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.745 W/Resources( 1551): Preloaded drawable resource #0x1080119 (android:drawable/btn_default_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.745 W/Resources( 1551): Preloaded drawable resource #0x1080118 (android:drawable/btn_default_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.760 W/Resources( 1551): Preloaded drawable resource #0x1080116 (android:drawable/btn_default_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.760 W/Resources( 1551): Preloaded drawable resource #0x1080115 (android:drawable/btn_default_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.765 W/Resources( 1551): Preloaded drawable resource #0x1080123 (android:drawable/btn_default_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.765 W/Resources( 1551): Preloaded drawable resource #0x1080118 (android:drawable/btn_default_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.765 W/Resources( 1551): Preloaded drawable resource #0x1080127 (android:drawable/btn_default_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.765 W/Resources( 1551): Preloaded drawable resource #0x108011b (android:drawable/btn_default_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.765 W/Resources( 1551): Preloaded drawable resource #0x1080123 (android:drawable/btn_default_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.770 W/Resources( 1551): Preloaded drawable resource #0x1080115 (android:drawable/btn_default_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.770 W/Resources( 1551): Preloaded drawable resource #0x1080118 (android:drawable/btn_default_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.770 W/Resources( 1551): Preloaded drawable resource #0x108011d (android:drawable/btn_default_holo_dark) that varies with configuration!!
+01-01 14:13:32.770 W/Resources( 1551): Preloaded drawable resource #0x1080124 (android:drawable/btn_default_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.770 W/Resources( 1551): Preloaded drawable resource #0x1080119 (android:drawable/btn_default_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x1080128 (android:drawable/btn_default_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x108011c (android:drawable/btn_default_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x1080124 (android:drawable/btn_default_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x1080116 (android:drawable/btn_default_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x1080119 (android:drawable/btn_default_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.775 W/Resources( 1551): Preloaded drawable resource #0x108011e (android:drawable/btn_default_holo_light) that varies with configuration!!
+01-01 14:13:32.795 W/Resources( 1551): Preloaded drawable resource #0x10801d1 (android:drawable/btn_star_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.795 W/Resources( 1551): Preloaded drawable resource #0x10801db (android:drawable/btn_star_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.795 W/Resources( 1551): Preloaded drawable resource #0x10801d7 (android:drawable/btn_star_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.795 W/Resources( 1551): Preloaded drawable resource #0x10801cd (android:drawable/btn_star_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.800 W/Resources( 1551): Preloaded drawable resource #0x10801dd (android:drawable/btn_star_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.800 W/Resources( 1551): Preloaded drawable resource #0x10801d3 (android:drawable/btn_star_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.800 W/Resources( 1551): Preloaded drawable resource #0x10801d9 (android:drawable/btn_star_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.805 W/Resources( 1551): Preloaded drawable resource #0x10801cf (android:drawable/btn_star_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.805 W/Resources( 1551): Preloaded drawable resource #0x10801d5 (android:drawable/btn_star_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.820 W/Resources( 1551): Preloaded drawable resource #0x10801cb (android:drawable/btn_star_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.820 W/Resources( 1551): Preloaded drawable resource #0x10801d1 (android:drawable/btn_star_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.820 W/Resources( 1551): Preloaded drawable resource #0x10801db (android:drawable/btn_star_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.825 W/Resources( 1551): Preloaded drawable resource #0x10801d7 (android:drawable/btn_star_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.825 W/Resources( 1551): Preloaded drawable resource #0x10801cd (android:drawable/btn_star_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.825 W/Resources( 1551): Preloaded drawable resource #0x10801dd (android:drawable/btn_star_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.825 W/Resources( 1551): Preloaded drawable resource #0x10801d3 (android:drawable/btn_star_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.830 W/Resources( 1551): Preloaded drawable resource #0x10801d9 (android:drawable/btn_star_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.830 W/Resources( 1551): Preloaded drawable resource #0x10801cf (android:drawable/btn_star_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.830 W/Resources( 1551): Preloaded drawable resource #0x10801d5 (android:drawable/btn_star_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.830 W/Resources( 1551): Preloaded drawable resource #0x10801d7 (android:drawable/btn_star_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.835 W/Resources( 1551): Preloaded drawable resource #0x10801cb (android:drawable/btn_star_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.835 W/Resources( 1551): Preloaded drawable resource #0x10801cd (android:drawable/btn_star_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.835 W/Resources( 1551): Preloaded drawable resource #0x10801d1 (android:drawable/btn_star_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.835 W/Resources( 1551): Preloaded drawable resource #0x10801db (android:drawable/btn_star_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.835 W/Resources( 1551): Preloaded drawable resource #0x10801c8 (android:drawable/btn_star_holo_light) that varies with configuration!!
+01-01 14:13:32.850 W/Resources( 1551): Preloaded drawable resource #0x10801d0 (android:drawable/btn_star_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.855 W/Resources( 1551): Preloaded drawable resource #0x10801da (android:drawable/btn_star_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.855 W/Resources( 1551): Preloaded drawable resource #0x10801d6 (android:drawable/btn_star_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.855 W/Resources( 1551): Preloaded drawable resource #0x10801cc (android:drawable/btn_star_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.855 W/Resources( 1551): Preloaded drawable resource #0x10801dc (android:drawable/btn_star_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.860 W/Resources( 1551): Preloaded drawable resource #0x10801d2 (android:drawable/btn_star_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.860 W/Resources( 1551): Preloaded drawable resource #0x10801d8 (android:drawable/btn_star_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.860 W/Resources( 1551): Preloaded drawable resource #0x10801ce (android:drawable/btn_star_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.865 W/Resources( 1551): Preloaded drawable resource #0x10801d4 (android:drawable/btn_star_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.875 W/Resources( 1551): Preloaded drawable resource #0x10801ca (android:drawable/btn_star_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.880 W/Resources( 1551): Preloaded drawable resource #0x10801d0 (android:drawable/btn_star_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.880 W/Resources( 1551): Preloaded drawable resource #0x10801da (android:drawable/btn_star_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.880 W/Resources( 1551): Preloaded drawable resource #0x10801d6 (android:drawable/btn_star_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.880 W/Resources( 1551): Preloaded drawable resource #0x10801cc (android:drawable/btn_star_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.885 W/Resources( 1551): Preloaded drawable resource #0x10801dc (android:drawable/btn_star_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.885 W/Resources( 1551): Preloaded drawable resource #0x10801d2 (android:drawable/btn_star_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.885 W/Resources( 1551): Preloaded drawable resource #0x10801d8 (android:drawable/btn_star_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.890 W/Resources( 1551): Preloaded drawable resource #0x10801ce (android:drawable/btn_star_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.890 W/Resources( 1551): Preloaded drawable resource #0x10801d4 (android:drawable/btn_star_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.890 W/Resources( 1551): Preloaded drawable resource #0x10801d6 (android:drawable/btn_star_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.890 W/Resources( 1551): Preloaded drawable resource #0x10801ca (android:drawable/btn_star_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.895 W/Resources( 1551): Preloaded drawable resource #0x10801cc (android:drawable/btn_star_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.895 W/Resources( 1551): Preloaded drawable resource #0x10801d0 (android:drawable/btn_star_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.895 W/Resources( 1551): Preloaded drawable resource #0x10801da (android:drawable/btn_star_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.895 W/Resources( 1551): Preloaded drawable resource #0x10801c7 (android:drawable/btn_star_holo_dark) that varies with configuration!!
+01-01 14:13:32.910 W/Resources( 1551): Preloaded drawable resource #0x10801f7 (android:drawable/btn_toggle_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.910 W/Resources( 1551): Preloaded drawable resource #0x10801f6 (android:drawable/btn_toggle_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.910 W/Resources( 1551): Preloaded drawable resource #0x10801f5 (android:drawable/btn_toggle_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.915 W/Resources( 1551): Preloaded drawable resource #0x10801f4 (android:drawable/btn_toggle_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.915 W/Resources( 1551): Preloaded drawable resource #0x10801f3 (android:drawable/btn_toggle_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.915 W/Resources( 1551): Preloaded drawable resource #0x10801f2 (android:drawable/btn_toggle_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.915 W/Resources( 1551): Preloaded drawable resource #0x10801f1 (android:drawable/btn_toggle_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.920 W/Resources( 1551): Preloaded drawable resource #0x10801f0 (android:drawable/btn_toggle_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.920 W/Resources( 1551): Preloaded drawable resource #0x10801ef (android:drawable/btn_toggle_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.920 W/Resources( 1551): Preloaded drawable resource #0x10801ee (android:drawable/btn_toggle_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.935 W/Resources( 1551): Preloaded drawable resource #0x10801ec (android:drawable/btn_toggle_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.935 W/Resources( 1551): Preloaded drawable resource #0x10801eb (android:drawable/btn_toggle_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.935 W/Resources( 1551): Preloaded drawable resource #0x10801ea (android:drawable/btn_toggle_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.935 W/Resources( 1551): Preloaded drawable resource #0x10801e9 (android:drawable/btn_toggle_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.940 W/Resources( 1551): Preloaded drawable resource #0x10801e8 (android:drawable/btn_toggle_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.940 W/Resources( 1551): Preloaded drawable resource #0x10801e7 (android:drawable/btn_toggle_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.940 W/Resources( 1551): Preloaded drawable resource #0x10801e6 (android:drawable/btn_toggle_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.940 W/Resources( 1551): Preloaded drawable resource #0x10801e5 (android:drawable/btn_toggle_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.940 W/Resources( 1551): Preloaded drawable resource #0x10801e4 (android:drawable/btn_toggle_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.945 W/Resources( 1551): Preloaded drawable resource #0x10801e3 (android:drawable/btn_toggle_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.955 W/Resources( 1551): Preloaded drawable resource #0x10801f5 (android:drawable/btn_toggle_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.960 W/Resources( 1551): Preloaded drawable resource #0x10801f1 (android:drawable/btn_toggle_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.960 W/Resources( 1551): Preloaded drawable resource #0x10801f7 (android:drawable/btn_toggle_on_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.960 W/Resources( 1551): Preloaded drawable resource #0x10801f3 (android:drawable/btn_toggle_on_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.960 W/Resources( 1551): Preloaded drawable resource #0x10801f5 (android:drawable/btn_toggle_on_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.965 W/Resources( 1551): Preloaded drawable resource #0x10801ef (android:drawable/btn_toggle_on_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.965 W/Resources( 1551): Preloaded drawable resource #0x10801f1 (android:drawable/btn_toggle_on_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.965 W/Resources( 1551): Preloaded drawable resource #0x10801ea (android:drawable/btn_toggle_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.965 W/Resources( 1551): Preloaded drawable resource #0x10801e6 (android:drawable/btn_toggle_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.965 W/Resources( 1551): Preloaded drawable resource #0x10801ec (android:drawable/btn_toggle_off_pressed_holo_light) that varies with configuration!!
+01-01 14:13:32.970 W/Resources( 1551): Preloaded drawable resource #0x10801e8 (android:drawable/btn_toggle_off_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.970 W/Resources( 1551): Preloaded drawable resource #0x10801ea (android:drawable/btn_toggle_off_normal_holo_light) that varies with configuration!!
+01-01 14:13:32.970 W/Resources( 1551): Preloaded drawable resource #0x10801e4 (android:drawable/btn_toggle_off_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:32.970 W/Resources( 1551): Preloaded drawable resource #0x10801e6 (android:drawable/btn_toggle_off_disabled_holo_light) that varies with configuration!!
+01-01 14:13:32.970 W/Resources( 1551): Preloaded drawable resource #0x10801e1 (android:drawable/btn_toggle_holo_light) that varies with configuration!!
+01-01 14:13:32.985 W/Resources( 1551): Preloaded drawable resource #0x10801f4 (android:drawable/btn_toggle_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.985 W/Resources( 1551): Preloaded drawable resource #0x10801f0 (android:drawable/btn_toggle_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.990 W/Resources( 1551): Preloaded drawable resource #0x10801f6 (android:drawable/btn_toggle_on_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.990 W/Resources( 1551): Preloaded drawable resource #0x10801f2 (android:drawable/btn_toggle_on_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.990 W/Resources( 1551): Preloaded drawable resource #0x10801f4 (android:drawable/btn_toggle_on_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.990 W/Resources( 1551): Preloaded drawable resource #0x10801ee (android:drawable/btn_toggle_on_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:32.990 W/Resources( 1551): Preloaded drawable resource #0x10801f0 (android:drawable/btn_toggle_on_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.995 W/Resources( 1551): Preloaded drawable resource #0x10801e9 (android:drawable/btn_toggle_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:32.995 W/Resources( 1551): Preloaded drawable resource #0x10801e5 (android:drawable/btn_toggle_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:32.995 W/Resources( 1551): Preloaded drawable resource #0x10801eb (android:drawable/btn_toggle_off_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:32.995 W/Resources( 1551): Preloaded drawable resource #0x10801e7 (android:drawable/btn_toggle_off_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.000 W/Resources( 1551): Preloaded drawable resource #0x10801e9 (android:drawable/btn_toggle_off_normal_holo_dark) that varies with configuration!!
+01-01 14:13:33.000 W/Resources( 1551): Preloaded drawable resource #0x10801e3 (android:drawable/btn_toggle_off_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.000 W/Resources( 1551): Preloaded drawable resource #0x10801e5 (android:drawable/btn_toggle_off_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:33.000 W/Resources( 1551): Preloaded drawable resource #0x10801e0 (android:drawable/btn_toggle_holo_dark) that varies with configuration!!
+01-01 14:13:33.015 W/Resources( 1551): Preloaded drawable resource #0x108064c (android:drawable/textfield_multiline_default_holo_light) that varies with configuration!!
+01-01 14:13:33.015 W/Resources( 1551): Preloaded drawable resource #0x1080650 (android:drawable/textfield_multiline_disabled_holo_light) that varies with configuration!!
+01-01 14:13:33.015 W/Resources( 1551): Preloaded drawable resource #0x108064a (android:drawable/textfield_multiline_activated_holo_light) that varies with configuration!!
+01-01 14:13:33.020 W/Resources( 1551): Preloaded drawable resource #0x1080652 (android:drawable/textfield_multiline_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.020 W/Resources( 1551): Preloaded drawable resource #0x108064c (android:drawable/textfield_multiline_default_holo_light) that varies with configuration!!
+01-01 14:13:33.020 W/Resources( 1551): Preloaded drawable resource #0x108064e (android:drawable/textfield_multiline_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.020 W/Resources( 1551): Preloaded drawable resource #0x1080650 (android:drawable/textfield_multiline_disabled_holo_light) that varies with configuration!!
+01-01 14:13:33.020 W/Resources( 1551): Preloaded drawable resource #0x108063f (android:drawable/textfield_default_holo_light) that varies with configuration!!
+01-01 14:13:33.025 W/Resources( 1551): Preloaded drawable resource #0x1080644 (android:drawable/textfield_disabled_holo_light) that varies with configuration!!
+01-01 14:13:33.025 W/Resources( 1551): Preloaded drawable resource #0x1080637 (android:drawable/textfield_activated_holo_light) that varies with configuration!!
+01-01 14:13:33.025 W/Resources( 1551): Preloaded drawable resource #0x1080647 (android:drawable/textfield_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.025 W/Resources( 1551): Preloaded drawable resource #0x108063f (android:drawable/textfield_default_holo_light) that varies with configuration!!
+01-01 14:13:33.025 W/Resources( 1551): Preloaded drawable resource #0x1080642 (android:drawable/textfield_disabled_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.030 W/Resources( 1551): Preloaded drawable resource #0x1080644 (android:drawable/textfield_disabled_holo_light) that varies with configuration!!
+01-01 14:13:33.030 W/Resources( 1551): Preloaded drawable resource #0x1080258 (android:drawable/edit_text_holo_light) that varies with configuration!!
+01-01 14:13:33.040 W/Resources( 1551): Preloaded drawable resource #0x108064b (android:drawable/textfield_multiline_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.045 W/Resources( 1551): Preloaded drawable resource #0x108064f (android:drawable/textfield_multiline_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:33.045 W/Resources( 1551): Preloaded drawable resource #0x1080649 (android:drawable/textfield_multiline_activated_holo_dark) that varies with configuration!!
+01-01 14:13:33.045 W/Resources( 1551): Preloaded drawable resource #0x1080651 (android:drawable/textfield_multiline_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.045 W/Resources( 1551): Preloaded drawable resource #0x108064b (android:drawable/textfield_multiline_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.045 W/Resources( 1551): Preloaded drawable resource #0x108064d (android:drawable/textfield_multiline_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.050 W/Resources( 1551): Preloaded drawable resource #0x108064f (android:drawable/textfield_multiline_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:33.050 W/Resources( 1551): Preloaded drawable resource #0x108063e (android:drawable/textfield_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.050 W/Resources( 1551): Preloaded drawable resource #0x1080643 (android:drawable/textfield_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:33.050 W/Resources( 1551): Preloaded drawable resource #0x1080636 (android:drawable/textfield_activated_holo_dark) that varies with configuration!!
+01-01 14:13:33.050 W/Resources( 1551): Preloaded drawable resource #0x1080646 (android:drawable/textfield_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.055 W/Resources( 1551): Preloaded drawable resource #0x108063e (android:drawable/textfield_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.055 W/Resources( 1551): Preloaded drawable resource #0x1080641 (android:drawable/textfield_disabled_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.055 W/Resources( 1551): Preloaded drawable resource #0x1080643 (android:drawable/textfield_disabled_holo_dark) that varies with configuration!!
+01-01 14:13:33.055 W/Resources( 1551): Preloaded drawable resource #0x1080257 (android:drawable/edit_text_holo_dark) that varies with configuration!!
+01-01 14:13:33.075 W/Resources( 1551): Preloaded drawable resource #0x1080633 (android:drawable/text_select_handle_left) that varies with configuration!!
+01-01 14:13:33.075 W/Resources( 1551): Preloaded drawable resource #0x1080635 (android:drawable/text_select_handle_right) that varies with configuration!!
+01-01 14:13:33.080 W/Resources( 1551): Preloaded drawable resource #0x1080630 (android:drawable/text_edit_paste_window) that varies with configuration!!
+01-01 14:13:33.080 W/Resources( 1551): Preloaded drawable resource #0x108026d (android:drawable/expander_close_holo_dark) that varies with configuration!!
+01-01 14:13:33.080 W/Resources( 1551): Preloaded drawable resource #0x108026e (android:drawable/expander_close_holo_light) that varies with configuration!!
+01-01 14:13:33.080 W/Resources( 1551): Preloaded drawable resource #0x108026d (android:drawable/expander_close_holo_dark) that varies with configuration!!
+01-01 14:13:33.085 W/Resources( 1551): Preloaded drawable resource #0x1080274 (android:drawable/expander_open_holo_dark) that varies with configuration!!
+01-01 14:13:33.085 W/Resources( 1551): Preloaded drawable resource #0x1080270 (android:drawable/expander_group_holo_dark) that varies with configuration!!
+01-01 14:13:33.095 W/Resources( 1551): Preloaded drawable resource #0x108026e (android:drawable/expander_close_holo_light) that varies with configuration!!
+01-01 14:13:33.100 W/Resources( 1551): Preloaded drawable resource #0x1080275 (android:drawable/expander_open_holo_light) that varies with configuration!!
+01-01 14:13:33.100 W/Resources( 1551): Preloaded drawable resource #0x1080271 (android:drawable/expander_group_holo_light) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x10803fe (android:drawable/list_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x10803fc (android:drawable/list_longpressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x108041a (android:drawable/list_selector_background_transition_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x10803fe (android:drawable/list_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x10803fc (android:drawable/list_longpressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x108041a (android:drawable/list_selector_background_transition_holo_dark) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x10803f7 (android:drawable/list_focused_holo) that varies with configuration!!
+01-01 14:13:33.105 W/Resources( 1551): Preloaded drawable resource #0x1080421 (android:drawable/list_selector_holo_dark) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x10803ff (android:drawable/list_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x10803fd (android:drawable/list_longpressed_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x108041b (android:drawable/list_selector_background_transition_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x10803ff (android:drawable/list_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x10803fd (android:drawable/list_longpressed_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x108041b (android:drawable/list_selector_background_transition_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x10803f7 (android:drawable/list_focused_holo) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x1080422 (android:drawable/list_selector_holo_light) that varies with configuration!!
+01-01 14:13:33.110 W/Resources( 1551): Preloaded drawable resource #0x1080401 (android:drawable/list_section_divider_holo_light) that varies with configuration!!
+01-01 14:13:33.125 W/Resources( 1551): Preloaded drawable resource #0x1080400 (android:drawable/list_section_divider_holo_dark) that varies with configuration!!
+01-01 14:13:33.125 W/Resources( 1551): Preloaded drawable resource #0x1080432 (android:drawable/menu_hardkey_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.130 W/Resources( 1551): Preloaded drawable resource #0x1080433 (android:drawable/menu_hardkey_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.130 W/Resources( 1551): Preloaded drawable resource #0x1080431 (android:drawable/menu_dropdown_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.135 W/Resources( 1551): Preloaded drawable resource #0x1080430 (android:drawable/menu_dropdown_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.135 W/Resources( 1551): Preloaded drawable resource #0x1080437 (android:drawable/menu_popup_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.150 W/Resources( 1551): Preloaded drawable resource #0x1080436 (android:drawable/menu_popup_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.155 W/Resources( 1551): Preloaded drawable resource #0x1080437 (android:drawable/menu_popup_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.155 W/Resources( 1551): Preloaded drawable resource #0x1080431 (android:drawable/menu_dropdown_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.155 W/Resources( 1551): Preloaded drawable resource #0x1080435 (android:drawable/menu_panel_holo_light) that varies with configuration!!
+01-01 14:13:33.160 W/Resources( 1551): Preloaded drawable resource #0x1080436 (android:drawable/menu_popup_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.160 W/Resources( 1551): Preloaded drawable resource #0x1080430 (android:drawable/menu_dropdown_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.160 W/Resources( 1551): Preloaded drawable resource #0x1080434 (android:drawable/menu_panel_holo_dark) that varies with configuration!!
+01-01 14:13:33.175 W/Resources( 1551): Preloaded drawable resource #0x108047c (android:drawable/overscroll_edge) that varies with configuration!!
+01-01 14:13:33.200 W/Resources( 1551): Preloaded drawable resource #0x108047d (android:drawable/overscroll_glow) that varies with configuration!!
+01-01 14:13:33.215 W/Resources( 1551): Preloaded drawable resource #0x1080545 (android:drawable/spinner_16_outer_holo) that varies with configuration!!
+01-01 14:13:33.215 W/Resources( 1551): Preloaded drawable resource #0x1080544 (android:drawable/spinner_16_inner_holo) that varies with configuration!!
+01-01 14:13:33.215 W/Resources( 1551): Preloaded drawable resource #0x1080549 (android:drawable/spinner_48_outer_holo) that varies with configuration!!
+01-01 14:13:33.220 W/Resources( 1551): Preloaded drawable resource #0x1080548 (android:drawable/spinner_48_inner_holo) that varies with configuration!!
+01-01 14:13:33.220 W/Resources( 1551): Preloaded drawable resource #0x108054b (android:drawable/spinner_76_outer_holo) that varies with configuration!!
+01-01 14:13:33.235 W/Resources( 1551): Preloaded drawable resource #0x108054a (android:drawable/spinner_76_inner_holo) that varies with configuration!!
+01-01 14:13:33.240 W/Resources( 1551): Preloaded drawable resource #0x10804c5 (android:drawable/progress_bg_holo_dark) that varies with configuration!!
+01-01 14:13:33.240 W/Resources( 1551): Preloaded drawable resource #0x10804c6 (android:drawable/progress_bg_holo_light) that varies with configuration!!
+01-01 14:13:33.240 W/Resources( 1551): Preloaded drawable resource #0x10804c5 (android:drawable/progress_bg_holo_dark) that varies with configuration!!
+01-01 14:13:33.240 W/Resources( 1551): Preloaded drawable resource #0x10804d2 (android:drawable/progress_secondary_holo_dark) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804d0 (android:drawable/progress_primary_holo_dark) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804c7 (android:drawable/progress_horizontal_holo_dark) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804c6 (android:drawable/progress_bg_holo_light) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804d3 (android:drawable/progress_secondary_holo_light) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804d1 (android:drawable/progress_primary_holo_light) that varies with configuration!!
+01-01 14:13:33.245 W/Resources( 1551): Preloaded drawable resource #0x10804c8 (android:drawable/progress_horizontal_holo_light) that varies with configuration!!
+01-01 14:13:33.250 W/Resources( 1551): Preloaded drawable resource #0x10804db (android:drawable/progressbar_indeterminate_holo1) that varies with configuration!!
+01-01 14:13:33.250 W/Resources( 1551): Preloaded drawable resource #0x10804dc (android:drawable/progressbar_indeterminate_holo2) that varies with configuration!!
+01-01 14:13:33.255 W/Resources( 1551): Preloaded drawable resource #0x10804dd (android:drawable/progressbar_indeterminate_holo3) that varies with configuration!!
+01-01 14:13:33.255 W/Resources( 1551): Preloaded drawable resource #0x10804de (android:drawable/progressbar_indeterminate_holo4) that varies with configuration!!
+01-01 14:13:33.255 W/Resources( 1551): Preloaded drawable resource #0x10804df (android:drawable/progressbar_indeterminate_holo5) that varies with configuration!!
+01-01 14:13:33.260 W/Resources( 1551): Preloaded drawable resource #0x10804e0 (android:drawable/progressbar_indeterminate_holo6) that varies with configuration!!
+01-01 14:13:33.260 W/Resources( 1551): Preloaded drawable resource #0x10804e1 (android:drawable/progressbar_indeterminate_holo7) that varies with configuration!!
+01-01 14:13:33.265 W/Resources( 1551): Preloaded drawable resource #0x10804e2 (android:drawable/progressbar_indeterminate_holo8) that varies with configuration!!
+01-01 14:13:33.265 W/Resources( 1551): Preloaded drawable resource #0x10804c9 (android:drawable/progress_indeterminate_horizontal_holo) that varies with configuration!!
+01-01 14:13:33.280 W/Resources( 1551): Preloaded drawable resource #0x108054b (android:drawable/spinner_76_outer_holo) that varies with configuration!!
+01-01 14:13:33.285 W/Resources( 1551): Preloaded drawable resource #0x108054a (android:drawable/spinner_76_inner_holo) that varies with configuration!!
+01-01 14:13:33.285 W/Resources( 1551): Preloaded drawable resource #0x10804cb (android:drawable/progress_large_holo) that varies with configuration!!
+01-01 14:13:33.295 W/Resources( 1551): Preloaded drawable resource #0x1080549 (android:drawable/spinner_48_outer_holo) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x1080548 (android:drawable/spinner_48_inner_holo) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x10804ce (android:drawable/progress_medium_holo) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x10804d0 (android:drawable/progress_primary_holo_dark) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x10804d1 (android:drawable/progress_primary_holo_light) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x10804d2 (android:drawable/progress_secondary_holo_dark) that varies with configuration!!
+01-01 14:13:33.300 W/Resources( 1551): Preloaded drawable resource #0x10804d3 (android:drawable/progress_secondary_holo_light) that varies with configuration!!
+01-01 14:13:33.305 W/Resources( 1551): Preloaded drawable resource #0x1080545 (android:drawable/spinner_16_outer_holo) that varies with configuration!!
+01-01 14:13:33.305 W/Resources( 1551): Preloaded drawable resource #0x1080544 (android:drawable/spinner_16_inner_holo) that varies with configuration!!
+01-01 14:13:33.305 W/Resources( 1551): Preloaded drawable resource #0x10804d5 (android:drawable/progress_small_holo) that varies with configuration!!
+01-01 14:13:33.310 W/Resources( 1551): Preloaded drawable resource #0x1080535 (android:drawable/scrubber_track_holo_dark) that varies with configuration!!
+01-01 14:13:33.310 W/Resources( 1551): Preloaded drawable resource #0x1080534 (android:drawable/scrubber_secondary_holo) that varies with configuration!!
+01-01 14:13:33.310 W/Resources( 1551): Preloaded drawable resource #0x1080531 (android:drawable/scrubber_primary_holo) that varies with configuration!!
+01-01 14:13:33.310 W/Resources( 1551): Preloaded drawable resource #0x1080532 (android:drawable/scrubber_progress_horizontal_holo_dark) that varies with configuration!!
+01-01 14:13:33.315 W/Resources( 1551): Preloaded drawable resource #0x1080536 (android:drawable/scrubber_track_holo_light) that varies with configuration!!
+01-01 14:13:33.315 W/Resources( 1551): Preloaded drawable resource #0x1080534 (android:drawable/scrubber_secondary_holo) that varies with configuration!!
+01-01 14:13:33.315 W/Resources( 1551): Preloaded drawable resource #0x1080531 (android:drawable/scrubber_primary_holo) that varies with configuration!!
+01-01 14:13:33.315 W/Resources( 1551): Preloaded drawable resource #0x1080533 (android:drawable/scrubber_progress_horizontal_holo_light) that varies with configuration!!
+01-01 14:13:33.330 W/Resources( 1551): Preloaded drawable resource #0x1080528 (android:drawable/scrollbar_handle_holo_dark) that varies with configuration!!
+01-01 14:13:33.330 W/Resources( 1551): Preloaded drawable resource #0x1080529 (android:drawable/scrollbar_handle_holo_light) that varies with configuration!!
+01-01 14:13:33.365 W/Resources( 1551): Preloaded drawable resource #0x1080208 (android:drawable/cab_background_bottom_holo_dark) that varies with configuration!!
+01-01 14:13:33.370 W/Resources( 1551): Preloaded drawable resource #0x108020b (android:drawable/cab_background_top_holo_light) that varies with configuration!!
+01-01 14:13:33.370 W/Resources( 1551): Preloaded drawable resource #0x1080209 (android:drawable/cab_background_bottom_holo_light) that varies with configuration!!
+01-01 14:13:33.370 W/Resources( 1551): Preloaded drawable resource #0x10802bc (android:drawable/ic_cab_done_holo_dark) that varies with configuration!!
+01-01 14:13:33.385 W/Resources( 1551): Preloaded drawable resource #0x108020a (android:drawable/cab_background_top_holo_dark) that varies with configuration!!
+01-01 14:13:33.385 W/Resources( 1551): Preloaded drawable resource #0x10802bd (android:drawable/ic_cab_done_holo_light) that varies with configuration!!
+01-01 14:13:33.385 W/Resources( 1551): Preloaded drawable resource #0x10800d0 (android:drawable/btn_cab_done_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d3 (android:drawable/btn_cab_done_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d1 (android:drawable/btn_cab_done_default_holo_light) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d6 (android:drawable/btn_cab_done_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d2 (android:drawable/btn_cab_done_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d7 (android:drawable/btn_cab_done_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10803ff (android:drawable/list_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.390 W/Resources( 1551): Preloaded drawable resource #0x10800d3 (android:drawable/btn_cab_done_focused_holo_light) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10800d1 (android:drawable/btn_cab_done_default_holo_light) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10800d5 (android:drawable/btn_cab_done_holo_light) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10803fe (android:drawable/list_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10800d2 (android:drawable/btn_cab_done_focused_holo_dark) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10800d0 (android:drawable/btn_cab_done_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.395 W/Resources( 1551): Preloaded drawable resource #0x10800d4 (android:drawable/btn_cab_done_holo_dark) that varies with configuration!!
+01-01 14:13:33.400 W/Resources( 1551): Preloaded drawable resource #0x108033e (android:drawable/ic_menu_copy_holo_dark) that varies with configuration!!
+01-01 14:13:33.400 W/Resources( 1551): Preloaded drawable resource #0x108033f (android:drawable/ic_menu_copy_holo_light) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080341 (android:drawable/ic_menu_cut_holo_dark) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080342 (android:drawable/ic_menu_cut_holo_light) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080045 (android:drawable/ic_menu_more) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080355 (android:drawable/ic_menu_moreoverflow_normal_holo_dark) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080353 (android:drawable/ic_menu_moreoverflow_holo_dark) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080356 (android:drawable/ic_menu_moreoverflow_normal_holo_light) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080354 (android:drawable/ic_menu_moreoverflow_holo_light) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x1080359 (android:drawable/ic_menu_paste_holo_dark) that varies with configuration!!
+01-01 14:13:33.420 W/Resources( 1551): Preloaded drawable resource #0x108035a (android:drawable/ic_menu_paste_holo_light) that varies with configuration!!
+01-01 14:13:33.425 W/Resources( 1551): Preloaded drawable resource #0x1080360 (android:drawable/ic_menu_selectall_holo_light) that varies with configuration!!
+01-01 14:13:33.435 W/Resources( 1551): Preloaded drawable resource #0x108035f (android:drawable/ic_menu_selectall_holo_dark) that varies with configuration!!
+01-01 14:13:33.450 W/Resources( 1551): Preloaded drawable resource #0x1080221 (android:drawable/dialog_bottom_holo_dark) that varies with configuration!!
+01-01 14:13:33.450 W/Resources( 1551): Preloaded drawable resource #0x1080222 (android:drawable/dialog_bottom_holo_light) that varies with configuration!!
+01-01 14:13:33.465 W/Resources( 1551): Preloaded drawable resource #0x1080226 (android:drawable/dialog_full_holo_dark) that varies with configuration!!
+01-01 14:13:33.470 W/Resources( 1551): Preloaded drawable resource #0x1080227 (android:drawable/dialog_full_holo_light) that varies with configuration!!
+01-01 14:13:33.470 W/Resources( 1551): Preloaded drawable resource #0x108022f (android:drawable/dialog_middle_holo_dark) that varies with configuration!!
+01-01 14:13:33.470 W/Resources( 1551): Preloaded drawable resource #0x1080230 (android:drawable/dialog_middle_holo_light) that varies with configuration!!
+01-01 14:13:33.475 W/Resources( 1551): Preloaded drawable resource #0x1080231 (android:drawable/dialog_top_holo_dark) that varies with configuration!!
+01-01 14:13:33.490 W/Resources( 1551): Preloaded drawable resource #0x1080232 (android:drawable/dialog_top_holo_light) that varies with configuration!!
+01-01 14:13:33.490 W/Resources( 1551): Preloaded drawable resource #0x10802d1 (android:drawable/ic_dialog_alert_holo_dark) that varies with configuration!!
+01-01 14:13:33.490 W/Resources( 1551): Preloaded drawable resource #0x10802d2 (android:drawable/ic_dialog_alert_holo_light) that varies with configuration!!
+01-01 14:13:33.490 W/Resources( 1551): Preloaded drawable resource #0x10803f4 (android:drawable/list_divider_holo_dark) that varies with configuration!!
+01-01 14:13:33.495 W/Resources( 1551): Preloaded drawable resource #0x10803f5 (android:drawable/list_divider_holo_light) that varies with configuration!!
+01-01 14:13:33.495 W/Resources( 1551): Preloaded drawable resource #0x10803f5 (android:drawable/list_divider_holo_light) that varies with configuration!!
+01-01 14:13:33.495 W/Resources( 1551): Preloaded drawable resource #0x10800bd (android:drawable/ab_transparent_dark_holo) that varies with configuration!!
+01-01 14:13:33.495 W/Resources( 1551): Preloaded drawable resource #0x10800bb (android:drawable/ab_stacked_transparent_dark_holo) that varies with configuration!!
+01-01 14:13:33.495 W/Resources( 1551): Preloaded drawable resource #0x10800a1 (android:drawable/ab_bottom_transparent_dark_holo) that varies with configuration!!
+01-01 14:13:33.500 W/Resources( 1551): Preloaded drawable resource #0x10800b5 (android:drawable/ab_solid_dark_holo) that varies with configuration!!
+01-01 14:13:33.500 W/Resources( 1551): Preloaded drawable resource #0x10800b8 (android:drawable/ab_stacked_solid_dark_holo) that varies with configuration!!
+01-01 14:13:33.500 W/Resources( 1551): Preloaded drawable resource #0x108009e (android:drawable/ab_bottom_solid_dark_holo) that varies with configuration!!
+01-01 14:13:33.515 W/Resources( 1551): Preloaded drawable resource #0x10800be (android:drawable/ab_transparent_light_holo) that varies with configuration!!
+01-01 14:13:33.515 W/Resources( 1551): Preloaded drawable resource #0x10800bc (android:drawable/ab_stacked_transparent_light_holo) that varies with configuration!!
+01-01 14:13:33.515 W/Resources( 1551): Preloaded drawable resource #0x10800a2 (android:drawable/ab_bottom_transparent_light_holo) that varies with configuration!!
+01-01 14:13:33.515 W/Resources( 1551): Preloaded drawable resource #0x10800b6 (android:drawable/ab_solid_light_holo) that varies with configuration!!
+01-01 14:13:33.515 W/Resources( 1551): Preloaded drawable resource #0x10800ba (android:drawable/ab_stacked_solid_light_holo) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10800a0 (android:drawable/ab_bottom_solid_light_holo) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10800b7 (android:drawable/ab_solid_shadow_holo) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10803fe (android:drawable/list_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10803fc (android:drawable/list_longpressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x108041a (android:drawable/list_selector_background_transition_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10803fe (android:drawable/list_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10803fc (android:drawable/list_longpressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x108041a (android:drawable/list_selector_background_transition_holo_dark) that varies with configuration!!
+01-01 14:13:33.520 W/Resources( 1551): Preloaded drawable resource #0x10803f7 (android:drawable/list_focused_holo) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803b3 (android:drawable/item_background_holo_dark) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803ff (android:drawable/list_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803fd (android:drawable/list_longpressed_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x108041b (android:drawable/list_selector_background_transition_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803ff (android:drawable/list_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803fd (android:drawable/list_longpressed_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x108041b (android:drawable/list_selector_background_transition_holo_light) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803f7 (android:drawable/list_focused_holo) that varies with configuration!!
+01-01 14:13:33.525 W/Resources( 1551): Preloaded drawable resource #0x10803b4 (android:drawable/item_background_holo_light) that varies with configuration!!
+01-01 14:13:33.540 W/Resources( 1551): Preloaded drawable resource #0x108027c (android:drawable/fastscroll_thumb_pressed_holo) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027a (android:drawable/fastscroll_thumb_default_holo) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027b (android:drawable/fastscroll_thumb_holo) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027c (android:drawable/fastscroll_thumb_pressed_holo) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027a (android:drawable/fastscroll_thumb_default_holo) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x1080281 (android:drawable/fastscroll_track_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027d (android:drawable/fastscroll_track_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.545 W/Resources( 1551): Preloaded drawable resource #0x108027f (android:drawable/fastscroll_track_holo_dark) that varies with configuration!!
+01-01 14:13:33.550 W/Resources( 1551): Preloaded drawable resource #0x1080281 (android:drawable/fastscroll_track_pressed_holo_dark) that varies with configuration!!
+01-01 14:13:33.550 W/Resources( 1551): Preloaded drawable resource #0x108027d (android:drawable/fastscroll_track_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.550 W/Resources( 1551): Preloaded drawable resource #0x1080276 (android:drawable/fastscroll_label_left_holo_dark) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x1080278 (android:drawable/fastscroll_label_right_holo_dark) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x1080282 (android:drawable/fastscroll_track_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x108027e (android:drawable/fastscroll_track_default_holo_light) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x1080280 (android:drawable/fastscroll_track_holo_light) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x1080282 (android:drawable/fastscroll_track_pressed_holo_light) that varies with configuration!!
+01-01 14:13:33.570 W/Resources( 1551): Preloaded drawable resource #0x108027e (android:drawable/fastscroll_track_default_holo_light) that varies with configuration!!
+01-01 14:13:33.575 W/Resources( 1551): Preloaded drawable resource #0x1080277 (android:drawable/fastscroll_label_left_holo_light) that varies with configuration!!
+01-01 14:13:33.590 W/Resources( 1551): Preloaded drawable resource #0x1080279 (android:drawable/fastscroll_label_right_holo_light) that varies with configuration!!
+01-01 14:13:33.590 W/Resources( 1551): Preloaded drawable resource #0x1080662 (android:drawable/textfield_search_selected_holo_dark) that varies with configuration!!
+01-01 14:13:33.590 W/Resources( 1551): Preloaded drawable resource #0x1080656 (android:drawable/textfield_search_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.590 W/Resources( 1551): Preloaded drawable resource #0x1080664 (android:drawable/textfield_searchview_holo_dark) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x108065f (android:drawable/textfield_search_right_selected_holo_dark) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x108065d (android:drawable/textfield_search_right_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x1080666 (android:drawable/textfield_searchview_right_holo_dark) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x1080663 (android:drawable/textfield_search_selected_holo_light) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x1080657 (android:drawable/textfield_search_default_holo_light) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x1080665 (android:drawable/textfield_searchview_holo_light) that varies with configuration!!
+01-01 14:13:33.595 W/Resources( 1551): Preloaded drawable resource #0x1080660 (android:drawable/textfield_search_right_selected_holo_light) that varies with configuration!!
+01-01 14:13:33.600 W/Resources( 1551): Preloaded drawable resource #0x108065e (android:drawable/textfield_search_right_default_holo_light) that varies with configuration!!
+01-01 14:13:33.600 W/Resources( 1551): Preloaded drawable resource #0x1080667 (android:drawable/textfield_searchview_right_holo_light) that varies with configuration!!
+01-01 14:13:33.610 W/Resources( 1551): Preloaded drawable resource #0x1080662 (android:drawable/textfield_search_selected_holo_dark) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x1080656 (android:drawable/textfield_search_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x108065f (android:drawable/textfield_search_right_selected_holo_dark) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x108065d (android:drawable/textfield_search_right_default_holo_dark) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x1080663 (android:drawable/textfield_search_selected_holo_light) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x1080657 (android:drawable/textfield_search_default_holo_light) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x1080660 (android:drawable/textfield_search_right_selected_holo_light) that varies with configuration!!
+01-01 14:13:33.615 W/Resources( 1551): Preloaded drawable resource #0x108065e (android:drawable/textfield_search_right_default_holo_light) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x108062b (android:drawable/tab_unselected_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x1080626 (android:drawable/tab_selected_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x108062a (android:drawable/tab_unselected_focused_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x1080625 (android:drawable/tab_selected_focused_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x108062c (android:drawable/tab_unselected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x1080627 (android:drawable/tab_selected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x108062c (android:drawable/tab_unselected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x1080627 (android:drawable/tab_selected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.620 W/Resources( 1551): Preloaded drawable resource #0x108061a (android:drawable/tab_indicator_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x108062b (android:drawable/tab_unselected_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x1080626 (android:drawable/tab_selected_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x108062a (android:drawable/tab_unselected_focused_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x1080625 (android:drawable/tab_selected_focused_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x108062c (android:drawable/tab_unselected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.625 W/Resources( 1551): Preloaded drawable resource #0x1080627 (android:drawable/tab_selected_pressed_holo) that varies with configuration!!
+01-01 14:13:33.645 I/Zygote  ( 1551): ...preloaded 274 resources in 1078ms.
+01-01 14:13:33.655 I/Zygote  ( 1551): ...preloaded 31 resources in 8ms.
+01-01 14:13:33.665 D/libEGL  ( 1551): loaded /vendor/lib/egl/libGLES_mali.so
+01-01 14:13:33.725 I/dalvikvm( 1551): System server process 1982 has been created
+01-01 14:13:33.725 I/Zygote  ( 1551): Accepting command socket connections
+01-01 14:13:33.780 D/SensorService( 1982): nuSensorService starting...
+01-01 14:13:33.780 E/SensorService( 1982): couldn't load sensors module (No such file or directory)
+01-01 14:13:33.780 I/installd( 1554): new connection
+01-01 14:13:33.780 I/SystemServer( 1982): Entered the Android system server!
+01-01 14:13:33.780 I/SystemServer( 1982): Waiting for installd to be ready.
+01-01 14:13:33.780 I/Installer( 1982): connecting...
+01-01 14:13:33.780 I/SystemServer( 1982): Power Manager
+01-01 14:13:33.785 I/SystemServer( 1982): Activity Manager
+01-01 14:13:33.795 I/ActivityManager( 1982): Memory class: 64
+01-01 14:13:33.870 I/IntentFirewall( 1982): Read new rules (A:0 B:0 S:0)
+01-01 14:13:33.875 I/SystemServer( 1982): Display Manager
+01-01 14:13:33.875 I/SystemServer( 1982): Scheduling Policy
+01-01 14:13:33.880 I/DisplayManagerService( 1982): Display device added: DisplayDeviceInfo{"内置屏幕": 1280 x 720, 61.000004 fps, density 160, 95.064 x 95.25 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+01-01 14:13:33.885 I/SystemServer( 1982): Package Manager
+01-01 14:13:33.920 D/SELinuxMMAC( 1982): Couldn't find install policy /data/security/mac_permissions.xml
+01-01 14:13:33.920 D/SELinuxMMAC( 1982): Using install policy file /system/etc/security/mac_permissions.xml
+01-01 14:13:34.030 W/PackageManager( 1982): Running ENG build: no pre-dexopt!
+01-01 14:13:34.265 I/PackageManager( 1982): removed obsolete native libraries for system package /system/app/EvStage.apk
+01-01 14:13:34.275 W/PackageParser( 1982): Unknown element under <application>: permission at /system/app/Gallery2.apk Binary XML file line #245
+01-01 14:13:34.275 W/PackageParser( 1982): Unknown element under <application>: permission at /system/app/Gallery2.apk Binary XML file line #248
+01-01 14:13:34.355 D/PackageManager( 1982): No files in app dir /vendor/app
+01-01 14:13:34.355 W/PackageParser( 1982): No actions in intent filter at /system/app/kkfactory.apk Binary XML file line #47
+01-01 14:13:34.360 W/PackageManager( 1982): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+01-01 14:13:34.360 I/PackageManager( 1982): Time to scan packages: 0.329 seconds
+01-01 14:13:34.360 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+01-01 14:13:34.360 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+01-01 14:13:34.360 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+01-01 14:13:34.360 W/PackageManager( 1982): Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.evideo.kcamservice
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+01-01 14:13:34.365 W/PackageManager( 1982): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+01-01 14:13:34.365 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+01-01 14:13:34.425 D/dalvikvm( 1982): WAIT_FOR_CONCURRENT_GC blocked 7ms
+01-01 14:13:34.445 I/SystemServer( 1982): Entropy Mixer
+01-01 14:13:34.450 I/EntropyMixer( 1982): Writing entropy...
+01-01 14:13:34.455 I/SystemServer( 1982): User Service
+01-01 14:13:34.455 I/SystemServer( 1982): Account Manager
+01-01 14:13:34.460 I/SystemServer( 1982): Content Manager
+01-01 14:13:34.460 I/SystemServer( 1982): System Content Providers
+01-01 14:13:34.495 I/SystemServer( 1982): Lights Service
+01-01 14:13:34.495 W/libsuspend( 1982): Error writing 'on' to /sys/power/state: Invalid argument
+01-01 14:13:34.495 I/libsuspend( 1982): Selected autosleep
+01-01 14:13:34.495 D/PermissionCache( 1550): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (461 us)
+01-01 14:13:34.495 D/SurfaceFlinger( 1550): Screen acquired, type=0 flinger=0x402fa008
+01-01 14:13:34.495 D/SurfaceFlinger( 1550):  screen was previously acquired
+01-01 14:13:34.495 I/SystemServer( 1982): Battery Service
+01-01 14:13:34.495 I/SystemServer( 1982): Alarm Manager
+01-01 14:13:34.500 I/SystemServer( 1982): Init Watchdog
+01-01 14:13:34.500 I/SystemServer( 1982): Input Manager
+01-01 14:13:34.500 I/InputManager( 1982): Initializing input manager, mUseDevInputEventForAudioJack=false
+01-01 14:13:34.500 I/SystemServer( 1982): Window Manager
+01-01 14:13:34.510 I/WindowManager( 1982): No existing display settings /data/system/display_settings.xml; starting empty
+01-01 14:13:34.525 I/WindowManager( 1982): No keyguard interface!
+01-01 14:13:34.525 I/InputManager( 1982): Starting input manager
+01-01 14:13:34.530 I/SystemServer( 1982): No Bluetooth Service (Bluetooth Hardware Not Present)
+01-01 14:13:34.530 E/EventHub( 1982): could not get driver version for /dev/input/mice, Not a typewriter
+01-01 14:13:34.530 I/SystemServer( 1982): Input Method Service
+01-01 14:13:34.530 W/InputMethodManagerService( 1982): Couldn't create dir.: /data/system/inputmethod
+01-01 14:13:34.545 I/SystemServer( 1982): Accessibility Manager
+01-01 14:13:34.550 I/ActivityManager( 1982): Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw720dp w1280dp h720dp 160dpi xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+01-01 14:13:34.555 I/ActivityManager( 1982): Config changes=400 {1.0 ?mcc?mnc zh_CN ldltr sw720dp w1280dp h695dp 160dpi xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.3}
+01-01 14:13:34.555 I/SystemServer( 1982): Mount Service
+01-01 14:13:34.555 D/MountService( 1982): got storage path: null description: 内存设备 primary: true removable: false emulated: true mtpReserve: 100 allowMassStorage: false maxFileSize: 0
+01-01 14:13:34.560 D/MountService( 1982): addVolumeLocked() StorageVolume:
+01-01 14:13:34.560 D/MountService( 1982):     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040662 
+01-01 14:13:34.560 D/MountService( 1982):     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=100 
+01-01 14:13:34.560 D/MountService( 1982):     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+01-01 14:13:34.560 D/MountService( 1982):     mUserLabel=null mState=null 
+01-01 14:13:34.560 D/MountService( 1982): got storage path: /storage/sdcard1 description: SD 卡 primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+01-01 14:13:34.560 D/MountService( 1982): addVolumeLocked() StorageVolume:
+01-01 14:13:34.560 D/MountService( 1982):     mStorageId=0 mPath=/storage/sdcard1 mDescriptionId=17040663 mPrimary=false 
+01-01 14:13:34.560 D/MountService( 1982):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+01-01 14:13:34.560 D/MountService( 1982):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+01-01 14:13:34.560 D/MountService( 1982): got storage path: /storage/usb1 description: USB 存储器 primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+01-01 14:13:34.560 D/MountService( 1982): addVolumeLocked() StorageVolume:
+01-01 14:13:34.560 D/MountService( 1982):     mStorageId=0 mPath=/storage/usb1 mDescriptionId=17040664 mPrimary=false 
+01-01 14:13:34.560 D/MountService( 1982):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+01-01 14:13:34.560 D/MountService( 1982):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+01-01 14:13:34.560 D/MountService( 1982): got storage path: /storage/usb2 description: USB 存储器 primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+01-01 14:13:34.560 D/MountService( 1982): addVolumeLocked() StorageVolume:
+01-01 14:13:34.560 D/MountService( 1982):     mStorageId=0 mPath=/storage/usb2 mDescriptionId=17040664 mPrimary=false 
+01-01 14:13:34.560 D/MountService( 1982):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+01-01 14:13:34.560 D/MountService( 1982):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+01-01 14:13:34.565 I/SystemServer( 1982): LockSettingsService
+01-01 14:13:34.565 I/SystemServer( 1982): Device Policy
+01-01 14:13:34.565 I/SystemServer( 1982): Status Bar
+01-01 14:13:34.565 I/SystemServer( 1982): Clipboard Service
+01-01 14:13:34.570 I/SystemServer( 1982): NetworkManagement Service
+01-01 14:13:34.570 I/SystemServer( 1982): Text Service Manager Service
+01-01 14:13:34.575 I/InputReader( 1982): Device added: id=-1, name='Virtual', sources=0x00000301
+01-01 14:13:34.580 I/InputReader( 1982): Reconfiguring input devices.  changes=0x00000004
+01-01 14:13:34.580 I/SystemServer( 1982): NetworkStats Service
+01-01 14:13:34.580 D/MountService( 1982): volume state changed for /storage/sdcard1 (unmounted -> removed)
+01-01 14:13:34.580 D/MountService( 1982): volume state changed for /storage/usb1 (unmounted -> removed)
+01-01 14:13:34.580 D/MountService( 1982): volume state changed for /storage/usb2 (unmounted -> removed)
+01-01 14:13:34.585 I/PackageManager( 1982): No secure containers on sdcard
+01-01 14:13:34.585 I/SystemServer( 1982): NetworkPolicy Service
+01-01 14:13:34.585 I/SystemServer( 1982): Wi-Fi P2pService
+01-01 14:13:34.585 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+01-01 14:13:34.585 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+01-01 14:13:34.585 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+01-01 14:13:34.585 W/PackageManager( 1982): Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.evideo.kcamservice
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+01-01 14:13:34.590 W/PackageManager( 1982): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+01-01 14:13:34.590 W/PackageManager( 1982): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+01-01 14:13:34.670 I/SystemServer( 1982): Wi-Fi Service
+01-01 14:13:34.715 I/SystemServer( 1982): Connectivity Service
+01-01 14:13:34.715 D/ConnectivityService( 1982): ConnectivityService starting up
+01-01 14:13:34.720 D/ConnectivityService( 1982): wifiOnly=false
+01-01 14:13:34.720 E/ConnectivityService( 1982): Ignoring protectedNetwork 10
+01-01 14:13:34.720 E/ConnectivityService( 1982): Ignoring protectedNetwork 11
+01-01 14:13:34.720 E/ConnectivityService( 1982): Ignoring protectedNetwork 12
+01-01 14:13:34.720 E/ConnectivityService( 1982): Ignoring protectedNetwork 14
+01-01 14:13:34.735 D/CommandListener( 1548): Setting iface cfg
+01-01 14:13:34.735 D/CommandListener( 1548): Trying to bring up eth0
+01-01 14:13:34.945 D/Ethernet( 1982): carrier=0
+01-01 14:13:34.945 D/Ethernet( 1982): carrier=0
+01-01 14:13:34.950 I/WifiService( 1982): WifiService starting up with Wi-Fi disabled
+01-01 14:13:34.955 D/WifiWatchdogStateMachine( 1982): Disabling poor network avoidance for wi-fi only device
+01-01 14:13:34.955 D/EthernetService( 1982): EthernetService() : Entered.
+01-01 14:13:34.955 D/EthernetService( 1982): setEthernetEnabled() : enable=false
+01-01 14:13:34.955 D/Ethernet( 1982): disableEthIface
+01-01 14:13:34.955 I/SystemServer( 1982): Ethernet Service
+01-01 14:13:35.160 D/Ethernet( 1982): Interface eth0 link down
+01-01 14:13:35.165 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1294 android.net.EthernetDataTracker.sendEthIfaceStateChangedBroadcast:116 android.net.EthernetDataTracker.interfaceDown:178 android.net.EthernetDataTracker.disableEthIface:666 com.android.server.EthernetService.setEthernetEnabled:106 
+01-01 14:13:35.205 I/SystemServer( 1982): Network Service Discovery Service
+01-01 14:13:35.205 D/NsdService( 1982): Network service discovery enabled true
+01-01 14:13:35.205 I/SystemServer( 1982): UpdateLock Service
+01-01 14:13:35.205 I/SystemServer( 1982): Notification Manager
+01-01 14:13:35.210 I/SystemServer( 1982): Device Storage Monitor
+01-01 14:13:35.215 I/SystemServer( 1982): Search Service
+01-01 14:13:35.215 I/SystemServer( 1982): DropBox Service
+01-01 14:13:35.215 I/SystemServer( 1982): Wallpaper Service
+01-01 14:13:35.220 I/SystemServer( 1982): Audio Service
+01-01 14:13:35.235 W/Vibrator( 1982): Failed to vibrate; no vibrator service.
+01-01 14:13:35.270 I/SystemServer( 1982): Dock Observer
+01-01 14:13:35.270 W/DockObserver( 1982): This kernel does not have dock station support
+01-01 14:13:35.270 I/SystemServer( 1982): Wired Accessory Manager
+01-01 14:13:35.270 W/WiredAccessoryManager( 1982): This kernel does not have wired headset support
+01-01 14:13:35.270 W/WiredAccessoryManager( 1982): This kernel does not have usb audio support
+01-01 14:13:35.270 I/SystemServer( 1982): USB Service
+01-01 14:13:35.275 I/SystemServer( 1982): Serial Service
+01-01 14:13:35.275 I/SystemServer( 1982): Twilight Service
+01-01 14:13:35.275 I/SystemServer( 1982): UI Mode Manager Service
+01-01 14:13:35.275 I/SystemServer( 1982): Backup Service
+01-01 14:13:35.280 V/BackupManagerService( 1982): Initializing package tracking
+01-01 14:13:35.280 V/BackupManagerService( 1982): No ancestral data
+01-01 14:13:35.280 V/BackupManagerService( 1982): addPackageParticipantsLocked: all
+01-01 14:13:35.280 I/BackupManagerService( 1982): Scheduling backup for new app android
+01-01 14:13:35.280 D/BackupManagerService( 1982): Now staging backup of android
+01-01 14:13:35.290 I/BackupManagerService( 1982): Scheduling backup for new app com.android.providers.userdictionary
+01-01 14:13:35.290 D/BackupManagerService( 1982): Now staging backup of com.android.providers.userdictionary
+01-01 14:13:35.290 I/BackupManagerService( 1982): Scheduling backup for new app com.android.sharedstoragebackup
+01-01 14:13:35.290 D/BackupManagerService( 1982): Now staging backup of com.android.sharedstoragebackup
+01-01 14:13:35.295 I/BackupManagerService( 1982): Scheduling backup for new app com.android.providers.settings
+01-01 14:13:35.295 D/BackupManagerService( 1982): Now staging backup of com.android.providers.settings
+01-01 14:13:35.295 V/BackupManagerService( 1982): Starting with transport android/com.android.internal.backup.LocalTransport
+01-01 14:13:35.295 V/BackupManagerService( 1982): Found transports: 1
+01-01 14:13:35.295 I/BackupManagerService( 1982): Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+01-01 14:13:35.300 I/BackupManagerService( 1982): Found stale backup journal, scheduling
+01-01 14:13:35.300 I/BackupManagerService( 1982):   android
+01-01 14:13:35.300 I/BackupManagerService( 1982):   com.android.providers.userdictionary
+01-01 14:13:35.300 I/BackupManagerService( 1982):   com.android.sharedstoragebackup
+01-01 14:13:35.300 I/BackupManagerService( 1982):   com.android.providers.settings
+01-01 14:13:35.300 I/BackupManagerService( 1982): Backup enabled => false
+01-01 14:13:35.300 I/BackupManagerService( 1982): Opting out of backup
+01-01 14:13:35.300 I/SystemServer( 1982): AppWidget Service
+01-01 14:13:35.300 I/SystemServer( 1982): Recognition Service
+01-01 14:13:35.300 I/SystemServer( 1982): DiskStats Service
+01-01 14:13:35.300 I/SystemServer( 1982): SamplingProfiler Service
+01-01 14:13:35.305 I/SystemServer( 1982): NetworkTimeUpdateService
+01-01 14:13:35.305 I/SystemServer( 1982): CommonTimeManagementService
+01-01 14:13:35.305 I/SystemServer( 1982): CertBlacklister
+01-01 14:13:35.305 I/SystemServer( 1982): Dreams Service
+01-01 14:13:35.305 I/SystemServer( 1982): Assets Atlas Service
+01-01 14:13:35.305 I/SystemServer( 1982): IdleMaintenanceService
+01-01 14:13:35.305 D/EthernetService( 1982): setEthernetEnabled() : enable=true
+01-01 14:13:35.305 D/Ethernet( 1982): enableEthIface
+01-01 14:13:35.305 D/Atlas   ( 1982): Loaded configuration: SliceMinArea (768x768) flags=0x2 count=34
+01-01 14:13:35.305 I/SystemServer( 1982): Media Router Service
+01-01 14:13:35.310 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1294 android.net.EthernetDataTracker.sendEthIfaceStateChangedBroadcast:116 android.net.EthernetDataTracker.interfaceUp:170 android.net.EthernetDataTracker.enableEthIface:649 com.android.server.EthernetService.setEthernetEnabled:103 
+01-01 14:13:35.320 I/        ( 1982): PLATFORM VERSION : JB-MR-2
+01-01 14:13:35.320 I/WindowManager( 1982): SAFE MODE not enabled
+01-01 14:13:35.320 W/Vibrator( 1982): Failed to vibrate; no vibrator service.
+01-01 14:13:35.325 D/dalvikvm( 1982): JIT started for system_server
+01-01 14:13:35.355 D/Atlas   ( 1982): Rendered atlas in 35.46ms (1.50+33.96ms)
+01-01 14:13:35.360 I/Zygote  ( 1982): Process: zygote socket opened
+01-01 14:13:35.360 D/Nat464Xlat( 1982): requiresClat: netType=9, hasIPv4Address=false
+01-01 14:13:35.360 D/ConnectivityService( 1982): ConnectivityChange for ETHERNET: DISCONNECTED/DISCONNECTED
+01-01 14:13:35.365 D/CommandListener( 1548): Clearing all IP addresses on eth0
+01-01 14:13:35.365 D/Nat464Xlat( 1982): requiresClat: netType=9, hasIPv4Address=false
+01-01 14:13:35.365 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1294 android.net.EthernetDataTracker.sendEthStateChangedBroadcast:108 android.net.EthernetDataTracker.disconnect:234 android.net.EthernetDataTracker$InterfaceObserver.interfaceLinkStateChanged:145 com.android.server.NetworkManagementService.notifyInterfaceLinkStateChanged:263 
+01-01 14:13:35.375 V/KeyguardServiceDelegate( 1982): *** Keyguard started
+01-01 14:13:35.375 V/KeyguardServiceDelegate( 1982): onSystemReady() called before keyguard service was ready
+01-01 14:13:35.375 I/ActivityManager( 1982): Start proc com.android.systemui for service com.android.keyguard/.KeyguardService: pid=2041 uid=10004 gids={50004, 1028, 1015, 1023, 1035, 3002, 3001}
+01-01 14:13:35.385 D/Ethernet( 1982): Interface eth0 link down
+01-01 14:13:35.395 I/AppOps  ( 1982): Pruning old package media/1013: new uid=-1
+01-01 14:13:35.395 I/ActivityManager( 1982): System now ready
+01-01 14:13:35.395 I/SystemServer( 1982): Making services ready
+01-01 14:13:35.400 W/MountService( 1982): Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+01-01 14:13:35.400 D/NetworkManagementService( 1982): enabling bandwidth control
+01-01 14:13:35.485 V/KeyguardService( 2041): onCreate()
+01-01 14:13:35.495 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.AVC.Decoder.so
+01-01 14:13:35.500 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.AVC.Encoder.so
+01-01 14:13:35.505 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.MPEG2.Decoder.so
+01-01 14:13:35.510 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.MPEG4.Decoder.so
+01-01 14:13:35.510 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.MPEG4.Encoder.so
+01-01 14:13:35.520 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.VP8.Decoder.so
+01-01 14:13:35.520 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.VP8.Encoder.so
+01-01 14:13:35.525 I/EXYNOS_COMP_REGS( 1553): Loading the library: libOMX.Exynos.WMV.Decoder.so
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.530 E/OMXMaster( 1553): A component of name '' already exists, ignoring this one.
+01-01 14:13:35.540 I/pxtr_util( 1553): =============PRESTOMEDIA MODULE VERSION=============
+01-01 14:13:35.540 I/pxtr_util( 1553):              MAJOR_VERSION #: 4
+01-01 14:13:35.540 I/pxtr_util( 1553):              MINOR_VERSION #: 4
+01-01 14:13:35.540 I/pxtr_util( 1553):              BUILD_NUMBER  #: 8983
+01-01 14:13:35.540 I/pxtr_util( 1553):            BUILD_TIME    #: 01/2014/09 11:09:10
+01-01 14:13:35.540 D/SystemUIService( 2041): loading: class com.android.systemui.recent.Recents
+01-01 14:13:35.540 D/SystemUIService( 2041): running: com.android.systemui.recent.Recents@41e1afb0
+01-01 14:13:35.540 D/SystemUIService( 2041): loading: class com.android.systemui.statusbar.SystemBars
+01-01 14:13:35.540 D/SystemUIService( 2041): running: com.android.systemui.statusbar.SystemBars@41e1b598
+01-01 14:13:35.545 D/SystemUIService( 2041): loading: class com.android.systemui.usb.StorageNotification
+01-01 14:13:35.545 D/SystemUIService( 2041): running: com.android.systemui.usb.StorageNotification@41e1d358
+01-01 14:13:35.550 D/SystemUIService( 2041): loading: class com.android.systemui.power.PowerUI
+01-01 14:13:35.550 D/SystemUIService( 2041): running: com.android.systemui.power.PowerUI@41e1eac8
+01-01 14:13:35.550 D/SystemUIService( 2041): loading: class com.android.systemui.media.RingtonePlayer
+01-01 14:13:35.550 D/SystemUIService( 2041): running: com.android.systemui.media.RingtonePlayer@41e1feb8
+01-01 14:13:35.550 D/SystemUIService( 2041): loading: class com.android.systemui.settings.SettingsUI
+01-01 14:13:35.550 D/SystemUIService( 2041): running: com.android.systemui.settings.SettingsUI@41e211a0
+01-01 14:13:35.555 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:35.570 I/StatusBarManagerService( 1982): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41e4ab10
+01-01 14:13:35.575 D/PhoneStatusBar( 2041): mSettingsPanelGravity = 8388661
+01-01 14:13:35.585 D/Nat464Xlat( 1982): requiresClat: netType=9, hasIPv4Address=false
+01-01 14:13:35.585 D/ConnectivityService( 1982): ConnectivityChange for ETHERNET: DISCONNECTED/DISCONNECTED
+01-01 14:13:35.585 D/CommandListener( 1548): Clearing all IP addresses on eth0
+01-01 14:13:35.585 D/Nat464Xlat( 1982): requiresClat: netType=9, hasIPv4Address=false
+01-01 14:13:35.590 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1294 android.net.EthernetDataTracker.sendEthStateChangedBroadcast:108 android.net.EthernetDataTracker.disconnect:234 android.net.EthernetDataTracker$InterfaceObserver.interfaceLinkStateChanged:145 com.android.server.NetworkManagementService.notifyInterfaceLinkStateChanged:263 
+01-01 14:13:35.595 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:35.605 W/BroadcastQueue( 1982): Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE flg=0x4000010 (has extras) } from null (pid=-1, uid=-1) requires android.permission.CONNECTIVITY_INTERNAL due to registered receiver BroadcastFilter{41f59168 u0 ReceiverList{41f59108 1982 system/1000/u0 local:41fc20a8}}
+01-01 14:13:35.635 W/BroadcastQueue( 1982): Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE flg=0x4000010 (has extras) } from null (pid=-1, uid=-1) requires android.permission.CONNECTIVITY_INTERNAL due to registered receiver BroadcastFilter{41fc7658 u0 ReceiverList{41fc71e0 1982 system/1000/u0 local:41fc6fc8}}
+01-01 14:13:35.700 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1136 com.android.server.usb.UsbSettingsManager.deviceAttached:621 com.android.server.usb.UsbHostManager.usbDeviceAdded:156 com.android.server.usb.UsbHostManager.monitorUsbHostBus:-2 com.android.server.usb.UsbHostManager.access$000:38 
+01-01 14:13:35.700 I/ActivityManager( 1982): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=2116 uid=10002 gids={50002, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+01-01 14:13:35.700 I/ActivityManager( 1982): Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw720dp w1280dp h695dp 160dpi xlrg long land -touch -keyb/v/h -nav/h s.4}
+01-01 14:13:35.710 W/RecognitionManagerService( 1982): no available voice recognition services found for user 0
+01-01 14:13:35.735 W/InputMethodManagerService( 1982): Ignoring setImeWindowStatus of uid 1000 token: null
+01-01 14:13:35.755 I/ActivityManager( 1982): Start proc com.android.inputmethod.latin for service com.android.inputmethod.latin/.LatinIME: pid=2131 uid=10013 gids={50013, 1028, 1015, 1023}
+01-01 14:13:35.755 V/InputMethodManagerService( 1982): Adding window token: android.os.Binder@41ffa078
+01-01 14:13:35.765 I/CommonTimeManagementService( 1982): No common time service detected on this platform.  Common time services will be unavailable.
+01-01 14:13:35.765 I/InputReader( 1982): Reconfiguring input devices.  changes=0x00000020
+01-01 14:13:35.770 I/InputReader( 1982): Reconfiguring input devices.  changes=0x00000010
+01-01 14:13:35.780 I/ActivityManager( 1982): Start proc com.evideo.kcamservice for added application com.evideo.kcamservice: pid=2144 uid=1000 gids={41000, 1028, 1015, 1023, 3002, 3001, 3003, 2001, 1024}
+01-01 14:13:35.800 I/ActivityManager( 1982): Start proc com.evideo.recordscreenservice for added application com.evideo.recordscreenservice: pid=2158 uid=1000 gids={41000, 1028, 1015, 1023, 3002, 3001, 3003, 2001, 1024}
+01-01 14:13:35.800 I/ActivityManager( 1982): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.evideo.home/.Home} from pid 0
+01-01 14:13:35.815 I/ActivityManager( 1982): Start proc com.evideo.home for activity com.evideo.home/.Home: pid=2172 uid=10021 gids={50021, 3003}
+01-01 14:13:35.855 I/Choreographer( 1982): Skipped 30 frames!  The application may be doing too much work on its main thread.
+01-01 14:13:35.855 V/KeyguardServiceDelegate( 1982): *** Keyguard connected (yay!)
+01-01 14:13:35.855 W/InputMethodManagerService( 1982): Focus gain on non-focused client android.view.inputmethod.InputMethodManager$1@41f9e3b8 (uid=1000 pid=1982)
+01-01 14:13:35.860 E/BluetoothAdapter( 2041): Bluetooth binder is null
+01-01 14:13:35.860 E/BluetoothAdapter( 2041): Bluetooth binder is null
+01-01 14:13:35.880 E/BluetoothAdapter( 2041): Bluetooth binder is null
+01-01 14:13:35.910 V/BackupManagerService( 1982): Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+01-01 14:13:35.910 V/BackupManagerService( 1982): Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41ff4de0
+01-01 14:13:35.920 I/LatinIME( 2131): Hardware accelerated drawing: true
+01-01 14:13:35.950 E/BluetoothAdapter( 2041): Bluetooth binder is null
+01-01 14:13:36.010 D/PhoneStatusBar( 2041): disable: < expand icons alerts ticker system_info back home recent clock search >
+01-01 14:13:36.015 E/ActivityThread( 2041): Failed to find provider info for com.android.contacts
+01-01 14:13:36.020 W/InputAttributes( 2131): No editor info for this field. Bug?
+01-01 14:13:36.025 W/Vibrator( 2131): Failed to vibrate; no vibrator service.
+01-01 14:13:36.030 I/ResourceUtils( 2131): Found default value: resource=keypress_vibration_durations build=[HARDWARE=mocha-t5260 MODEL=kcam BRAND=eVideo MANUFACTURER=Star-Net eVideo] default=-1
+01-01 14:13:36.030 I/ResourceUtils( 2131): Found default value: resource=keypress_volumes build=[HARDWARE=mocha-t5260 MODEL=kcam BRAND=eVideo MANUFACTURER=Star-Net eVideo] default=-1.0f
+01-01 14:13:36.050 I/LatinIME:LogUtils( 2131): Dictionary info: dictionary = userunigram.en_US.dict ; version = ? ; date = ?
+01-01 14:13:36.050 I/ActivityManager( 1982): Start proc android.process.acore for content provider com.android.providers.userdictionary/.UserDictionaryProvider: pid=2198 uid=10019 gids={50019}
+01-01 14:13:36.080 E/BluetoothAdapter( 2041): Bluetooth binder is null
+01-01 14:13:36.090 D/PhoneStatusBar( 2041): heads up is disabled
+01-01 14:13:36.090 I/ActivityManager( 1982): Start proc android.kcam.update.service for broadcast android.kcam.update.service/.KCamUpdateReceiver: pid=2211 uid=1000 gids={41000, 1028, 1015, 1023, 3002, 3001, 3003, 2001, 1024}
+01-01 14:13:36.095 I/        ( 2172): PLATFORM VERSION : JB-MR-2
+01-01 14:13:36.100 D/PhoneStatusBar( 2041): mSettingsPanelGravity = 8388661
+01-01 14:13:36.105 I/LatinIME:LogUtils( 2131): Dictionary info: dictionary = main:en ; version = 42 ; date = 1381226429
+01-01 14:13:36.145 D/mali_winsys( 2172): new_window_surface returns 0x3000
+01-01 14:13:36.175 D/OpenGLRenderer( 2172): Enabling debug mode 0
+01-01 14:13:36.185 I/LatinIME:LogUtils( 2131): Dictionary info: dictionary = UserHistoryDictionary.en_US.dic ; version = ? ; date = 1357231569
+01-01 14:13:36.185 I/LatinIME:LogUtils( 2131): Dictionary info: dictionary = personalization.en_US.dict ; version = ? ; date = 1356998417
+01-01 14:13:36.190 I/LatinIME:LogUtils( 2131): Dictionary info: dictionary = PersonalizationPredictionDictio ; version = ? ; date = 1356998417
+01-01 14:13:36.240 I/        ( 2041): PLATFORM VERSION : JB-MR-2
+01-01 14:13:36.250 D/mali_winsys( 2041): new_window_surface returns 0x3000
+01-01 14:13:36.265 D/OpenGLRenderer( 2041): Enabling debug mode 0
+01-01 14:13:36.280 I/ActivityManager( 1982): Displayed com.evideo.home/.Home: +473ms
+01-01 14:13:36.285 V/KeyguardServiceDelegate( 1982): **** SHOWN CALLED ****
+01-01 14:13:36.385 I/dalvikvm-heap( 2041): Grow heap (frag case) to 13.033MB for 9830416-byte allocation
+01-01 14:13:36.455 D/dalvikvm( 2041): WAIT_FOR_CONCURRENT_GC blocked 4ms
+01-01 14:13:36.475 I/dalvikvm-heap( 2041): Grow heap (frag case) to 19.283MB for 6553616-byte allocation
+01-01 14:13:36.485 D/AndroidRuntime( 2250): 
+01-01 14:13:36.485 D/AndroidRuntime( 2250): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-01 14:13:36.485 D/AndroidRuntime( 2250): CheckJNI is ON
+01-01 14:13:36.485 D/dalvikvm( 2041): WAIT_FOR_CONCURRENT_GC blocked 4ms
+01-01 14:13:36.500 D/dalvikvm( 2250): Trying to load lib libjavacore.so 0x0
+01-01 14:13:36.505 D/mali_winsys( 2041): new_window_surface returns 0x3000
+01-01 14:13:36.505 D/dalvikvm( 2250): Added shared lib libjavacore.so 0x0
+01-01 14:13:36.510 D/dalvikvm( 2250): Trying to load lib libnativehelper.so 0x0
+01-01 14:13:36.510 D/dalvikvm( 2250): Added shared lib libnativehelper.so 0x0
+01-01 14:13:36.510 D/dalvikvm( 2250): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+01-01 14:13:36.545 D/dalvikvm( 2250): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+01-01 14:13:36.570 I/SurfaceFlinger( 1550): Boot is finished (7030 ms)
+01-01 14:13:36.570 D/SurfaceFlinger( 1550): boot finished. Inform HWC
+01-01 14:13:36.570 D/hwcomposer( 1550): Boot Finished
+01-01 14:13:36.620 E/BluetoothAdapter( 1982): Bluetooth binder is null
+01-01 14:13:36.620 E/BluetoothAdapter( 1982): Bluetooth binder is null
+01-01 14:13:36.625 W/Searchables( 1982): No global search activity found
+01-01 14:13:36.625 V/WiredAccessoryManager( 1982): init()
+01-01 14:13:36.640 I/PowerManagerService( 1982): Boot animation finished.
+01-01 14:13:36.670 D/dalvikvm( 2263): Not late-enabling CheckJNI (already on)
+01-01 14:13:36.670 E/memtrack( 2250): Couldn't load memtrack module (No such file or directory)
+01-01 14:13:36.670 E/android.os.Debug( 2250): failed to load memtrack module: -2
+01-01 14:13:36.670 I/ActivityManager( 1982): Start proc com.example.kkfactory for broadcast com.example.kkfactory/com.example.receiver.BootReceiver: pid=2263 uid=1000 gids={41000, 1028, 1015, 1023, 3002, 3001, 3003, 2001, 1024}
+01-01 14:13:36.735 D/AndroidRuntime( 2250): Calling main entry com.android.commands.am.Am
+01-01 14:13:36.750 I/ActivityManager( 1982): START u0 {flg=0x10000000 cmp=com.evideo.recordscreenservice/.MainActivity} from pid 2250
+01-01 14:13:36.755 D/PermissionCache( 1550): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (199 us)
+01-01 14:13:36.760 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:36.765 D/BootReceiver( 2263): ACTION_BOOT_COMPLETED
+01-01 14:13:36.775 D/BootReceiver( 2263): parse factory_config.xml ok
+01-01 14:13:36.775 D/BootReceiver( 2263): parse devices:device ok
+01-01 14:13:36.775 D/BootReceiver( 2263): sd1:/sys/devices/platform/dw_mmc.2/mmc_host/mmc2,/mnt/media_rw/sdcard1
+01-01 14:13:36.775 D/BootReceiver( 2263): flash1:/sys/devices/virtual/mtd/mtd9/mtdblock9,/mnt/shell/emulated
+01-01 14:13:36.780 D/BootReceiver( 2263): usb1:/sys/devices/platform/s5p-ehci/usb1/1-1/1-1.1,/mnt/media_rw
+01-01 14:13:36.780 D/BootReceiver( 2263): usb0:/sys/devices/platform/exynos-dwc3.0/exynos-xhci.0/usb2/2-1,/mnt/media_rw
+01-01 14:13:36.790 D/BootReceiver( 2263): usb2:/sys/devices/platform/s5p-ehci/usb1/1-1/1-1.2,/mnt/media_rw
+01-01 14:13:36.790 D/BootReceiver( 2263): parse boot_device:usb1 ok
+01-01 14:13:36.790 D/BootReceiver( 2263): usb1:/sys/devices/platform/s5p-ehci/usb1/1-1/1-1.1,/mnt/media_rw
+01-01 14:13:36.795 D/AndroidRuntime( 2250): Shutting down VM
+01-01 14:13:36.825 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:36.825 I/RecoverySystem( 1982): No recovery log file
+01-01 14:13:36.865 I/BootReceiver( 1982): Copying /proc/last_kmsg to DropBox (SYSTEM_LAST_KMSG)
+01-01 14:13:36.890 I/BootReceiver( 1982): Copying audit failures to DropBox
+01-01 14:13:36.895 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:36.905 D/dalvikvm( 1982): WAIT_FOR_CONCURRENT_GC blocked 18ms
+01-01 14:13:36.910 D/dalvikvm( 1982): WAIT_FOR_CONCURRENT_GC blocked 20ms
+01-01 14:13:36.910 I/BootReceiver( 1982): Copied 0 worth of audits to DropBox
+01-01 14:13:36.910 W/ContextImpl( 2158): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.evideo.recordscreenservice.MainActivity.onCreate:33 android.app.Activity.performCreate:5231 android.app.Instrumentation.callActivityOnCreate:1087 
+01-01 14:13:36.915 I/BootReceiver( 1982): Checking for fsck errors
+01-01 14:13:36.925 I/RtspServer( 2158): ==================Rtsp Server onCreate==================
+01-01 14:13:36.930 I/screenrecord( 2158): v1.0 start called
+01-01 14:13:36.935 I/RtspServer( 2158): ==================Rtsp Server onStartCommand==================
+01-01 14:13:36.935 I/OMXClient( 2158): Using client-side OMX mux.
+01-01 14:13:36.940 I/RtspServer( 2158): RTSP server listening on port 8088
+01-01 14:13:36.940 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:36.940 D/libexynosv4l2( 1553): try node: /dev/video7
+01-01 14:13:36.940 I/libexynosv4l2( 1553): node found for device s5p-mfc-enc: /dev/video7
+01-01 14:13:36.945 I/display ( 1550): [DYNAMIC_RECOMP] HWC_2_GLES by low FPS(3)
+01-01 14:13:36.950 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:36.955 I/libexynosv4l2( 1553): open video device /dev/video7
+01-01 14:13:36.965 I/ACodec  ( 2158): setupVideoEncoder succeeded
+01-01 14:13:36.970 I/        ( 2158): PLATFORM VERSION : JB-MR-2
+01-01 14:13:36.985 D/mali_winsys( 2158): new_window_surface returns 0x3000
+01-01 14:13:36.990 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:36.990 D/libexynosv4l2( 1553): try node: /dev/video7
+01-01 14:13:36.990 I/libexynosv4l2( 1553): node found for device s5p-mfc-enc: /dev/video7
+01-01 14:13:36.995 I/libexynosv4l2( 1553): open video device /dev/video7
+01-01 14:13:37.015 D/OpenGLRenderer( 2158): Enabling debug mode 0
+01-01 14:13:37.015 D/mali_winsys( 1550): new_window_surface returns 0x3000
+01-01 14:13:37.015 D/HWCService( 1550): [DEBUG] virtual int android::ExynosHWCService::setWFDOutputResolution(unsigned int, unsigned int, unsigned int, unsigned int)::width=1280, height=720
+01-01 14:13:37.015 I/SurfaceFlinger( 1550): Virtual display is added. width(1280), height(720)
+01-01 14:13:37.020 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:37.030 D/XYREF5260PowerHAL( 1982): xyref5260_power_hint: 1
+01-01 14:13:37.035 W/MessageQueue( 2116): Handler (android.os.Handler) {41e46240} sending message to a Handler on a dead thread
+01-01 14:13:37.035 W/MessageQueue( 2116): java.lang.RuntimeException: Handler (android.os.Handler) {41e46240} sending message to a Handler on a dead thread
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:320)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.enqueueMessage(Handler.java:626)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.sendMessageAtTime(Handler.java:595)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.sendMessageDelayed(Handler.java:566)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.sendMessage(Handler.java:503)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Message.sendToTarget(Message.java:360)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at com.android.providers.downloads.DownloadService.enqueueUpdate(DownloadService.java:203)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at com.android.providers.downloads.DownloadService.access$000(DownloadService.java:71)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at com.android.providers.downloads.DownloadService$DownloadManagerContentObserver.onChange(DownloadService.java:130)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.database.ContentObserver.onChange(ContentObserver.java:129)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.database.ContentObserver$NotificationRunnable.run(ContentObserver.java:180)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.handleCallback(Handler.java:733)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.os.Looper.loop(Looper.java:136)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at java.lang.reflect.Method.invoke(Method.java:515)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+01-01 14:13:37.035 W/MessageQueue( 2116): 	at dalvik.system.NativeStart.main(Native Method)
+01-01 14:13:37.040 I/display ( 1550): [DYNAMIC_RECOMP] GLES_2_HWC by BW check
+01-01 14:13:37.040 I/ActivityManager( 1982): Start proc com.android.onetimeinitializer for broadcast com.android.onetimeinitializer/.OneTimeInitializerReceiver: pid=2341 uid=10005 gids={50005}
+01-01 14:13:37.045 D/libexynosgscaler( 1553): LibMpp::LibMpp()
+01-01 14:13:37.100 I/ExynosVideoEncoder( 1553): MFC_Encoder_ExtensionDequeue_Outbuf: encoded frame type is = 0
+01-01 14:13:37.165 I/MPEG4Writer( 2158): limits: 2147483647/0 bytes/us, bit rate: -1 bps and the estimated moov size 3072 bytes
+01-01 14:13:37.175 I/OMXCodec( 1553): Attempting to allocate OMX node 'OMX.google.vorbis.decoder' mime='audio/vorbis'
+01-01 14:13:37.200 V/OneTimeInitializerRece( 2341): OneTimeInitializerReceiver.onReceive
+01-01 14:13:37.230 I/ActivityManager( 1982): Displayed com.evideo.recordscreenservice/.MainActivity: +432ms
+01-01 14:13:37.280 D/AndroidRuntime( 2348): 
+01-01 14:13:37.280 D/AndroidRuntime( 2348): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-01 14:13:37.280 D/AndroidRuntime( 2348): CheckJNI is ON
+01-01 14:13:37.285 W/ContextImpl( 2144): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.evideo.kcamservice.KCamBootReciever.onReceive:11 android.app.ActivityThread.handleReceiver:2419 
+01-01 14:13:37.290 I/KCamService( 2144): onCreate
+01-01 14:13:37.295 I/KCamService( 2144): Received start id 1: Intent { cmp=com.evideo.kcamservice/.KCamService }
+01-01 14:13:37.295 W/ContextImpl( 2211): Implicit intents with startService are not safe: Intent { act=android.kcam.update.service (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 android.kcam.update.service.KCamUpdateReceiver.onReceive:69 
+01-01 14:13:37.295 D/dalvikvm( 2348): Trying to load lib libjavacore.so 0x0
+01-01 14:13:37.295 W/ContextImpl( 2211): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 android.kcam.update.service.KCamUpdateReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:2419 
+01-01 14:13:37.300 D/dalvikvm( 2348): Added shared lib libjavacore.so 0x0
+01-01 14:13:37.300 D/dalvikvm( 2348): Trying to load lib libnativehelper.so 0x0
+01-01 14:13:37.300 D/dalvikvm( 2348): Added shared lib libnativehelper.so 0x0
+01-01 14:13:37.300 D/dalvikvm( 2348): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+01-01 14:13:37.305 D/dalvikvm( 2211): No JNI_OnLoad found in /system/lib/libmisc_access.so 0x41e0e560, skipping init
+01-01 14:13:37.310 I/KCamUpdateService( 2211): JNI_OnLoad
+01-01 14:13:37.310 I/LauncherIconVisibilityManager( 2131): Boot has been completed
+01-01 14:13:37.310 I/LauncherIconVisibilityManager( 2131): Activity has already been disabled: ComponentInfo{com.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}
+01-01 14:13:37.310 W/ContextImpl( 2211): Implicit intents with startService are not safe: Intent { act=kmbox.intent.action.STORAGEMANAGER } android.content.ContextWrapper.bindService:517 com.evideo.kmbox.service.storagemanager.StorageManagerServiceProxy.bindService:50 android.kcam.update.service.KCamUpdateService.onCreate:244 
+01-01 14:13:37.310 W/ContextImpl( 2211): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.evideo.kmbox.service.storagemanager.StorageManagerServiceProxy.bindService:50 android.kcam.update.service.KCamUpdateService.onCreate:244 android.app.ActivityThread.handleCreateService:2572 
+01-01 14:13:37.315 W/ActivityManager( 1982): Unable to start service Intent { act=kmbox.intent.action.STORAGEMANAGER } U=0: not found
+01-01 14:13:37.335 D/dalvikvm( 2348): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+01-01 14:13:37.465 E/memtrack( 2348): Couldn't load memtrack module (No such file or directory)
+01-01 14:13:37.465 E/android.os.Debug( 2348): failed to load memtrack module: -2
+01-01 14:13:37.540 D/AndroidRuntime( 2348): Calling main entry com.android.commands.am.Am
+01-01 14:13:37.555 I/ActivityManager( 1982): START u0 {flg=0x10000000 cmp=com.evideo.EvStage/com.evideo.evstageplugin.EvStagePluginActivity} from pid 2348
+01-01 14:13:37.605 D/AndroidRuntime( 2348): Shutting down VM
+01-01 14:13:37.605 D/XYREF5260PowerHAL( 1982): xyref5260_power_hint: 0
+01-01 14:13:37.625 I/ActivityManager( 1982): Start proc com.evideo.EvStage for activity com.evideo.EvStage/com.evideo.evstageplugin.EvStagePluginActivity: pid=2377 uid=1000 gids={41000, 1028, 1015, 1023, 3002, 3001, 3003, 2001, 1024}
+01-01 14:13:37.640 D/XYREF5260PowerHAL( 1982): xyref5260_power_hint: 1
+01-01 14:13:37.720 I/nativewebcam( 2377): register_uvccamera:
+01-01 14:13:37.720 I/EvStagePlugin( 2377): native dir changed from /data/app-lib/EvStage to /data/app-lib/EvStage
+01-01 14:13:37.725 D/dalvikvm( 2377): Trying to load lib /data/app-lib/EvStage/libmain.so 0x41e083f8
+01-01 14:13:37.725 D/dalvikvm( 2377): Added shared lib /data/app-lib/EvStage/libmain.so 0x41e083f8
+01-01 14:13:37.950 W/ResourceType( 2377): Invalid package identifier when getting bag for resource number 0x00000000
+01-01 14:13:37.965 D/EvStagePlugin( 2377): total 1 devices
+01-01 14:13:37.965 D/EvStagePlugin( 2377): found /dev/bus/usb/001/003; 3034:33106, 0
+01-01 14:13:37.965 E/usb device( 2377): no usb webcam device
+01-01 14:13:38.065 I/        ( 2377): PLATFORM VERSION : JB-MR-2
+01-01 14:13:38.085 D/mali_winsys( 2377): new_window_surface returns 0x3000
+01-01 14:13:38.105 D/OpenGLRenderer( 2377): Enabling debug mode 0
+01-01 14:13:38.355 I/ActivityManager( 1982): Displayed com.evideo.EvStage/com.evideo.evstageplugin.EvStagePluginActivity: +749ms
+01-01 14:13:38.385 D/Tethering( 1982): MasterInitialState.processMessage what=3
+01-01 14:13:38.385 D/CaptivePortalTracker( 1982): NoActiveNetworkState{ when=0 what=1 obj=NetworkInfo: type: ETHERNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: c4:09:38:ec:dd:09, roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false target=com.android.internal.util.StateMachine$SmHandler }
+01-01 14:13:38.385 D/CaptivePortalTracker( 1982): NoActiveNetworkState not a wifi connectivity change, ignore
+01-01 14:13:38.590 D/Tethering( 1982): MasterInitialState.processMessage what=3
+01-01 14:13:38.590 D/CaptivePortalTracker( 1982): NoActiveNetworkState{ when=0 what=1 obj=NetworkInfo: type: ETHERNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: c4:09:38:ec:dd:09, roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false target=com.android.internal.util.StateMachine$SmHandler }
+01-01 14:13:38.590 D/CaptivePortalTracker( 1982): NoActiveNetworkState not a wifi connectivity change, ignore
+01-01 14:13:38.635 W/MediaScanner( 2116): Error opening directory '/storage/sdcard1/', skipping: Permission denied.
+01-01 14:13:38.635 W/MediaScanner( 2116): Error opening directory '/storage/usb1/', skipping: Permission denied.
+01-01 14:13:38.635 W/MediaScanner( 2116): Error opening directory '/storage/usb2/', skipping: Permission denied.
+01-01 14:13:38.640 V/MediaScanner( 2116): pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@41e948a0
+01-01 14:13:38.645 V/MediaScanner( 2116): /pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@41e948a0
+01-01 14:13:38.650 D/XYREF5260PowerHAL( 1982): xyref5260_power_hint: 0
+01-01 14:13:38.705 D/mali_winsys( 2377): new_window_surface returns 0x3000
+01-01 14:13:38.715 D/Unity   ( 2377):  GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_KHR_texture_compression_astc_ldr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary
+01-01 14:13:38.790 W/ActivityThread( 2377): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+01-01 14:13:38.795 W/libc    ( 2377): pthread_create sched_setscheduler call failed: Operation not permitted
+01-01 14:13:38.805 D/audio_hw_primary( 1553): Device:2, period_size:1024
+01-01 14:13:38.805 D/audio_hw_primary( 1553): get_input_source_id();  src=0
+01-01 14:13:38.805 E/audio_hw_primary( 1553): select_devices() devices 0x2 input src 0 output route media-speaker input route none
+01-01 14:13:38.805 E/audio_hw_primary( 1553): unable to find path 'media-speaker'
+01-01 14:13:40.020 D/DecodeInterface( 2377): init
+01-01 14:13:40.030 I/dalvikvm-heap( 2377): Grow heap (frag case) to 4.348MB for 1382416-byte allocation
+01-01 14:13:40.040 I/DecodeThread( 2377): ====  68 ===== 69 ==== 70
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureID
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureWidth
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureHeight
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureID
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureWidth
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureHeight
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureID
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureWidth
+01-01 14:13:40.050 D/DecodeInterface( 2377): getTextureHeight
+01-01 14:13:40.055 I/Unity   ( 2377): play :/system/sdcard/VideoSource/bg2.mp4
+01-01 14:13:40.055 I/Unity   ( 2377):  
+01-01 14:13:40.055 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.055 I/Unity   ( 2377): 
+01-01 14:13:40.055 D/DecodeInterface( 2377): setLoop
+01-01 14:13:40.055 D/DecodeInterface( 2377): play
+01-01 14:13:40.060 I/pxtr_util( 2377): =============PRESTOMEDIA MODULE VERSION=============
+01-01 14:13:40.060 I/pxtr_util( 2377):              MAJOR_VERSION #: 4
+01-01 14:13:40.060 I/pxtr_util( 2377):              MINOR_VERSION #: 4
+01-01 14:13:40.060 I/pxtr_util( 2377):              BUILD_NUMBER  #: 8983
+01-01 14:13:40.060 I/pxtr_util( 2377):            BUILD_TIME    #: 01/2014/09 11:09:10
+01-01 14:13:40.070 I/OMXClient( 2377): Using client-side OMX mux.
+01-01 14:13:40.070 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:40.070 I/libexynosv4l2( 1553): node found for device s5p-mfc-dec: /dev/video6
+01-01 14:13:40.070 I/libexynosv4l2( 1553): open video device /dev/video6
+01-01 14:13:40.080 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:40.080 I/libexynosv4l2( 1553): node found for device s5p-mfc-dec: /dev/video6
+01-01 14:13:40.080 I/libexynosv4l2( 1553): open video device /dev/video6
+01-01 14:13:40.085 E/libexynosv4l2( 1553): failed to ioctl: VIDIOC_S_CTRL (22)
+01-01 14:13:40.085 E/EXYNOS_H264_DEC( 1553): Failed to set buffer process type(not supported)
+01-01 14:13:40.140 D/DecodeThread( 2377): New format {height=720, what=1869968451, color-format=19, slice-height=720, crop-left=0, width=1280, crop-bottom=719, crop-top=0, mime=video/raw, stride=1280, crop-right=1279}
+01-01 14:13:40.250 I/nativewebcam( 2377): deviceType 11, eventType 0
+01-01 14:13:40.250 I/Unity   ( 2377): WebCamera Start
+01-01 14:13:40.250 I/Unity   ( 2377):  
+01-01 14:13:40.250 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.250 I/Unity   ( 2377): 
+01-01 14:13:40.845 I/Unity   ( 2377): begin read firmware version
+01-01 14:13:40.845 I/Unity   ( 2377):  
+01-01 14:13:40.845 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.845 I/Unity   ( 2377): 
+01-01 14:13:40.845 I/nativewebcam( 2377): getFirmwareVersion: kcam 0.1.25.1
+01-01 14:13:40.885 I/nativewebcam( 2377): GetNativeTexture idx 0
+01-01 14:13:40.885 I/nativewebcam( 2377): GetNativeTexture idx 1
+01-01 14:13:40.890 I/nativewebcam( 2377): GetNativeTexture idx 2
+01-01 14:13:40.985 I/Unity   ( 2377): current stage is: Stage1; 1
+01-01 14:13:40.985 I/Unity   ( 2377):  
+01-01 14:13:40.985 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.985 I/Unity   ( 2377): 
+01-01 14:13:40.990 I/Unity   ( 2377): MovieClip start
+01-01 14:13:40.990 I/Unity   ( 2377):  
+01-01 14:13:40.990 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.990 I/Unity   ( 2377): 
+01-01 14:13:40.990 I/nativewebcam( 2377): getFirmwareVersion: kcam 0.1.25.1
+01-01 14:13:40.995 I/Unity   ( 2377): Stage1Control start
+01-01 14:13:40.995 I/Unity   ( 2377):  
+01-01 14:13:40.995 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:40.995 I/Unity   ( 2377): 
+01-01 14:13:41.005 D/DecodeInterface( 2377): stop
+01-01 14:13:41.035 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:13:41.055 I/Unity   ( 2377): play :/system/sdcard/VideoSource/bg2.mp4
+01-01 14:13:41.055 I/Unity   ( 2377):  
+01-01 14:13:41.055 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:13:41.055 I/Unity   ( 2377): 
+01-01 14:13:41.055 D/DecodeInterface( 2377): setLoop
+01-01 14:13:41.055 D/DecodeInterface( 2377): play
+01-01 14:13:41.060 I/OMXClient( 2377): Using client-side OMX mux.
+01-01 14:13:41.060 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:41.060 I/libexynosv4l2( 1553): node found for device s5p-mfc-dec: /dev/video6
+01-01 14:13:41.060 I/libexynosv4l2( 1553): open video device /dev/video6
+01-01 14:13:41.070 D/libexynosv4l2( 1553): try node: /dev/video6
+01-01 14:13:41.070 I/libexynosv4l2( 1553): node found for device s5p-mfc-dec: /dev/video6
+01-01 14:13:41.070 I/libexynosv4l2( 1553): open video device /dev/video6
+01-01 14:13:41.075 E/libexynosv4l2( 1553): failed to ioctl: VIDIOC_S_CTRL (22)
+01-01 14:13:41.075 E/EXYNOS_H264_DEC( 1553): Failed to set buffer process type(not supported)
+01-01 14:13:41.125 D/DecodeThread( 2377): New format {height=720, what=1869968451, color-format=19, slice-height=720, crop-left=0, width=1280, crop-bottom=719, crop-top=0, mime=video/raw, stride=1280, crop-right=1279}
+01-01 14:13:52.010 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:13:52.305 I/ActivityManager( 1982): Waited long enough for: ServiceRecord{41fddd28 u0 android.kcam.update.service/.KCamUpdateService}
+01-01 14:14:02.975 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:14:06.800 D/BootReceiver( 2263): usb1be not mounted.use internal section_burnning node
+01-01 14:14:06.800 D/BootReceiver( 2263): find section_burnning node ok
+01-01 14:14:06.800 D/BootReceiver( 2263): find section_burnning's id:net
+01-01 14:14:06.805 D/BootReceiver( 2263): burnning from:net
+01-01 14:14:06.805 D/BootReceiver( 2263): find net's file:factory.mpg ok
+01-01 14:14:06.820 W/ActivityThread( 2263): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+01-01 14:14:06.930 E/ItemsNetWork( 2263): checkFile http://192.168.12.104/factory.mpg fail. 
+01-01 14:14:06.935 E/ItemsNetWork( 2263): org.apache.http.conn.HttpHostConnectException: Connection to http://192.168.12.104 refused
+01-01 14:14:06.940 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+01-01 14:14:06.940 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+01-01 14:14:06.940 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+01-01 14:14:06.940 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+01-01 14:14:06.945 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+01-01 14:14:06.945 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+01-01 14:14:06.945 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+01-01 14:14:06.945 E/ItemsNetWork( 2263): 	at com.example.items.ItemsNetWork.checkFile(ItemsNetWork.java:85)
+01-01 14:14:06.950 E/ItemsNetWork( 2263): 	at com.example.receiver.BootReceiver$1.run(BootReceiver.java:403)
+01-01 14:14:06.950 E/ItemsNetWork( 2263): 	at java.lang.Thread.run(Thread.java:841)
+01-01 14:14:06.950 E/ItemsNetWork( 2263): Caused by: java.net.ConnectException: failed to connect to /192.168.12.104 (port 80) after 3000ms: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:06.950 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+01-01 14:14:06.955 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+01-01 14:14:06.955 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+01-01 14:14:06.955 E/ItemsNetWork( 2263): 	at java.net.Socket.connect(Socket.java:843)
+01-01 14:14:06.960 E/ItemsNetWork( 2263): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+01-01 14:14:06.960 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+01-01 14:14:06.960 E/ItemsNetWork( 2263): 	... 9 more
+01-01 14:14:06.965 E/ItemsNetWork( 2263): Caused by: libcore.io.ErrnoException: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:06.965 E/ItemsNetWork( 2263): 	at libcore.io.Posix.connect(Native Method)
+01-01 14:14:06.965 E/ItemsNetWork( 2263): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+01-01 14:14:06.970 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:144)
+01-01 14:14:06.970 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+01-01 14:14:06.975 E/ItemsNetWork( 2263): 	... 14 more
+01-01 14:14:07.985 E/ItemsNetWork( 2263): checkFile http://192.168.12.104/factory.mpg fail. 
+01-01 14:14:08.000 E/ItemsNetWork( 2263): org.apache.http.conn.HttpHostConnectException: Connection to http://192.168.12.104 refused
+01-01 14:14:08.000 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+01-01 14:14:08.000 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+01-01 14:14:08.005 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+01-01 14:14:08.005 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+01-01 14:14:08.005 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+01-01 14:14:08.005 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+01-01 14:14:08.005 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+01-01 14:14:08.010 E/ItemsNetWork( 2263): 	at com.example.items.ItemsNetWork.checkFile(ItemsNetWork.java:85)
+01-01 14:14:08.010 E/ItemsNetWork( 2263): 	at com.example.receiver.BootReceiver$1.run(BootReceiver.java:403)
+01-01 14:14:08.010 E/ItemsNetWork( 2263): 	at java.lang.Thread.run(Thread.java:841)
+01-01 14:14:08.010 E/ItemsNetWork( 2263): Caused by: java.net.ConnectException: failed to connect to /192.168.12.104 (port 80) after 3000ms: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:08.015 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+01-01 14:14:08.015 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+01-01 14:14:08.015 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+01-01 14:14:08.015 E/ItemsNetWork( 2263): 	at java.net.Socket.connect(Socket.java:843)
+01-01 14:14:08.015 E/ItemsNetWork( 2263): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+01-01 14:14:08.020 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+01-01 14:14:08.020 E/ItemsNetWork( 2263): 	... 9 more
+01-01 14:14:08.020 E/ItemsNetWork( 2263): Caused by: libcore.io.ErrnoException: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:08.025 E/ItemsNetWork( 2263): 	at libcore.io.Posix.connect(Native Method)
+01-01 14:14:08.025 E/ItemsNetWork( 2263): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+01-01 14:14:08.035 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:144)
+01-01 14:14:08.035 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+01-01 14:14:08.035 E/ItemsNetWork( 2263): 	... 14 more
+01-01 14:14:10.045 E/ItemsNetWork( 2263): checkFile http://192.168.12.104/factory.mpg fail. 
+01-01 14:14:10.045 E/ItemsNetWork( 2263): org.apache.http.conn.HttpHostConnectException: Connection to http://192.168.12.104 refused
+01-01 14:14:10.060 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+01-01 14:14:10.060 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+01-01 14:14:10.060 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+01-01 14:14:10.060 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+01-01 14:14:10.065 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+01-01 14:14:10.065 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+01-01 14:14:10.065 E/ItemsNetWork( 2263): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+01-01 14:14:10.065 E/ItemsNetWork( 2263): 	at com.example.items.ItemsNetWork.checkFile(ItemsNetWork.java:85)
+01-01 14:14:10.065 E/ItemsNetWork( 2263): 	at com.example.receiver.BootReceiver$1.run(BootReceiver.java:403)
+01-01 14:14:10.070 E/ItemsNetWork( 2263): 	at java.lang.Thread.run(Thread.java:841)
+01-01 14:14:10.070 E/ItemsNetWork( 2263): Caused by: java.net.ConnectException: failed to connect to /192.168.12.104 (port 80) after 3000ms: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:10.075 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+01-01 14:14:10.075 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+01-01 14:14:10.075 E/ItemsNetWork( 2263): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+01-01 14:14:10.075 E/ItemsNetWork( 2263): 	at java.net.Socket.connect(Socket.java:843)
+01-01 14:14:10.080 E/ItemsNetWork( 2263): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+01-01 14:14:10.080 E/ItemsNetWork( 2263): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+01-01 14:14:10.080 E/ItemsNetWork( 2263): 	... 9 more
+01-01 14:14:10.085 E/ItemsNetWork( 2263): Caused by: libcore.io.ErrnoException: connect failed: ENETUNREACH (Network is unreachable)
+01-01 14:14:10.085 E/ItemsNetWork( 2263): 	at libcore.io.Posix.connect(Native Method)
+01-01 14:14:10.085 E/ItemsNetWork( 2263): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+01-01 14:14:10.090 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:144)
+01-01 14:14:10.090 E/ItemsNetWork( 2263): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+01-01 14:14:10.090 E/ItemsNetWork( 2263): 	... 14 more
+01-01 14:14:13.095 I/AndroidRuntime( 2263): VM exiting with result code 0, cleanup skipped.
+01-01 14:14:13.110 I/ActivityManager( 1982): Process com.example.kkfactory (pid 2263) has died.
+01-01 14:14:13.915 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:14:24.850 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:14:35.790 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:14:46.690 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:14:57.585 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:15:08.495 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:15:19.500 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:15:30.435 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:15:41.370 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:15:48.565 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:15:52.305 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:03.245 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:14.180 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:25.115 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:36.025 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:46.960 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:16:57.880 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:17:08.830 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:17:19.745 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:17:30.685 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:17:41.630 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:17:52.560 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:03.535 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:14.470 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:25.405 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:36.390 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:47.345 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:58.315 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:18:58.350 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:19:09.355 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:19:20.315 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:19:31.255 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:19:42.295 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:19:53.270 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:04.270 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:04.370 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 5ms
+01-01 14:20:15.200 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:26.140 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:37.100 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:48.100 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:20:59.070 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:21:10.035 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:21:21.025 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:21:30.430 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 11ms
+01-01 14:21:31.985 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:21:42.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:21:53.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:22:04.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:22:16.000 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:22:22.135 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 3ms
+01-01 14:22:26.965 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:22:28.555 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-01 14:22:38.005 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:22:49.025 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:00.020 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:11.075 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:22.090 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:33.055 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:43.420 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 3ms
+01-01 14:23:44.060 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:23:55.065 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:24:06.045 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:24:11.220 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:24:17.020 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:24:27.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:24:38.970 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:24:49.905 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:00.945 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:11.980 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:22.930 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:33.940 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:44.925 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:25:55.935 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:26:06.945 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:26:17.950 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:26:28.920 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:26:39.890 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:26:50.890 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:01.940 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:05.035 W/ProcessCpuTracker( 1982): Skipping unknown process pid 4022
+01-01 14:27:05.035 W/ProcessCpuTracker( 1982): Skipping unknown process pid 4023
+01-01 14:27:12.900 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:23.875 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:34.890 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:45.890 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:27:50.420 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:27:56.860 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:28:01.900 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:28:07.860 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:28:18.865 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:28:29.660 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 3ms
+01-01 14:28:29.845 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:28:40.815 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:28:51.810 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:02.780 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:04.870 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 10ms
+01-01 14:29:13.755 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:16.195 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 13ms
+01-01 14:29:24.695 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:35.720 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:46.680 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:29:57.680 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:30:08.650 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:30:09.175 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:30:19.640 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:30:30.650 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:30:35.695 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:30:41.620 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:30:52.615 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:03.525 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:14.505 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:25.475 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:36.485 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:47.455 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:31:58.490 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:32:09.460 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:32:20.470 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:32:31.475 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:32:36.795 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 1ms
+01-01 14:32:42.435 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:32:53.440 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:04.440 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:15.415 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:26.380 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:37.315 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 14ms
+01-01 14:33:37.390 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:48.370 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:33:59.375 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:34:10.340 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:34:21.340 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:34:32.325 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:34:43.380 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:34:54.345 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:35:05.340 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:35:16.345 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:35:27.355 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:35:38.290 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:35:46.515 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 1ms
+01-01 14:35:49.290 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:00.265 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:11.275 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:22.285 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:33.285 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:44.255 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:36:55.300 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:37:06.235 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:37:17.205 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:37:28.170 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:37:39.135 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:37:50.105 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:01.115 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:12.090 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:23.105 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:34.030 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:45.035 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:38:56.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:39:07.075 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:39:18.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:39:29.015 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:39:39.980 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:39:50.990 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:01.965 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:12.900 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:23.875 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:34.880 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:45.850 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:40:56.855 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:41:07.860 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:41:18.895 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:41:29.905 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:41:40.900 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:41:51.895 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:02.870 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:13.865 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:24.860 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:35.870 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:46.815 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:42:57.785 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:43:08.790 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:43:19.800 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:43:30.725 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:43:35.615 I/ProcessStatsService( 1982): Prepared write state in 6ms
+01-01 14:43:35.635 I/ProcessStatsService( 1982): Pruning old procstats: /data/system/procstats/state-2013-01-01-12-09-00.bin
+01-01 14:43:41.770 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:43:52.770 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:03.730 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:14.725 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:25.725 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:36.660 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:47.665 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:44:58.700 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:09.675 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:20.585 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:31.625 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:32.495 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 5ms
+01-01 14:45:42.630 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:46.600 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 6ms
+01-01 14:45:53.565 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:45:55.480 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 2ms
+01-01 14:46:04.540 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:46:15.505 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:46:26.540 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:46:37.510 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:46:48.560 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:46:59.525 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:47:10.470 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:47:21.445 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:47:32.375 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:47:43.310 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:47:54.320 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:48:05.325 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:48:16.335 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:48:27.340 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:48:38.350 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:48:49.395 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:00.355 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:11.330 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:22.370 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:33.405 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:44.410 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:49:55.420 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:50:06.345 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:50:17.355 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:50:28.350 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:50:35.435 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-01 14:50:39.325 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:50:50.320 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:01.295 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:07.235 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-01 14:51:12.260 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:23.260 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:34.260 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:37.370 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 5ms
+01-01 14:51:45.225 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:51:56.190 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:52:07.170 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:52:18.170 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:52:29.135 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:52:40.175 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:52:51.210 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:02.150 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:13.145 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:24.080 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:35.080 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:46.125 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:53:57.135 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:54:05.015 W/ProcessCpuTracker( 1982): Skipping unknown process pid 7181
+01-01 14:54:05.015 W/ProcessCpuTracker( 1982): Skipping unknown process pid 7182
+01-01 14:54:08.140 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:54:19.150 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:54:30.110 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:54:41.100 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:54:52.100 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:03.045 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:14.010 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:25.010 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:36.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:47.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:55:58.085 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:56:09.060 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:56:20.070 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:56:24.990 D/dalvikvm( 2158): WAIT_FOR_CONCURRENT_GC blocked 4ms
+01-01 14:56:31.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:56:42.050 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:56:53.010 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:04.050 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:15.065 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:26.065 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:37.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:47.980 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:57:58.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:58:09.995 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:58:21.030 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:58:32.000 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:58:43.040 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:58:54.005 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:05.005 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:16.010 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:26.980 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:37.990 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:42.405 I/hwcomposer( 1550): HDMI Resolution changed to 1280x720
+01-01 14:59:42.405 D/mali_winsys( 1550): new_window_surface returns 0x3000
+01-01 14:59:42.410 I/DisplayManagerService( 1982): Display device added: DisplayDeviceInfo{"HDMI 屏幕": 1280 x 720, 61.000004 fps, density 213, 213.0 x 213.0 dpi, touch EXTERNAL, rotation 0, type HDMI, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_PRESENTATION}
+01-01 14:59:42.420 D/SurfaceFlinger( 1550): Screen acquired, type=1 flinger=0x402fa008
+01-01 14:59:42.430 I/SurfaceControl( 1982): void android::nativeSetDisplayProjection(JNIEnv*, jclass, jobject, jint, jint, jint, jint, jint, jint, jint, jint, jint):: physWidth * physHeight(1280 * 720), displayRectWidth * displayRectHeight(1280 * 720)
+01-01 14:59:42.430 I/SurfaceControl( 1982): void android::nativeSetDisplayProjection(JNIEnv*, jclass, jobject, jint, jint, jint, jint, jint, jint, jint, jint, jint):: layerStackRect: (0, 0, 1280, 720), displayRect: (0, 0, 1280, 720), orientation: 0
+01-01 14:59:42.430 I/SurfaceControl( 1982): void android::nativeSetDisplayProjection(JNIEnv*, jclass, jobject, jint, jint, jint, jint, jint, jint, jint, jint, jint):: physical info: main info(), exteranl info(1280,720), resolution(0), scaling(100)
+01-01 14:59:42.430 I/SurfaceControl( 1982): void android::nativeSetDisplayProjection(JNIEnv*, jclass, jobject, jint, jint, jint, jint, jint, jint, jint, jint, jint):: offset info: OffsetTop(0), OffsetBottom(0), OffsetLeft(0), OffsetRight(0)
+01-01 14:59:42.455 V/WiredAccessoryManager( 1982): Headset UEVENT: {SUBSYSTEM=switch, SWITCH_STATE=1, DEVPATH=/devices/virtual/switch/hdmi, SEQNUM=1512, ACTION=change, SWITCH_NAME=hdmi}
+01-01 14:59:42.455 V/WiredAccessoryManager( 1982): newName=hdmi newState=16 headsetState=16 prev headsetState=0
+01-01 14:59:42.455 W/AudioTrack( 2377): dead IAudioTrack, PCM, creating a new one from obtainBuffer()
+01-01 14:59:42.455 V/WiredAccessoryManager( 1982): device hdmi connected
+01-01 14:59:42.540 D/audio_hw_primary( 1553): get_input_source_id();  src=0
+01-01 14:59:42.540 D/audio_hw_primary( 1553): Device:1024, period_size:1024
+01-01 14:59:42.545 D/audio_hw_primary( 1553): get_input_source_id();  src=0
+01-01 14:59:48.415 E/EventHub( 1982): could not get driver version for /dev/input/mouse0, Not a typewriter
+01-01 14:59:48.430 E/EvStagePlugin( 2377): ACTION_USB_DEVICE_ATTACHED
+01-01 14:59:48.430 I/KCamService( 2144): ACTION_USB_DEVICE_ATTACHED
+01-01 14:59:48.430 I/KCamService( 2144): mouse attached
+01-01 14:59:48.430 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1136 com.android.server.usb.UsbSettingsManager.deviceAttached:621 com.android.server.usb.UsbHostManager.usbDeviceAdded:156 com.android.server.usb.UsbHostManager.monitorUsbHostBus:-2 com.android.server.usb.UsbHostManager.access$000:38 
+01-01 14:59:48.475 D/EventHub( 1982): No input device configuration file found for device 'MLK RAPOO Mouse 7100'.
+01-01 14:59:48.480 W/EventHub( 1982): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+01-01 14:59:48.480 I/EventHub( 1982): New device: id=1, fd=168, path='/dev/input/event0', name='MLK RAPOO Mouse 7100', classes=0x80000169, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+01-01 14:59:48.505 I/InputReader( 1982): Device added: id=1, name='MLK RAPOO Mouse 7100', sources=0x01002713
+01-01 14:59:48.505 I/ActivityManager( 1982): Config changes=60 {1.0 ?mcc?mnc zh_CN ldltr sw720dp w1280dp h695dp 160dpi xlrg long land -touch -keyb/v/h dpad/v s.5}
+01-01 14:59:48.530 D/PhoneStatusBar( 2041): mSettingsPanelGravity = 8388661
+01-01 14:59:48.540 E/ActivityThread( 2041): Failed to find provider info for com.android.contacts
+01-01 14:59:48.925 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 14:59:50.725 D/Ethernet( 1982): Interface eth0 link up
+01-01 14:59:50.730 D/Ethernet( 1982): carrier=1
+01-01 14:59:50.730 D/Ethernet( 1982): checkUseStaticIp() : user set to use DHCP, about to Return.
+01-01 14:59:55.935 D/ConnectivityService( 1982): ConnectivityChange for ETHERNET: CONNECTED/CONNECTED
+01-01 14:59:55.935 W/ContextImpl( 1982): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1294 android.net.EthernetDataTracker.sendEthStateChangedBroadcast:108 android.net.EthernetDataTracker.access$900:60 android.net.EthernetDataTracker$1.run:379 java.lang.Thread.run:841 
+01-01 14:59:55.940 E/ConnectivityService( 1982): Unexpected mtu value: android.net.EthernetDataTracker@41f84200
+01-01 14:59:55.975 D/Nat464Xlat( 1982): requiresClat: netType=9, hasIPv4Address=true
+01-01 14:59:56.750 I/Unity   ( 2377): http request error: java.io.FileNotFoundException: http://kcam.ktvme.com:81/auth/check?timestamp=1527168743&uuid=DDB913150253E5509A682BDCB4E78CD483B3331F9431295F&version=kcam 0.1.25.1&sign=BC02F9ABE4BCC0757033561B45A0D374
+01-01 14:59:56.750 I/Unity   ( 2377):  
+01-01 14:59:56.750 I/Unity   ( 2377): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+01-01 14:59:56.750 I/Unity   ( 2377): 
+01-01 14:59:58.980 D/Tethering( 1982): MasterInitialState.processMessage what=3
+01-01 14:59:58.980 D/CaptivePortalTracker( 1982): NoActiveNetworkState{ when=0 what=1 obj=NetworkInfo: type: ETHERNET[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: c4:09:38:ec:dd:09, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false target=com.android.internal.util.StateMachine$SmHandler }
+01-01 14:59:58.980 D/CaptivePortalTracker( 1982): NoActiveNetworkState not a wifi connectivity change, ignore
+01-01 14:59:59.015 W/ContextImpl( 2211): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 android.kcam.update.service.KCamUpdateReceiver.onReceive:83 android.app.ActivityThread.handleReceiver:2419 
+01-01 14:59:59.020 W/ContextImpl( 2211): Implicit intents with startService are not safe: Intent { act=android.kcam.update.service (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 android.kcam.update.service.KCamUpdateReceiver.onReceive:83 
+01-01 14:59:59.900 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 15:00:09.090 W/ActivityThread( 2211): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+01-01 15:00:09.165 E/KCamUpdateService( 2211): AppServer responded with error 400
+01-01 15:00:09.165 W/ContextImpl( 2211): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1136 android.content.ContextWrapper.sendBroadcast:365 android.kcam.update.service.KCamUpdateService$WorkHandler.handleMessage:514 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:136 
+01-01 15:00:10.860 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
+01-01 15:00:21.835 W/libexynosv4l2( 1553): failed to ioctl: VIDIOC_DQBUF (22 - Invalid argument)
